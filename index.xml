@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dataIndex xmlns="http://www.battlescribe.net/schema/dataIndexSchema" battleScribeVersion="2.03" name="Warmonger (New Recruit) – Nightly">
-  <dataIndexEntries>
-    <dataIndexEntry filePath="Warmonger.gstz" dataType="gamesystem" dataId="f386-9cfd-bdb2-451d" dataName="Warmonger" dataBattleScribeVersion="2.03"/>
-    <dataIndexEntry filePath="Warmonger - Repudiados.catz" dataType="catalogue" dataId="34d7-cdc5-ad1d-498f" dataName="Warmonger – Repudiados" dataBattleScribeVersion="2.03"/>
-  </dataIndexEntries>
-</dataIndex>
