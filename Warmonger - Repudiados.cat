@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d191870d-2a00" name="Warmonger - Repudiados" revision="2" gameSystemId="ca3c89ca-46a7" battleScribeVersion="2.03" authorName="malallet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Warmonger - Repudiados (piloto). Hechizos filtrados a: Elementos, Sombras.</readme>
+  <rules>
+    <rule id="b27c6b57-47ac" name="Repudiados – Reglas especiales"><description>Veteranos funcionan como Guerreros para Objetivos; el Líder no tiene sus reglas especiales (pero da Pavor si es Abatido).</description></rule>
+  </rules>
+  <sharedSelectionEntries>
+    
+      <selectionEntry id="5f01da5d-463a" name="Hueso-piedra" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/></costs>
+        <rules><rule id="bc43a8fb-8012" name="Material: Hueso-piedra"><description>Multiplicador de coste x0.5.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="152cefd1-3233" name="Hierro" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/></costs>
+        <rules><rule id="50dd8249-24ec" name="Material: Hierro"><description>Multiplicador de coste x1.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="c67ee193-3b64" name="Acero" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/></costs>
+        <rules><rule id="7317be82-7e8e" name="Material: Acero"><description>Multiplicador de coste x2.</description></rule></rules>
+      </selectionEntry>
+    
+      <selectionEntry id="01de3ebc-9fdb" name="Garra" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="4.0"/></costs>
+        <profiles>
+          <profile id="6d580a24-0c09" name="Garra" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3"></characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">3</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2"></characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1">ni otro arma distinta ni escudo</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="c7d2249d-f155" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="56947e58-30a4" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="d4ed3f7a-7c54" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="8893fe72-6733" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="045aa347-6885" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="b7fa5490-b781" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="9958319e-9538" name="Arma arrojadiza" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="4.0"/></costs>
+        <profiles>
+          <profile id="a1d44858-70c9" name="Arma arrojadiza" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">+1/0/-1</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">2/1/0</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2">5/10/15</characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1"></characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="70f94dee-bde9" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="abb52020-995a" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="0fe16a3e-2885" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="1a5c880e-b039" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="a1c0b55c-8ac3" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="952e34d8-0a8f" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="6a19c5b3-0b07" name="Cerbatana" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="6.0"/></costs>
+        <profiles>
+          <profile id="d48ed301-5336" name="Cerbatana" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">3/2/1</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">1</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2">10/20/30</characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1">Veneno Fuerza 2</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="dc162f2c-9afd" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="e6eeacbd-f176" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="c94f0b9d-45ff" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="06bdd85e-b5db" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="5982ee77-b9df" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="07db2312-1fe9" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="903dd611-552c" name="Filo pequeño" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="6.0"/></costs>
+        <profiles>
+          <profile id="91867606-43b1" name="Filo pequeño" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">1</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">2</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2"></characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1"></characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="7b4cf10e-ee3d" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="1eca53f3-b416" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="d3963bc5-6545" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="977a9dfe-d7c2" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="4e60e842-48bd" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="b7875f59-8f1a" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="d3f4564c-84e8" name="Lanza" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="6.0"/></costs>
+        <profiles>
+          <profile id="1be28ef3-c155" name="Lanza" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">1</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64"></characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2"></characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1">+1 Fuerza y Penetracion por accion de Asalto, No otro arma</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="08ce35aa-411d" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="9996c759-0b27" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="cf3ad0d0-30bb" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="cea70af1-e9b7" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="7202cb45-023d" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="36d79093-ea9e" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="12ea2b00-753e" name="Maza" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="6.0"/></costs>
+        <profiles>
+          <profile id="b38e8b9e-e67e" name="Maza" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">2</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">1</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2"></characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1"></characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="d95ff387-2241" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="8dc918c4-acbc" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="b54d9f24-5ef4" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="6a238fe4-8f88" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="7ae3615e-be2c" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="989e82fa-53bd" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="8b07242b-7c35" name="Jabalina" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="8.0"/></costs>
+        <profiles>
+          <profile id="6b127a15-6c5c" name="Jabalina" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">3/4/2</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">2</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2">10/30/40</characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1"></characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="864c1ba7-4d11" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="4813db60-d3a7" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="b896be94-0c9c" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="3a465792-4b04" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="8c0be72a-8cb6" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="da68b48c-094d" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="2e30cfb1-b7a0" name="Arco" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="10.0"/></costs>
+        <profiles>
+          <profile id="f9fa50ac-14b0" name="Arco" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">3</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">2</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2">20/40/60</characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1">Ni otro arma ni escudo,Maza hueso en C/C</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="e1491493-dd83" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="f704d7eb-8815" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="ddb00f01-5c0e" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="1fbdcf82-06c7" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="bf7644ce-5c0a" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="7df9901d-d977" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="b2f94c90-4d4d" name="Mandíbulas" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="4.0"/></costs>
+        <profiles>
+          <profile id="ace2e4df-5ed9" name="Mandíbulas" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">1</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">1</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2"></characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1"></characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="cea65974-082b" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="d14a491a-a215" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="c06a0e4e-b1af" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="ca348ec5-ecea" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="f9a62013-0c89" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="3b39311b-f655" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="639f0a00-2bf1" name="Maza pesada" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="8.0"/></costs>
+        <profiles>
+          <profile id="31e4b3e4-e4a4" name="Maza pesada" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">4</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">2</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2"></characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1">Ni otro arma ni escudo</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="e90ba0c3-87ba" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="06d11b2c-65ff" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="dc69fe92-d9e3" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="a729a2da-7d2d" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="0ce21bd4-eea7" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="651320b8-83d5" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="490ffd47-8a88" name="Filo pesado" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="10.0"/></costs>
+        <profiles>
+          <profile id="f0883bf1-9ad1" name="Filo pesado" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">3</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">4</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2"></characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1">-1 Agilidad, Ni otro arma ni escudo</characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="99be2bca-f74c" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="53a4af5f-2768" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="e222b611-a767" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="af19f799-14bf" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="4bf6df2a-0e16" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="308903cb-5422" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="fb3f2566-181f" name="Filo medio" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="12.0"/></costs>
+        <profiles>
+          <profile id="66ca2fca-e35a" name="Filo medio" hidden="false" typeId="23102634-9dee">
+            <characteristics>
+              <characteristic name="Fuerza" typeId="857ddf0a-52c3">2</characteristic>
+              <characteristic name="Penetración" typeId="19ee0400-ac64">3</characteristic>
+              <characteristic name="Alcance" typeId="7b935bfb-aee2"></characteristic>
+              <characteristic name="Reglas" typeId="3899f2c4-c7b1"></characteristic>
+            </characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="a6dd7662-0245" name="Material" hidden="false" defaultSelectionEntryId="152cefd1-3233">
+            <entryLinks>
+              <entryLink id="5db893b2-5d54" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a" type="selectionEntry"/><entryLink id="8bbcd473-5bd0" name="Hierro" hidden="false" targetId="152cefd1-3233" type="selectionEntry"/><entryLink id="d4ed44c4-bb09" name="Acero" hidden="false" targetId="c67ee193-3b64" type="selectionEntry"/>
+            </entryLinks>
+            <constraints>
+              <constraint id="af5afa91-7f4e" type="min" value="1.0" field="selections" scope="parent"/>
+              <constraint id="a9f7dc91-9dd4" type="max" value="1.0" field="selections" scope="parent"/>
+            </constraints>
+          </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+    
+      <selectionEntry id="ea142133-e94a" name="Ropas/Pieles" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/></costs>
+        <rules><rule id="588ae312-c636" name="Ropas/Pieles"><description>Blindaje 2</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="515ee353-b1c9" name="Huesos/Pellejos" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/></costs>
+        <rules><rule id="86ff20a7-a931" name="Huesos/Pellejos"><description>Blindaje 3</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="0424428f-b5d6" name="Cuero/Escamas" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/></costs>
+        <rules><rule id="58758347-a680" name="Cuero/Escamas"><description>Blindaje 4</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="6cee4601-3d6a" name="Escudo" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/></costs>
+        <rules><rule id="cdcd600e-38bf" name="Escudo"><description>+2 Blindaje en CaC, -1 Combate (si se usa). Cobertura +2 vs disparos.</description></rule></rules>
+      </selectionEntry>
+    
+      <selectionEntry id="f77377be-a748" name="ALAS" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="15.0"/></costs>
+        <rules><rule id="db447bc0-f7cc" name="ALAS"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="196aa1b9-48ec" name="ALIENTO" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="15.0"/></costs>
+        <rules><rule id="f6b64f2a-a056" name="ALIENTO"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="99f7f358-e7a9" name="ASPECTO ATROZ" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="12.0"/></costs>
+        <rules><rule id="8c0b0ed4-f148" name="ASPECTO ATROZ"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="8b9d51f8-41e7" name="BRUTAL" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="8.0"/></costs>
+        <rules><rule id="7dbfe9ff-f6f2" name="BRUTAL"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="eb5d358e-a8f4" name="CHUPASANGRES" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="e0ce3dad-2fa0" name="CHUPASANGRES"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="77f067c3-2e1a" name="CONSTRICTORA" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="8ff7c529-e8e1" name="CONSTRICTORA"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="bb9d2d50-30ba" name="FIRME" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="c3a5761f-c86c" name="FIRME"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="6d070cf6-f2ec" name="MONTURA" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="9a5896ce-ba64" name="MONTURA"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="2b8d3dbd-6daf" name="MÚLTIPLES CABEZAS" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="231c811a-745e" name="MÚLTIPLES CABEZAS"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="3364c6dd-63a6" name="TREPADORA" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="7ccf0168-2df5" name="TREPADORA"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="ba21d573-9d62" name="VELOZ" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="10.0"/></costs>
+        <rules><rule id="2f36643f-2bb6" name="VELOZ"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="dfabad4a-fc56" name="VENENO" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="5b8ea920-d99a" name="VENENO"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="b45297d3-26b7" name="CRUEL" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="10.0"/></costs>
+        <rules><rule id="82cc3c23-a203" name="CRUEL"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="552a59c7-bf3d" name="IMPÁVIDO" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="10.0"/></costs>
+        <rules><rule id="c9ecb32a-3bd4" name="IMPÁVIDO"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="76149879-8feb" name="INICIADO" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="8.0"/></costs>
+        <rules><rule id="50f9b2cd-730e" name="INICIADO"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="2bddd43e-a41d" name="INSPIRADOR" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="10.0"/></costs>
+        <rules><rule id="6074a1cd-0668" name="INSPIRADOR"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="77e8c375-f15d" name="INSTINTO DE SUPERVIVENCIA" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="aae0bc89-afe9" name="INSTINTO DE SUPERVIVENCIA"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="bffb1151-7d0b" name="MONTADO" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="15.0"/></costs>
+        <rules><rule id="4b784502-4404" name="MONTADO"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="bdc8ce23-28b8" name="OBSTINADO" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="9e49cc7c-ab8b" name="OBSTINADO"><description></description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="e9519a4b-d3d9" name="PIEL CURTIDA" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="18.0"/></costs>
+        <rules><rule id="1946ae07-0b02" name="PIEL CURTIDA"><description>+2 Blindaje (se acumula con equipo).</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="eddab97a-2e15" name="PRESENCIA IMPONENTE" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="15.0"/></costs>
+        <rules><rule id="6333c0fd-edbd" name="PRESENCIA IMPONENTE"><description>Enemigos a 10 cm o menos: 1 complicación a Disparo y Combate.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="1c45aa33-b683" name="RESISTENTE" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="10.0"/></costs>
+        <rules><rule id="08759dfc-6f1e" name="RESISTENTE"><description>+1 Dureza.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="bd00115e-d64e" name="SALVAJE" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="10.0"/></costs>
+        <rules><rule id="fb10a2e3-83b3" name="SALVAJE"><description>Puede completar su activación tras ser Abatido; al final queda baja definitiva si es último turno o es Abatido de nuevo. No genera PD en su siguiente activación tras ser Abatido.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="7792b08d-1d16" name="TESTARUDO" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="5.0"/></costs>
+        <rules><rule id="2b9ce9bf-b791" name="TESTARUDO"><description>Si saca 1 en tirada enfrentada de Combate, puede repetirla.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="f7cc27a5-5010" name="ÁGIL" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="10.0"/></costs>
+        <rules><rule id="e41ee32e-a90a" name="ÁGIL"><description></description></rule></rules>
+      </selectionEntry>
+    
+      <selectionEntry id="6dfcd1c8-c3eb" name="Abrasar (fuego) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="1.0"/>
+        </costs>
+        <rules><rule id="01a04e6b-658e" name="Abrasar (fuego)"><description>Fuente: Elementos. PD: 1.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="72082961-da98" name="Ráfaga (aire) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="1.0"/>
+        </costs>
+        <rules><rule id="2c7cf02b-3623" name="Ráfaga (aire)"><description>Fuente: Elementos. PD: 1.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="59481c05-cc39" name="Sudario de llamas (fuego) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="1.0"/>
+        </costs>
+        <rules><rule id="6e752ef5-ecda" name="Sudario de llamas (fuego)"><description>Fuente: Elementos. PD: 1.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="a18c4f98-53c8" name="Torbellino (aire) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="1.0"/>
+        </costs>
+        <rules><rule id="e3ce6daa-3e47" name="Torbellino (aire)"><description>Fuente: Elementos. PD: 1.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="42cb25b6-5042" name="Asfixiar (aire) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="2.0"/>
+        </costs>
+        <rules><rule id="59b0661c-d1c4" name="Asfixiar (aire)"><description>Fuente: Elementos. PD: 2.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="31c4f30e-1f43" name="Escarcha (agua) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="2.0"/>
+        </costs>
+        <rules><rule id="c63a3ea3-109b" name="Escarcha (agua)"><description>Fuente: Elementos. PD: 2.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="fd264c65-52e6" name="Piel pétrea (tierra) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="2.0"/>
+        </costs>
+        <rules><rule id="1cae9e83-eddc" name="Piel pétrea (tierra)"><description>Fuente: Elementos. PD: 2.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="c0170e9a-54c3" name="Proyectil ígneo (fuego) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="2.0"/>
+        </costs>
+        <rules><rule id="dd1fde9f-9010" name="Proyectil ígneo (fuego)"><description>Fuente: Elementos. PD: 2.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="564380f8-1a3b" name="Vuelo (aire) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="2.0"/>
+        </costs>
+        <rules><rule id="5524b530-f851" name="Vuelo (aire)"><description>Fuente: Elementos. PD: 2.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="056f73bb-dc67" name="Explosión (fuego) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="3.0"/>
+        </costs>
+        <rules><rule id="153066d2-69f3" name="Explosión (fuego)"><description>Fuente: Elementos. PD: 3.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="28fefe73-21f6" name="Tsunami (agua) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="3.0"/>
+        </costs>
+        <rules><rule id="0229cbe0-b293" name="Tsunami (agua)"><description>Fuente: Elementos. PD: 3.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="87870c06-b94f" name="Terremoto (tierra) (Elementos)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="3.0"/>
+        </costs>
+        <rules><rule id="e791d35e-9c78" name="Terremoto (tierra)"><description>Fuente: Elementos. PD: 3.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="9485b3fb-f754" name="Alas negras (Sombras)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="2.0"/>
+        </costs>
+        <rules><rule id="ded77d0a-53b1" name="Alas negras"><description>Fuente: Sombras. PD: 2.0.</description></rule></rules>
+      </selectionEntry>
+      <selectionEntry id="835f25cd-1798" name="Doble sombrío (Sombras)" type="upgrade" hidden="false">
+        <costs>
+          <cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/>
+          <cost name="PD" costTypeId="ba090b93-20ac" value="3.0"/>
+        </costs>
+        <rules><rule id="6732dce4-5ad2" name="Doble sombrío"><description>Fuente: Sombras. PD: 3.0.</description></rule></rules>
+      </selectionEntry>
+    
+      <selectionEntry id="10f4cd46-b581" name="Es el Líder" type="upgrade" hidden="false">
+        <categoryLinks>
+          <categoryLink id="3360a194-3edf" name="Líder" hidden="false" targetId="6c351d76-d81d" primary="true"/>
+        </categoryLinks>
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/></costs>
+      </selectionEntry>
+    
+      <selectionEntry id="f9870709-12f1" name="Tótem (gratis)" type="upgrade" hidden="false">
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="0.0"/></costs>
+        <rules><rule id="e0603a5f-d52f" name="Tótem"><description>1 vez por Turno, una miniatura a 15cm del Tótem propio puede repetir una tirada. En contacto: Acción gastando 2 PD para reverenciarlo y perder 2 marcadores de Pavor.</description></rule></rules>
+      </selectionEntry>
+    
+      <selectionEntry id="24691728-e0d8" name="Guerrero" type="unit" hidden="false">
+        <categoryLinks><categoryLink id="bfd19086-476e" name="Unidad" hidden="false" targetId="5849b8c0-b1d3" primary="true"/></categoryLinks>
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="15.0"/></costs>
+        <profiles>
+          <profile id="98503eda-4d1a" name="Guerrero" hidden="false" typeId="583b2c65-2560">
+            <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a">3</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058">3</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9">3</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39">3</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa">3</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb">3</characteristic><characteristic name="PD" typeId="5647392f-fd63">1</characteristic></characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="b3383b88-ff6f" name="Armas" hidden="false"><entryLinks><entryLink id="2c6aa14e-24b9" name="Garra" hidden="false" targetId="01de3ebc-9fdb" type="selectionEntry"/><entryLink id="dac4b773-b62e" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538" type="selectionEntry"/><entryLink id="3e8f23b3-342e" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07" type="selectionEntry"/><entryLink id="84f1fdfb-a3eb" name="Filo pequeño" hidden="false" targetId="903dd611-552c" type="selectionEntry"/><entryLink id="676d1baa-4aff" name="Lanza" hidden="false" targetId="d3f4564c-84e8" type="selectionEntry"/><entryLink id="9d05ec29-a129" name="Maza" hidden="false" targetId="12ea2b00-753e" type="selectionEntry"/><entryLink id="69b8270a-635e" name="Jabalina" hidden="false" targetId="8b07242b-7c35" type="selectionEntry"/><entryLink id="5e7897a5-e85d" name="Arco" hidden="false" targetId="2e30cfb1-b7a0" type="selectionEntry"/><entryLink id="c42f3ebf-2e87" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d" type="selectionEntry"/><entryLink id="fde00e3e-e2c9" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1" type="selectionEntry"/><entryLink id="f815269c-2288" name="Filo pesado" hidden="false" targetId="490ffd47-8a88" type="selectionEntry"/><entryLink id="b5bf1aa5-5baf" name="Filo medio" hidden="false" targetId="fb3f2566-181f" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="110fd1fe-3588" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="8ab51d00-83dc" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a" type="selectionEntry"/><entryLink id="626bce63-738c" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9" type="selectionEntry"/><entryLink id="8e7a0640-2aa9" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6" type="selectionEntry"/><entryLink id="4465d43e-5c5b" name="Escudo" hidden="false" targetId="6cee4601-3d6a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="8e02b2c9-6859" name="Líder" hidden="false"><entryLinks><entryLink id="4452fe16-134c" name="Es el Líder" hidden="false" targetId="10f4cd46-b581" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          
+          
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="ecb6cefa-84b3" name="Veterano" type="unit" hidden="false">
+        <categoryLinks><categoryLink id="4f2b42ac-2010" name="Unidad" hidden="false" targetId="5849b8c0-b1d3" primary="true"/></categoryLinks>
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="25.0"/></costs>
+        <profiles>
+          <profile id="fef9ce77-c5a9" name="Veterano" hidden="false" typeId="583b2c65-2560">
+            <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a">4</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058">4</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9">4</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39">4</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa">4</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb">4</characteristic><characteristic name="PD" typeId="5647392f-fd63">2</characteristic></characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="bc76bf75-faab" name="Armas" hidden="false"><entryLinks><entryLink id="2c6aa14e-24b9" name="Garra" hidden="false" targetId="01de3ebc-9fdb" type="selectionEntry"/><entryLink id="dac4b773-b62e" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538" type="selectionEntry"/><entryLink id="3e8f23b3-342e" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07" type="selectionEntry"/><entryLink id="84f1fdfb-a3eb" name="Filo pequeño" hidden="false" targetId="903dd611-552c" type="selectionEntry"/><entryLink id="676d1baa-4aff" name="Lanza" hidden="false" targetId="d3f4564c-84e8" type="selectionEntry"/><entryLink id="9d05ec29-a129" name="Maza" hidden="false" targetId="12ea2b00-753e" type="selectionEntry"/><entryLink id="69b8270a-635e" name="Jabalina" hidden="false" targetId="8b07242b-7c35" type="selectionEntry"/><entryLink id="5e7897a5-e85d" name="Arco" hidden="false" targetId="2e30cfb1-b7a0" type="selectionEntry"/><entryLink id="c42f3ebf-2e87" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d" type="selectionEntry"/><entryLink id="fde00e3e-e2c9" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1" type="selectionEntry"/><entryLink id="f815269c-2288" name="Filo pesado" hidden="false" targetId="490ffd47-8a88" type="selectionEntry"/><entryLink id="b5bf1aa5-5baf" name="Filo medio" hidden="false" targetId="fb3f2566-181f" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="012df3c2-9285" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="8ab51d00-83dc" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a" type="selectionEntry"/><entryLink id="626bce63-738c" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9" type="selectionEntry"/><entryLink id="8e7a0640-2aa9" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6" type="selectionEntry"/><entryLink id="4465d43e-5c5b" name="Escudo" hidden="false" targetId="6cee4601-3d6a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="ec02e4e3-c21c" name="Líder" hidden="false"><entryLinks><entryLink id="919b2bb5-911a" name="Es el Líder" hidden="false" targetId="10f4cd46-b581" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          
+          
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="fd3cac23-dbdb" name="Criatura" type="unit" hidden="false">
+        <categoryLinks><categoryLink id="f998a65a-95f6" name="Unidad" hidden="false" targetId="5849b8c0-b1d3" primary="true"/></categoryLinks>
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="40.0"/></costs>
+        <profiles>
+          <profile id="513da4b3-c553" name="Criatura" hidden="false" typeId="583b2c65-2560">
+            <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a">5</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058">4</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9">4</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39">5</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa">5</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb">5</characteristic><characteristic name="PD" typeId="5647392f-fd63">2</characteristic></characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="0112099e-bdf4" name="Armas" hidden="false"><entryLinks><entryLink id="2c6aa14e-24b9" name="Garra" hidden="false" targetId="01de3ebc-9fdb" type="selectionEntry"/><entryLink id="dac4b773-b62e" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538" type="selectionEntry"/><entryLink id="3e8f23b3-342e" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07" type="selectionEntry"/><entryLink id="84f1fdfb-a3eb" name="Filo pequeño" hidden="false" targetId="903dd611-552c" type="selectionEntry"/><entryLink id="676d1baa-4aff" name="Lanza" hidden="false" targetId="d3f4564c-84e8" type="selectionEntry"/><entryLink id="9d05ec29-a129" name="Maza" hidden="false" targetId="12ea2b00-753e" type="selectionEntry"/><entryLink id="69b8270a-635e" name="Jabalina" hidden="false" targetId="8b07242b-7c35" type="selectionEntry"/><entryLink id="5e7897a5-e85d" name="Arco" hidden="false" targetId="2e30cfb1-b7a0" type="selectionEntry"/><entryLink id="c42f3ebf-2e87" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d" type="selectionEntry"/><entryLink id="fde00e3e-e2c9" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1" type="selectionEntry"/><entryLink id="f815269c-2288" name="Filo pesado" hidden="false" targetId="490ffd47-8a88" type="selectionEntry"/><entryLink id="b5bf1aa5-5baf" name="Filo medio" hidden="false" targetId="fb3f2566-181f" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="074320d0-b8a1" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="8ab51d00-83dc" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a" type="selectionEntry"/><entryLink id="626bce63-738c" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9" type="selectionEntry"/><entryLink id="8e7a0640-2aa9" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6" type="selectionEntry"/><entryLink id="4465d43e-5c5b" name="Escudo" hidden="false" targetId="6cee4601-3d6a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="c30813f4-ff5b" name="Líder" hidden="false"><entryLinks><entryLink id="d373abbc-e600" name="Es el Líder" hidden="false" targetId="10f4cd46-b581" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          
+          
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="9926d6f0-4723" name="Héroe" type="unit" hidden="false">
+        <categoryLinks><categoryLink id="e6b93724-3052" name="Unidad" hidden="false" targetId="5849b8c0-b1d3" primary="true"/></categoryLinks>
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="40.0"/></costs>
+        <profiles>
+          <profile id="afa30267-d30a" name="Héroe" hidden="false" typeId="583b2c65-2560">
+            <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a">6</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058">5</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9">5</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39">4</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa">4</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb">5</characteristic><characteristic name="PD" typeId="5647392f-fd63">2</characteristic></characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="881d2b19-9205" name="Armas" hidden="false"><entryLinks><entryLink id="2c6aa14e-24b9" name="Garra" hidden="false" targetId="01de3ebc-9fdb" type="selectionEntry"/><entryLink id="dac4b773-b62e" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538" type="selectionEntry"/><entryLink id="3e8f23b3-342e" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07" type="selectionEntry"/><entryLink id="84f1fdfb-a3eb" name="Filo pequeño" hidden="false" targetId="903dd611-552c" type="selectionEntry"/><entryLink id="676d1baa-4aff" name="Lanza" hidden="false" targetId="d3f4564c-84e8" type="selectionEntry"/><entryLink id="9d05ec29-a129" name="Maza" hidden="false" targetId="12ea2b00-753e" type="selectionEntry"/><entryLink id="69b8270a-635e" name="Jabalina" hidden="false" targetId="8b07242b-7c35" type="selectionEntry"/><entryLink id="5e7897a5-e85d" name="Arco" hidden="false" targetId="2e30cfb1-b7a0" type="selectionEntry"/><entryLink id="c42f3ebf-2e87" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d" type="selectionEntry"/><entryLink id="fde00e3e-e2c9" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1" type="selectionEntry"/><entryLink id="f815269c-2288" name="Filo pesado" hidden="false" targetId="490ffd47-8a88" type="selectionEntry"/><entryLink id="b5bf1aa5-5baf" name="Filo medio" hidden="false" targetId="fb3f2566-181f" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="824fcf5c-635f" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="8ab51d00-83dc" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a" type="selectionEntry"/><entryLink id="626bce63-738c" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9" type="selectionEntry"/><entryLink id="8e7a0640-2aa9" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6" type="selectionEntry"/><entryLink id="4465d43e-5c5b" name="Escudo" hidden="false" targetId="6cee4601-3d6a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="46d16d9e-a7e6" name="Líder" hidden="false"><entryLinks><entryLink id="a3a6e69a-155c" name="Es el Líder" hidden="false" targetId="10f4cd46-b581" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          
+          
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="49a3ef56-4afa" name="Hechicero" type="unit" hidden="false">
+        <categoryLinks><categoryLink id="22b124c8-3e28" name="Unidad" hidden="false" targetId="5849b8c0-b1d3" primary="true"/></categoryLinks>
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="50.0"/></costs>
+        <profiles>
+          <profile id="0d02d360-c770" name="Hechicero" hidden="false" typeId="583b2c65-2560">
+            <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a">5</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058">2</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9">2</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39">3</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa">3</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb">5</characteristic><characteristic name="PD" typeId="5647392f-fd63">2</characteristic></characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="5baa576f-7558" name="Armas" hidden="false"><entryLinks><entryLink id="2c6aa14e-24b9" name="Garra" hidden="false" targetId="01de3ebc-9fdb" type="selectionEntry"/><entryLink id="dac4b773-b62e" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538" type="selectionEntry"/><entryLink id="3e8f23b3-342e" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07" type="selectionEntry"/><entryLink id="84f1fdfb-a3eb" name="Filo pequeño" hidden="false" targetId="903dd611-552c" type="selectionEntry"/><entryLink id="676d1baa-4aff" name="Lanza" hidden="false" targetId="d3f4564c-84e8" type="selectionEntry"/><entryLink id="9d05ec29-a129" name="Maza" hidden="false" targetId="12ea2b00-753e" type="selectionEntry"/><entryLink id="69b8270a-635e" name="Jabalina" hidden="false" targetId="8b07242b-7c35" type="selectionEntry"/><entryLink id="5e7897a5-e85d" name="Arco" hidden="false" targetId="2e30cfb1-b7a0" type="selectionEntry"/><entryLink id="c42f3ebf-2e87" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d" type="selectionEntry"/><entryLink id="fde00e3e-e2c9" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1" type="selectionEntry"/><entryLink id="f815269c-2288" name="Filo pesado" hidden="false" targetId="490ffd47-8a88" type="selectionEntry"/><entryLink id="b5bf1aa5-5baf" name="Filo medio" hidden="false" targetId="fb3f2566-181f" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="2126ddf2-3827" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="8ab51d00-83dc" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a" type="selectionEntry"/><entryLink id="626bce63-738c" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9" type="selectionEntry"/><entryLink id="8e7a0640-2aa9" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6" type="selectionEntry"/><entryLink id="4465d43e-5c5b" name="Escudo" hidden="false" targetId="6cee4601-3d6a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="0ba28b06-30e0" name="Líder" hidden="false"><entryLinks><entryLink id="3b6e8bf7-03ff" name="Es el Líder" hidden="false" targetId="10f4cd46-b581" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          
+          
+        <selectionEntryGroup id="966ed62a-2fc8" name="Hechizos" hidden="false">
+          <entryLinks><entryLink id="6ba3dcc2-4516" name="Abrasar (fuego)" hidden="false" targetId="6dfcd1c8-c3eb" type="selectionEntry"/><entryLink id="6e42ec68-63a8" name="Ráfaga (aire)" hidden="false" targetId="72082961-da98" type="selectionEntry"/><entryLink id="77d217bf-9661" name="Sudario de llamas (fuego)" hidden="false" targetId="59481c05-cc39" type="selectionEntry"/><entryLink id="e02e63cd-e356" name="Torbellino (aire)" hidden="false" targetId="a18c4f98-53c8" type="selectionEntry"/><entryLink id="781bb223-bcca" name="Asfixiar (aire)" hidden="false" targetId="42cb25b6-5042" type="selectionEntry"/><entryLink id="d4e0f41a-ffe0" name="Escarcha (agua)" hidden="false" targetId="31c4f30e-1f43" type="selectionEntry"/><entryLink id="ffc87fe4-fa77" name="Piel pétrea (tierra)" hidden="false" targetId="fd264c65-52e6" type="selectionEntry"/><entryLink id="096218ac-63b7" name="Proyectil ígneo (fuego)" hidden="false" targetId="c0170e9a-54c3" type="selectionEntry"/><entryLink id="a399276a-0560" name="Vuelo (aire)" hidden="false" targetId="564380f8-1a3b" type="selectionEntry"/><entryLink id="4709a44a-162e" name="Explosión (fuego)" hidden="false" targetId="056f73bb-dc67" type="selectionEntry"/><entryLink id="7bceea8a-a440" name="Tsunami (agua)" hidden="false" targetId="28fefe73-21f6" type="selectionEntry"/><entryLink id="a33799a2-3e0c" name="Terremoto (tierra)" hidden="false" targetId="87870c06-b94f" type="selectionEntry"/><entryLink id="112b18aa-b619" name="Alas negras" hidden="false" targetId="9485b3fb-f754" type="selectionEntry"/><entryLink id="842b826a-85d1" name="Doble sombrío" hidden="false" targetId="835f25cd-1798" type="selectionEntry"/></entryLinks>
+        </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry id="1d0940bb-3d8f" name="Bruja" type="unit" hidden="false">
+        <categoryLinks><categoryLink id="77f4b5a6-38e9" name="Unidad" hidden="false" targetId="5849b8c0-b1d3" primary="true"/></categoryLinks>
+        <costs><cost name="pts" costTypeId="df4f4ed1-2175" value="65.0"/></costs>
+        <profiles>
+          <profile id="fcae15f5-9ddf" name="Bruja" hidden="false" typeId="583b2c65-2560">
+            <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a">5</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058">2</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9">2</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39">3</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa">3</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb">5</characteristic><characteristic name="PD" typeId="5647392f-fd63">2</characteristic></characteristics>
+          </profile>
+        </profiles>
+        <selectionEntryGroups>
+          <selectionEntryGroup id="a0e14f79-9ef0" name="Armas" hidden="false"><entryLinks><entryLink id="2c6aa14e-24b9" name="Garra" hidden="false" targetId="01de3ebc-9fdb" type="selectionEntry"/><entryLink id="dac4b773-b62e" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538" type="selectionEntry"/><entryLink id="3e8f23b3-342e" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07" type="selectionEntry"/><entryLink id="84f1fdfb-a3eb" name="Filo pequeño" hidden="false" targetId="903dd611-552c" type="selectionEntry"/><entryLink id="676d1baa-4aff" name="Lanza" hidden="false" targetId="d3f4564c-84e8" type="selectionEntry"/><entryLink id="9d05ec29-a129" name="Maza" hidden="false" targetId="12ea2b00-753e" type="selectionEntry"/><entryLink id="69b8270a-635e" name="Jabalina" hidden="false" targetId="8b07242b-7c35" type="selectionEntry"/><entryLink id="5e7897a5-e85d" name="Arco" hidden="false" targetId="2e30cfb1-b7a0" type="selectionEntry"/><entryLink id="c42f3ebf-2e87" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d" type="selectionEntry"/><entryLink id="fde00e3e-e2c9" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1" type="selectionEntry"/><entryLink id="f815269c-2288" name="Filo pesado" hidden="false" targetId="490ffd47-8a88" type="selectionEntry"/><entryLink id="b5bf1aa5-5baf" name="Filo medio" hidden="false" targetId="fb3f2566-181f" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="9ac20580-ab96" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="8ab51d00-83dc" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a" type="selectionEntry"/><entryLink id="626bce63-738c" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9" type="selectionEntry"/><entryLink id="8e7a0640-2aa9" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6" type="selectionEntry"/><entryLink id="4465d43e-5c5b" name="Escudo" hidden="false" targetId="6cee4601-3d6a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          <selectionEntryGroup id="cb084a35-b007" name="Líder" hidden="false"><entryLinks><entryLink id="53167c7e-8b46" name="Es el Líder" hidden="false" targetId="10f4cd46-b581" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+          
+          
+        <selectionEntryGroup id="f38b2819-2803" name="Hechizos" hidden="false">
+          <entryLinks><entryLink id="6ba3dcc2-4516" name="Abrasar (fuego)" hidden="false" targetId="6dfcd1c8-c3eb" type="selectionEntry"/><entryLink id="6e42ec68-63a8" name="Ráfaga (aire)" hidden="false" targetId="72082961-da98" type="selectionEntry"/><entryLink id="77d217bf-9661" name="Sudario de llamas (fuego)" hidden="false" targetId="59481c05-cc39" type="selectionEntry"/><entryLink id="e02e63cd-e356" name="Torbellino (aire)" hidden="false" targetId="a18c4f98-53c8" type="selectionEntry"/><entryLink id="781bb223-bcca" name="Asfixiar (aire)" hidden="false" targetId="42cb25b6-5042" type="selectionEntry"/><entryLink id="d4e0f41a-ffe0" name="Escarcha (agua)" hidden="false" targetId="31c4f30e-1f43" type="selectionEntry"/><entryLink id="ffc87fe4-fa77" name="Piel pétrea (tierra)" hidden="false" targetId="fd264c65-52e6" type="selectionEntry"/><entryLink id="096218ac-63b7" name="Proyectil ígneo (fuego)" hidden="false" targetId="c0170e9a-54c3" type="selectionEntry"/><entryLink id="a399276a-0560" name="Vuelo (aire)" hidden="false" targetId="564380f8-1a3b" type="selectionEntry"/><entryLink id="4709a44a-162e" name="Explosión (fuego)" hidden="false" targetId="056f73bb-dc67" type="selectionEntry"/><entryLink id="7bceea8a-a440" name="Tsunami (agua)" hidden="false" targetId="28fefe73-21f6" type="selectionEntry"/><entryLink id="a33799a2-3e0c" name="Terremoto (tierra)" hidden="false" targetId="87870c06-b94f" type="selectionEntry"/><entryLink id="112b18aa-b619" name="Alas negras" hidden="false" targetId="9485b3fb-f754" type="selectionEntry"/><entryLink id="842b826a-85d1" name="Doble sombrío" hidden="false" targetId="835f25cd-1798" type="selectionEntry"/></entryLinks>
+        </selectionEntryGroup>
+        </selectionEntryGroups>
+      </selectionEntry>
+  </sharedSelectionEntries>
+  <forceEntries>
+    
+    <forceEntry id="1f7a4136-5881" name="Banda (Hasta 100)" hidden="false">
+      <constraints>
+        <constraint id="be545574-9636" type="max" value="3.0" field="selections" scope="force" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e5390f39-06bc" name="Guerrero" hidden="false" targetId="24691728-e0d8" type="selectionEntry"/><entryLink id="1c048830-29e1" name="Veterano" hidden="false" targetId="ecb6cefa-84b3" type="selectionEntry"/><entryLink id="cf1f2eb0-320e" name="Criatura" hidden="false" targetId="fd3cac23-dbdb" type="selectionEntry"/><entryLink id="94f96737-a1e2" name="Héroe" hidden="false" targetId="9926d6f0-4723" type="selectionEntry"/><entryLink id="4424c25f-7a60" name="Hechicero" hidden="false" targetId="49a3ef56-4afa" type="selectionEntry"/><entryLink id="91683336-a936" name="Bruja" hidden="false" targetId="1d0940bb-3d8f" type="selectionEntry"/>
+        <entryLink id="24ed839c-97c2" name="Tótem" hidden="false" targetId="f9870709-12f1" type="selectionEntry"/>
+      </entryLinks>
+    </forceEntry>
+    <forceEntry id="60f9d13e-4956" name="Banda (101-200)" hidden="false">
+      <constraints>
+        <constraint id="d41d5e68-eec6" type="max" value="6.0" field="selections" scope="force" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e5390f39-06bc" name="Guerrero" hidden="false" targetId="24691728-e0d8" type="selectionEntry"/><entryLink id="1c048830-29e1" name="Veterano" hidden="false" targetId="ecb6cefa-84b3" type="selectionEntry"/><entryLink id="cf1f2eb0-320e" name="Criatura" hidden="false" targetId="fd3cac23-dbdb" type="selectionEntry"/><entryLink id="94f96737-a1e2" name="Héroe" hidden="false" targetId="9926d6f0-4723" type="selectionEntry"/><entryLink id="4424c25f-7a60" name="Hechicero" hidden="false" targetId="49a3ef56-4afa" type="selectionEntry"/><entryLink id="91683336-a936" name="Bruja" hidden="false" targetId="1d0940bb-3d8f" type="selectionEntry"/>
+        <entryLink id="7e72b90f-bc6c" name="Tótem" hidden="false" targetId="f9870709-12f1" type="selectionEntry"/>
+      </entryLinks>
+    </forceEntry>
+    <forceEntry id="ef669197-3170" name="Banda (201-300)" hidden="false">
+      <constraints>
+        <constraint id="fd009c3b-7966" type="max" value="9.0" field="selections" scope="force" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e5390f39-06bc" name="Guerrero" hidden="false" targetId="24691728-e0d8" type="selectionEntry"/><entryLink id="1c048830-29e1" name="Veterano" hidden="false" targetId="ecb6cefa-84b3" type="selectionEntry"/><entryLink id="cf1f2eb0-320e" name="Criatura" hidden="false" targetId="fd3cac23-dbdb" type="selectionEntry"/><entryLink id="94f96737-a1e2" name="Héroe" hidden="false" targetId="9926d6f0-4723" type="selectionEntry"/><entryLink id="4424c25f-7a60" name="Hechicero" hidden="false" targetId="49a3ef56-4afa" type="selectionEntry"/><entryLink id="91683336-a936" name="Bruja" hidden="false" targetId="1d0940bb-3d8f" type="selectionEntry"/>
+        <entryLink id="e5257df5-1ef6" name="Tótem" hidden="false" targetId="f9870709-12f1" type="selectionEntry"/>
+      </entryLinks>
+    </forceEntry>
+    <forceEntry id="9add7de2-991e" name="Banda (301-400)" hidden="false">
+      <constraints>
+        <constraint id="55c0379b-7bf4" type="max" value="12.0" field="selections" scope="force" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e5390f39-06bc" name="Guerrero" hidden="false" targetId="24691728-e0d8" type="selectionEntry"/><entryLink id="1c048830-29e1" name="Veterano" hidden="false" targetId="ecb6cefa-84b3" type="selectionEntry"/><entryLink id="cf1f2eb0-320e" name="Criatura" hidden="false" targetId="fd3cac23-dbdb" type="selectionEntry"/><entryLink id="94f96737-a1e2" name="Héroe" hidden="false" targetId="9926d6f0-4723" type="selectionEntry"/><entryLink id="4424c25f-7a60" name="Hechicero" hidden="false" targetId="49a3ef56-4afa" type="selectionEntry"/><entryLink id="91683336-a936" name="Bruja" hidden="false" targetId="1d0940bb-3d8f" type="selectionEntry"/>
+        <entryLink id="d74a1594-1c7e" name="Tótem" hidden="false" targetId="f9870709-12f1" type="selectionEntry"/>
+      </entryLinks>
+    </forceEntry>
+    <forceEntry id="213e601f-6c0c" name="Banda (401-500)" hidden="false">
+      <constraints>
+        <constraint id="22c41b50-ee6d" type="max" value="15.0" field="selections" scope="force" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e5390f39-06bc" name="Guerrero" hidden="false" targetId="24691728-e0d8" type="selectionEntry"/><entryLink id="1c048830-29e1" name="Veterano" hidden="false" targetId="ecb6cefa-84b3" type="selectionEntry"/><entryLink id="cf1f2eb0-320e" name="Criatura" hidden="false" targetId="fd3cac23-dbdb" type="selectionEntry"/><entryLink id="94f96737-a1e2" name="Héroe" hidden="false" targetId="9926d6f0-4723" type="selectionEntry"/><entryLink id="4424c25f-7a60" name="Hechicero" hidden="false" targetId="49a3ef56-4afa" type="selectionEntry"/><entryLink id="91683336-a936" name="Bruja" hidden="false" targetId="1d0940bb-3d8f" type="selectionEntry"/>
+        <entryLink id="3fb68935-65b5" name="Tótem" hidden="false" targetId="f9870709-12f1" type="selectionEntry"/>
+      </entryLinks>
+    </forceEntry>
+  </forceEntries>
+</catalogue>
