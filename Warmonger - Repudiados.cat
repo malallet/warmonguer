@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="34d7-cdc5-ad1d-498f" name="Warmonger – Repudiados" revision="3" battleScribeVersion="2.03" authorName="Carlos (dataset) + ChatGPT" gameSystemId="f386-9cfd-bdb2-451d" gameSystemRevision="3">
+  <readme>Catálogo de facción: Repudiados. Incluye unidades base, selector de líder, y opción de Tótem (gratis).</readme>
+  <rules>
+    <rule id="fccf-83ab-1cdd-4ffc" name="Repudiados – Igualdad">
+      <description>Los Veteranos de los Repudiados funcionan como los Guerreros a la hora de interactuar con Objetivos en los escenarios.</description>
+    </rule>
+    <rule id="19a2-cc17-fcaf-4537" name="Repudiados – Liderazgo testimonial">
+      <description>El Líder de la banda no contará con ninguna de sus reglas especiales (aunque sí dará el marcador de Pavor a toda su banda si es Abatido).</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry id="2c49-b434-4d2a-4aa2" name="Tótem" type="upgrade" hidden="false">
+      <costs>
+        <cost name="pts" typeId="points" value="0" />
+      </costs>
+      <rules>
+        <rule id="02a9-1fb8-5477-4a52" name="Tótem">
+          <description>Una vez por Turno, una única miniatura a 15 cm del Tótem propio puede repetir una tirada. Una miniatura en contacto con su Tótem puede realizar una Acción gastando 2 PD para reverenciarlo y perder 2 marcadores de Pavor. El Tótem no cuenta como miniatura. Gratis.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+  <selectionEntry id="53ea-a751-42f6-c3d1" name="Abrasar (fuego)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="1" /></costs><rules><rule id="6a28-78df-c5cd-751a" name="Elementos – PD 1"><description>Fuente: Elementos. Coste de lanzamiento: 1 PD.</description></rule></rules></selectionEntry><selectionEntry id="daed-21db-21ff-7940" name="Ráfaga (aire)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="1" /></costs><rules><rule id="cbf7-d1c7-ae7a-7a8d" name="Elementos – PD 1"><description>Fuente: Elementos. Coste de lanzamiento: 1 PD.</description></rule></rules></selectionEntry><selectionEntry id="ecfc-9920-0fbe-a660" name="Sudario de llamas (fuego)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="1" /></costs><rules><rule id="1220-372e-bd5a-2ddc" name="Elementos – PD 1"><description>Fuente: Elementos. Coste de lanzamiento: 1 PD.</description></rule></rules></selectionEntry><selectionEntry id="99be-3e3d-dc09-c548" name="Torbellino (aire)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="1" /></costs><rules><rule id="e367-9e3f-1093-bc27" name="Elementos – PD 1"><description>Fuente: Elementos. Coste de lanzamiento: 1 PD.</description></rule></rules></selectionEntry><selectionEntry id="e01f-f02a-4b7c-4789" name="Asfixiar (aire)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="2" /></costs><rules><rule id="6703-8e4f-0cce-eb3e" name="Elementos – PD 2"><description>Fuente: Elementos. Coste de lanzamiento: 2 PD.</description></rule></rules></selectionEntry><selectionEntry id="7ef1-fbef-f5a8-244a" name="Escarcha (agua)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="2" /></costs><rules><rule id="1c1e-add8-e8c0-fc1b" name="Elementos – PD 2"><description>Fuente: Elementos. Coste de lanzamiento: 2 PD.</description></rule></rules></selectionEntry><selectionEntry id="b86d-9502-cf61-5dc7" name="Piel pétrea (tierra)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="2" /></costs><rules><rule id="53c9-0f58-fec4-8368" name="Elementos – PD 2"><description>Fuente: Elementos. Coste de lanzamiento: 2 PD.</description></rule></rules></selectionEntry><selectionEntry id="c1e1-e1a8-1124-87df" name="Proyectil ígneo (fuego)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="2" /></costs><rules><rule id="c5c3-68dc-cdab-f539" name="Elementos – PD 2"><description>Fuente: Elementos. Coste de lanzamiento: 2 PD.</description></rule></rules></selectionEntry><selectionEntry id="e330-a9e9-6688-8784" name="Vuelo (aire)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="2" /></costs><rules><rule id="d484-72c7-a54c-ce05" name="Elementos – PD 2"><description>Fuente: Elementos. Coste de lanzamiento: 2 PD.</description></rule></rules></selectionEntry><selectionEntry id="a9cd-87f4-1ec7-d917" name="Explosión (fuego)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="3" /></costs><rules><rule id="b3ee-d03f-77ff-7d79" name="Elementos – PD 3"><description>Fuente: Elementos. Coste de lanzamiento: 3 PD.</description></rule></rules></selectionEntry><selectionEntry id="17a9-152a-23f2-a63b" name="Tsunami (agua)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="3" /></costs><rules><rule id="49c0-9969-e969-af5f" name="Elementos – PD 3"><description>Fuente: Elementos. Coste de lanzamiento: 3 PD.</description></rule></rules></selectionEntry><selectionEntry id="fc2e-308e-7040-dcb4" name="Terremoto (tierra)" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="3" /></costs><rules><rule id="0894-b552-de40-fffc" name="Elementos – PD 3"><description>Fuente: Elementos. Coste de lanzamiento: 3 PD.</description></rule></rules></selectionEntry><selectionEntry id="3704-66db-f70f-9021" name="Alas negras" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="2" /></costs><rules><rule id="e541-4b7b-bf0b-81ad" name="Sombras – PD 2"><description>Fuente: Sombras. Coste de lanzamiento: 2 PD.</description></rule></rules></selectionEntry><selectionEntry id="d828-52e0-f27a-8dc8" name="Doble sombrío" type="upgrade" hidden="false"><costs><cost name="pts" typeId="points" value="0" /><cost name="PD" typeId="pd" value="3" /></costs><rules><rule id="990b-418b-3b31-84ef" name="Sombras – PD 3"><description>Fuente: Sombras. Coste de lanzamiento: 3 PD.</description></rule></rules></selectionEntry></sharedSelectionEntries>
+  <forceEntries>
+    <forceEntry id="d7ea-df41-276b-4529" name="Banda">
+      <selectionEntryLinks>
+        <selectionEntryGroupLink id="95d3-7a13-b6f3-44b1" name="Tamaño de partida" targetId="3146-bbf9-0321-4548" type="selectionEntryGroup" />
+        <selectionEntryLink id="56d5-c9e9-c1ef-4e0f" name="Tótem" targetId="2c49-b434-4d2a-4aa2" type="selectionEntry" />
+      </selectionEntryLinks>
+    </forceEntry>
+  </forceEntries>
+  <categories />
+  <categoryEntries>
+    <categoryEntry id="652e-5404-29cd-461e" name="Miniatura" hidden="false" />
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="213a-eeb1-476c-4f95" name="Guerrero" type="unit" hidden="false">
+      <costs>
+        <cost name="pts" typeId="points" value="15" />
+      </costs>
+      <profiles>
+        <profile id="02bc-e349-9c5c-43bc" name="Perfil" typeId="bfa2-8fe6-fe2d-4557" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Agilidad" typeId="">3</characteristic>
+            <characteristic name="Combate" typeId="">3</characteristic>
+            <characteristic name="Precisión" typeId="">3</characteristic>
+            <characteristic name="Fuerza" typeId="">3</characteristic>
+            <characteristic name="Dureza" typeId="">3</characteristic>
+            <characteristic name="Coraje" typeId="">3</characteristic>
+            <characteristic name="PD" typeId="">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3fc9-75b5-251b-4c89" name="Rol" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="b51e-8326-73d1-46af" name="Es el Líder" type="upgrade" hidden="false">
+              <constraints><constraint id="75ca-71dc-491b-bddd" type="max" value="1.0" field="selections" scope="roster" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true" /></constraints><costs>
+                <cost name="pts" typeId="points" value="0" />
+              </costs>
+              <rules>
+                <rule id="c0b0-1b80-2b87-415a" name="Líder">
+                  <description>Marca esta miniatura como Líder de la banda (en Repudiados, el Líder no obtiene reglas especiales de líder; ver reglas de facción).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="9d05-88bf-bf5e-40c3" name="Veterano" type="unit" hidden="false">
+      <costs>
+        <cost name="pts" typeId="points" value="25" />
+      </costs>
+      <profiles>
+        <profile id="92fe-add9-7346-40f7" name="Perfil" typeId="bfa2-8fe6-fe2d-4557" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Agilidad" typeId="">4</characteristic>
+            <characteristic name="Combate" typeId="">4</characteristic>
+            <characteristic name="Precisión" typeId="">4</characteristic>
+            <characteristic name="Fuerza" typeId="">4</characteristic>
+            <characteristic name="Dureza" typeId="">4</characteristic>
+            <characteristic name="Coraje" typeId="">4</characteristic>
+            <characteristic name="PD" typeId="">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="673f-7036-9287-4015" name="Rol" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="4999-3773-e6ad-41a7" name="Es el Líder" type="upgrade" hidden="false">
+              <constraints><constraint id="75ca-71dc-491b-bddd" type="max" value="1.0" field="selections" scope="roster" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true" /></constraints><costs>
+                <cost name="pts" typeId="points" value="0" />
+              </costs>
+              <rules>
+                <rule id="a8dc-b30a-13eb-40aa" name="Líder">
+                  <description>Marca esta miniatura como Líder de la banda (en Repudiados, el Líder no obtiene reglas especiales de líder; ver reglas de facción).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="2409-8b96-8de3-4808" name="Criatura" type="unit" hidden="false">
+      <costs>
+        <cost name="pts" typeId="points" value="40" />
+      </costs>
+      <profiles>
+        <profile id="91e0-787d-af37-4bb7" name="Perfil" typeId="bfa2-8fe6-fe2d-4557" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Agilidad" typeId="">5</characteristic>
+            <characteristic name="Combate" typeId="">4</characteristic>
+            <characteristic name="Precisión" typeId="">4</characteristic>
+            <characteristic name="Fuerza" typeId="">5</characteristic>
+            <characteristic name="Dureza" typeId="">5</characteristic>
+            <characteristic name="Coraje" typeId="">5</characteristic>
+            <characteristic name="PD" typeId="">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9cda-6a44-6e17-4dfd" name="Rol" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="5b26-0216-ffdd-4183" name="Es el Líder" type="upgrade" hidden="false">
+              <constraints><constraint id="75ca-71dc-491b-bddd" type="max" value="1.0" field="selections" scope="roster" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true" /></constraints><costs>
+                <cost name="pts" typeId="points" value="0" />
+              </costs>
+              <rules>
+                <rule id="d13d-340d-f9a8-4448" name="Líder">
+                  <description>Marca esta miniatura como Líder de la banda (en Repudiados, el Líder no obtiene reglas especiales de líder; ver reglas de facción).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="4b97-4bcc-0fcb-4f3e" name="Héroe" type="unit" hidden="false">
+      <costs>
+        <cost name="pts" typeId="points" value="40" />
+      </costs>
+      <profiles>
+        <profile id="0d1a-de42-72ed-4d74" name="Perfil" typeId="bfa2-8fe6-fe2d-4557" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Agilidad" typeId="">6</characteristic>
+            <characteristic name="Combate" typeId="">5</characteristic>
+            <characteristic name="Precisión" typeId="">5</characteristic>
+            <characteristic name="Fuerza" typeId="">4</characteristic>
+            <characteristic name="Dureza" typeId="">4</characteristic>
+            <characteristic name="Coraje" typeId="">5</characteristic>
+            <characteristic name="PD" typeId="">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c148-79d5-49f8-4743" name="Rol" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="e80d-3586-a248-452a" name="Es el Líder" type="upgrade" hidden="false">
+              <constraints><constraint id="75ca-71dc-491b-bddd" type="max" value="1.0" field="selections" scope="roster" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true" /></constraints><costs>
+                <cost name="pts" typeId="points" value="0" />
+              </costs>
+              <rules>
+                <rule id="6f88-f480-3b2d-4c41" name="Líder">
+                  <description>Marca esta miniatura como Líder de la banda (en Repudiados, el Líder no obtiene reglas especiales de líder; ver reglas de facción).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="ef2c-1889-7dbb-4382" name="Hechicero" type="unit" hidden="false">
+      <costs>
+        <cost name="pts" typeId="points" value="50" />
+      </costs>
+      <profiles>
+        <profile id="0e2c-6cd1-4aa9-443e" name="Perfil" typeId="bfa2-8fe6-fe2d-4557" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Agilidad" typeId="">5</characteristic>
+            <characteristic name="Combate" typeId="">2</characteristic>
+            <characteristic name="Precisión" typeId="">2</characteristic>
+            <characteristic name="Fuerza" typeId="">3</characteristic>
+            <characteristic name="Dureza" typeId="">3</characteristic>
+            <characteristic name="Coraje" typeId="">5</characteristic>
+            <characteristic name="PD" typeId="">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fdc0-563c-1d04-431e" name="Rol" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="72ec-fb67-70f3-4aca" name="Es el Líder" type="upgrade" hidden="false">
+              <constraints><constraint id="75ca-71dc-491b-bddd" type="max" value="1.0" field="selections" scope="roster" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true" /></constraints><costs>
+                <cost name="pts" typeId="points" value="0" />
+              </costs>
+              <rules>
+                <rule id="6cf4-4376-b3ba-4368" name="Líder">
+                  <description>Marca esta miniatura como Líder de la banda (en Repudiados, el Líder no obtiene reglas especiales de líder; ver reglas de facción).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      <selectionEntryGroup id="d2cb-f07b-8316-ad3f" name="Hechizos" hidden="false"><constraints><constraint id="e884-3abe-5da6-f92b" type="max" value="99" field="selections" scope="parent" shared="false" /></constraints><entryLinks><entryLink id="40ad-7cea-8151-f1a3" name="Abrasar (fuego)" targetId="53ea-a751-42f6-c3d1" type="selectionEntry" hidden="false" /><entryLink id="df18-61f4-8e41-e8ee" name="Ráfaga (aire)" targetId="daed-21db-21ff-7940" type="selectionEntry" hidden="false" /><entryLink id="6646-b8b5-c0eb-118b" name="Sudario de llamas (fuego)" targetId="ecfc-9920-0fbe-a660" type="selectionEntry" hidden="false" /><entryLink id="32f9-3dac-b52b-f8c3" name="Torbellino (aire)" targetId="99be-3e3d-dc09-c548" type="selectionEntry" hidden="false" /><entryLink id="f879-f5da-e59d-9557" name="Asfixiar (aire)" targetId="e01f-f02a-4b7c-4789" type="selectionEntry" hidden="false" /><entryLink id="a928-402e-7004-1054" name="Escarcha (agua)" targetId="7ef1-fbef-f5a8-244a" type="selectionEntry" hidden="false" /><entryLink id="af91-1f43-ec89-51c2" name="Piel pétrea (tierra)" targetId="b86d-9502-cf61-5dc7" type="selectionEntry" hidden="false" /><entryLink id="5802-0d92-23cf-a1f3" name="Proyectil ígneo (fuego)" targetId="c1e1-e1a8-1124-87df" type="selectionEntry" hidden="false" /><entryLink id="11c6-c2ca-05c0-f07b" name="Vuelo (aire)" targetId="e330-a9e9-6688-8784" type="selectionEntry" hidden="false" /><entryLink id="57d5-2d69-df58-4ce2" name="Explosión (fuego)" targetId="a9cd-87f4-1ec7-d917" type="selectionEntry" hidden="false" /><entryLink id="b570-29e7-546c-dabe" name="Tsunami (agua)" targetId="17a9-152a-23f2-a63b" type="selectionEntry" hidden="false" /><entryLink id="84be-891a-332c-d3f0" name="Terremoto (tierra)" targetId="fc2e-308e-7040-dcb4" type="selectionEntry" hidden="false" /><entryLink id="bfcf-e875-04e6-c83d" name="Alas negras" targetId="3704-66db-f70f-9021" type="selectionEntry" hidden="false" /><entryLink id="4cc6-4554-b81b-cf62" name="Doble sombrío" targetId="d828-52e0-f27a-8dc8" type="selectionEntry" hidden="false" /></entryLinks></selectionEntryGroup></selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="86af-5e4b-2c9e-454c" name="Bruja" type="unit" hidden="false">
+      <costs>
+        <cost name="pts" typeId="points" value="65" />
+      </costs>
+      <profiles>
+        <profile id="7960-bedc-7929-43e9" name="Perfil" typeId="bfa2-8fe6-fe2d-4557" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Agilidad" typeId="">5</characteristic>
+            <characteristic name="Combate" typeId="">2</characteristic>
+            <characteristic name="Precisión" typeId="">2</characteristic>
+            <characteristic name="Fuerza" typeId="">3</characteristic>
+            <characteristic name="Dureza" typeId="">3</characteristic>
+            <characteristic name="Coraje" typeId="">5</characteristic>
+            <characteristic name="PD" typeId="">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bb33-e165-55bb-44a1" name="Rol" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="1148-c78e-1d47-446a" name="Es el Líder" type="upgrade" hidden="false">
+              <constraints><constraint id="75ca-71dc-491b-bddd" type="max" value="1.0" field="selections" scope="roster" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="true" /></constraints><costs>
+                <cost name="pts" typeId="points" value="0" />
+              </costs>
+              <rules>
+                <rule id="849d-c8dd-ae4a-4e58" name="Líder">
+                  <description>Marca esta miniatura como Líder de la banda (en Repudiados, el Líder no obtiene reglas especiales de líder; ver reglas de facción).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      <selectionEntryGroup id="5d2a-4ae2-4a59-3dee" name="Hechizos" hidden="false"><constraints><constraint id="db3f-440b-0173-e95c" type="max" value="99" field="selections" scope="parent" shared="false" /></constraints><entryLinks><entryLink id="ef76-296a-0578-1b24" name="Abrasar (fuego)" targetId="53ea-a751-42f6-c3d1" type="selectionEntry" hidden="false" /><entryLink id="d061-84f0-92b5-814c" name="Ráfaga (aire)" targetId="daed-21db-21ff-7940" type="selectionEntry" hidden="false" /><entryLink id="2c74-82f3-819b-9c39" name="Sudario de llamas (fuego)" targetId="ecfc-9920-0fbe-a660" type="selectionEntry" hidden="false" /><entryLink id="7da9-0b27-fafc-a634" name="Torbellino (aire)" targetId="99be-3e3d-dc09-c548" type="selectionEntry" hidden="false" /><entryLink id="2610-f5f5-bf3a-fc1b" name="Asfixiar (aire)" targetId="e01f-f02a-4b7c-4789" type="selectionEntry" hidden="false" /><entryLink id="c13b-12e8-d98a-ed73" name="Escarcha (agua)" targetId="7ef1-fbef-f5a8-244a" type="selectionEntry" hidden="false" /><entryLink id="2d9e-eca4-230f-ff8d" name="Piel pétrea (tierra)" targetId="b86d-9502-cf61-5dc7" type="selectionEntry" hidden="false" /><entryLink id="e8ff-7311-1a08-84e4" name="Proyectil ígneo (fuego)" targetId="c1e1-e1a8-1124-87df" type="selectionEntry" hidden="false" /><entryLink id="8fa5-2dc7-a935-da67" name="Vuelo (aire)" targetId="e330-a9e9-6688-8784" type="selectionEntry" hidden="false" /><entryLink id="2728-8302-1489-ebb6" name="Explosión (fuego)" targetId="a9cd-87f4-1ec7-d917" type="selectionEntry" hidden="false" /><entryLink id="0b71-d550-aa33-8031" name="Tsunami (agua)" targetId="17a9-152a-23f2-a63b" type="selectionEntry" hidden="false" /><entryLink id="a79f-cfcc-8eeb-fd2a" name="Terremoto (tierra)" targetId="fc2e-308e-7040-dcb4" type="selectionEntry" hidden="false" /><entryLink id="c43d-25cd-7ecb-2141" name="Alas negras" targetId="3704-66db-f70f-9021" type="selectionEntry" hidden="false" /><entryLink id="8a39-11b3-0ff8-4517" name="Doble sombrío" targetId="d828-52e0-f27a-8dc8" type="selectionEntry" hidden="false" /></entryLinks></selectionEntryGroup></selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
