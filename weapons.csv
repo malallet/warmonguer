@@ -1,0 +1,13 @@
+tipo,arma,puntos,mod_agi,mod_com,mod_pre,mod_fue,mod_dur,mod_cor,mod_bli,penetracion,alcance,fuerza_dist,penetracion_dist,reglas
+Guerrero,Garra,4,,,,,,,,3.0,,,,ni otro arma distinta ni escudo
+Guerrero,Arma arrojadiza,4,,,,,,,,,5/10/15,+1/0/-1,2/1/0,
+Guerrero,Cerbatana,6,,,,,,,,,10/20/30,3/2/1,1,Veneno Fuerza 2
+Guerrero,Filo pequeño,6,,,,1.0,,,,2.0,,,,
+Guerrero,Lanza,6,,,,1.0,,,,,,,,"+1 Fuerza y Penetracion por accion de Asalto, No otro arma"
+Guerrero,Maza,6,,,,2.0,,,,1.0,,,,
+Guerrero,Jabalina,8,,,,,,,,,10/30/40,3/4/2,2,
+Guerrero,Arco,10,,,,,,,,,20/40/60,3,2,"Ni otro arma ni escudo,Maza hueso en C/C"
+General,Mandíbulas,4,,,,1.0,,,,1.0,,,,
+General,Maza pesada,8,,-1.0,,4.0,,,,2.0,,,,Ni otro arma ni escudo
+General,Filo pesado,10,-1.0,,,3.0,,,,4.0,,,,"-1 Agilidad, Ni otro arma ni escudo"
+General,Filo medio,12,,1.0,,2.0,,,,3.0,,,,

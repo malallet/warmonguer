@@ -1,0 +1,14 @@
+[
+  {
+    "material": "Hueso-piedra",
+    "mult_coste": 0.5
+  },
+  {
+    "material": "Hierro",
+    "mult_coste": 1
+  },
+  {
+    "material": "Acero",
+    "mult_coste": 2
+  }
+]

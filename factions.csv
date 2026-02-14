@@ -1,0 +1,9 @@
+faccion,fuentes,reglas_resumen
+Repudiados,"['Elementos', 'Sombras', None]",Veteranos funcionan como Guerreros para Objetivos; el Líder no tiene sus reglas especiales (pero da Pavor si es Abatido).
+Sjeverni,"['Elementos', 'Naturaleza', None]",Armas a distancia: Alcance largo +10 cm; ignoran 1 Pavor si tienen aliado a 10 cm; sin Hechizos de fuego (Elementos).
+Tribu del Rostro Negro,"['Elementos', 'Muerte', None]",Ignoran limitación de 3 armas de acero; +1 PD por cada enemigo Abatido (no se repone); Pavor a 20 cm cuando se Abate un enemigo.
+Dolor y desesperación,"[None, None, None]",Inmunes a Veneno y no ganan Pavor; ignoran terreno difícil/abrupto y atraviesan escenografía (no impasable); si quieren Combatir/Disparar tiran 1d10 y con 1 fallan; no pueden llevar Hechiceros.
+Sangre y vísceras,"['Locura', 'Muerte', 'Sangre']",Hechiceros y Héroes ganan +1 PD por cada enemigo Abatido (hasta gastarlo); enemigos al atacar deben superar Coraje o tienen 1 complicación; Pavor a 20 cm al Abatir.
+Demonios,"['Maldición', 'Muerte', 'Sangre']",Sangre venenosa: impacto Fuerza 3 a contacto cuando un Demonio es Abatido; primera vez que un no-Demonio entra en contacto gana 1 Pavor; ignoran terreno volcánico.
+La Manada,"['Elementos', 'Naturaleza', None]",No chequean por terreno difícil/abrupto; no obtienen ventaja en Combate múltiple; si Abaten estando solos (sin aliados a 10 cm) +1 PD (no se repone).
+Pigmeos,"['Sangre', 'Naturaleza', 'Muerte']",Guerreros pueden comprar cerbatanas a mitad de coste; Criaturas pueden hacer Asaltos brutales sin pagar el sobrecoste en PD.

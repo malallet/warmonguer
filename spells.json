@@ -1,0 +1,236 @@
+[
+  {
+    "fuente": "Elementos",
+    "hechizo": "Abrasar (fuego)",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Ráfaga (aire)",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Sudario de llamas (fuego)",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Torbellino (aire)",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Asfixiar (aire)",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Escarcha (agua)",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Piel pétrea (tierra)",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Proyectil ígneo (fuego)",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Vuelo (aire)",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Explosión (fuego)",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Tsunami (agua)",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Elementos",
+    "hechizo": "Terremoto (tierra)",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Locura",
+    "hechizo": "Agobio",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Locura",
+    "hechizo": "Pesadillas",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Locura",
+    "hechizo": "Voces interiores",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Maldición",
+    "hechizo": "Estigma",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Maldición",
+    "hechizo": "Mal de ojo",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Maldición",
+    "hechizo": "Blasfemia",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Maldición",
+    "hechizo": "Condenación",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Naturaleza",
+    "hechizo": "Enraizar",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Naturaleza",
+    "hechizo": "Saeta viva",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Naturaleza",
+    "hechizo": "Espinas",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Naturaleza",
+    "hechizo": "Rugido",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Naturaleza",
+    "hechizo": "Forma animal",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Muerte",
+    "hechizo": "Energía oscura",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Muerte",
+    "hechizo": "Absorción vital",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Muerte",
+    "hechizo": "Ola de muerte",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Sangre",
+    "hechizo": "Latido",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Sangre",
+    "hechizo": "Desangrar",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Sangre",
+    "hechizo": "Vínculo",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Sombras",
+    "hechizo": "Alas negras",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Sombras",
+    "hechizo": "Doble sombrío",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Tiempo",
+    "hechizo": "Alteración",
+    "pd": 1,
+    "notas": null
+  },
+  {
+    "fuente": "Tiempo",
+    "hechizo": "Deformación",
+    "pd": 2,
+    "notas": null
+  },
+  {
+    "fuente": "Tiempo",
+    "hechizo": "Precognición",
+    "pd": 3,
+    "notas": null
+  },
+  {
+    "fuente": "Brujería",
+    "hechizo": "Intercambio",
+    "pd": 1,
+    "notas": "Solo Bruja"
+  },
+  {
+    "fuente": "Brujería",
+    "hechizo": "Elegido",
+    "pd": 2,
+    "notas": "Solo Bruja"
+  },
+  {
+    "fuente": "Brujería",
+    "hechizo": "Sacrificio",
+    "pd": 3,
+    "notas": "Solo Bruja"
+  },
+  {
+    "fuente": "Brujería",
+    "hechizo": "Sometimiento",
+    "pd": 0,
+    "notas": "Solo Bruja (usa X PD)"
+  }
+]
