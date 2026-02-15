@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d191870d-2a00-5b04-82f8-bc7d7a5017e7" name="Warmonger - Repudiados" revision="1" gameSystemId="ca3c89ca-46a7-5b63-b90c-27323cc72fec" battleScribeVersion="2.03" authorName="malallet" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d191870d-2a00-5b04-82f8-bc7d7a5017e7" name="Warmonger - Repudiados" revision="1" gameSystemId="ca3c89ca-46a7-5b63-b90c-27323cc72fec" battleScribeVersion="2.03" authorName="malallet">
   <readme>Warmonger - Repudiados (piloto). Fuentes: Elementos, Sombras.</readme>
   <selectionEntryGroups>
     
   <selectionEntryGroup id="8c73bf35-d4b8-5eac-bcec-a01e1831b7e3" name="Tamaño de partida" hidden="false">
     <entryLinks>
-      <entryLink id="32793f89-5b0d-59cb-83a3-489c0aecb86b" name="Partida Hasta 100 pts" hidden="false" targetId="5161b487-931a-5d33-9dc8-613076fdb001" type="selectionEntry"/><entryLink id="555162c5-29e9-57ca-8252-86a5c9fb569c" name="Partida 101–200 pts" hidden="false" targetId="17fc440d-031b-5d84-bd96-6f786b2d681e" type="selectionEntry"/><entryLink id="a8e1f12a-086d-58e7-ada7-15026ea15345" name="Partida 201–300 pts" hidden="false" targetId="1908c910-8ffe-5725-b84a-172fa70dfaa4" type="selectionEntry"/><entryLink id="5635c3ef-d852-5ff3-a487-02be62abf460" name="Partida 301–400 pts" hidden="false" targetId="8fc03970-9ea9-54c7-bec0-109dcc26b8a6" type="selectionEntry"/><entryLink id="e9bb2de4-890a-550d-bf33-6dce58c00c2e" name="Partida 401–500 pts" hidden="false" targetId="3c3076a9-3ffb-5f49-94d5-ef5ed1889895" type="selectionEntry"/>
+      <entryLink id="32793f89-5b0d-59cb-83a3-489c0aecb86b" name="Partida Hasta 100 pts" hidden="false" targetId="5161b487-931a-5d33-9dc8-613076fdb001" type="selectionEntry" /><entryLink id="555162c5-29e9-57ca-8252-86a5c9fb569c" name="Partida 101–200 pts" hidden="false" targetId="17fc440d-031b-5d84-bd96-6f786b2d681e" type="selectionEntry" /><entryLink id="a8e1f12a-086d-58e7-ada7-15026ea15345" name="Partida 201–300 pts" hidden="false" targetId="1908c910-8ffe-5725-b84a-172fa70dfaa4" type="selectionEntry" /><entryLink id="5635c3ef-d852-5ff3-a487-02be62abf460" name="Partida 301–400 pts" hidden="false" targetId="8fc03970-9ea9-54c7-bec0-109dcc26b8a6" type="selectionEntry" /><entryLink id="e9bb2de4-890a-550d-bf33-6dce58c00c2e" name="Partida 401–500 pts" hidden="false" targetId="3c3076a9-3ffb-5f49-94d5-ef5ed1889895" type="selectionEntry" />
     </entryLinks>
     <constraints>
-      <constraint id="5917813b-c99b-5a55-8b8f-5bba1b59ec43" type="min" value="1.0" field="selections" scope="parent"/>
-      <constraint id="7a83ed8e-adf6-561c-91cd-6472a8735d60" type="max" value="1.0" field="selections" scope="parent"/>
+      <constraint id="5917813b-c99b-5a55-8b8f-5bba1b59ec43" type="min" value="1.0" field="selections" scope="parent" />
+      <constraint id="7a83ed8e-adf6-561c-91cd-6472a8735d60" type="max" value="1.0" field="selections" scope="parent" />
     </constraints>
   </selectionEntryGroup>
 
@@ -17,182 +17,175 @@
   <selectionEntries>
     
   <selectionEntry id="a3d24416-0186-548b-8759-bad7406b2ab8" name="Repudiados – Reglas especiales" type="upgrade" hidden="false">
-    <categoryLinks><categoryLink id="cdc3d3e8-dd46-5d03-afc6-7ec04506e0ae" name="Reglas de la banda" hidden="false" targetId="1bc13b4d-5964-5988-b7b1-e9b9463e61f9" primary="false"/></categoryLinks>
-    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+    <categoryLinks><categoryLink id="cdc3d3e8-dd46-5d03-afc6-7ec04506e0ae" name="Reglas de la banda" hidden="false" targetId="1bc13b4d-5964-5988-b7b1-e9b9463e61f9" primary="false" /></categoryLinks>
+    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
     <rules><rule id="400eb72e-6537-5913-be89-3410dd271ece" name="Repudiados – Reglas especiales"><description>Veteranos funcionan como Guerreros para Objetivos; el Líder no tiene sus reglas especiales (pero da Pavor si es Abatido).</description></rule></rules>
   </selectionEntry>
 
     
   <selectionEntry id="24691728-e0d8-51b8-867d-6e0e857ff0c1" name="Guerrero" type="unit" hidden="false">
     <categoryLinks>
-      <categoryLink id="6abadd7f-2311-513d-9f0b-c9c259bcd535" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true"/>
+      <categoryLink id="6abadd7f-2311-513d-9f0b-c9c259bcd535" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true" />
     </categoryLinks>
-    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0"/></costs>
+    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0" /></costs>
     <profiles>
       <profile id="90eb9ada-4ee3-5bcb-95e5-1c35423eb6fe" name="Guerrero" hidden="false" typeId="e2ad59cc-8a0f-5a5c-a68d-fe269a4304c3">
         <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a-5a40-9070-b1105dac434d">3</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058-55c2-b912-9f43fe8c5f7e">3</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9-5817-bb2a-515356bf5e25">3</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39-5cda-a244-b9ac328c8b88">3</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa-5955-9b0d-9a1af773ab2f">3</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb-5ed0-9dd3-cd399141079c">3</characteristic><characteristic name="PD" typeId="5647392f-fd63-5360-b4cb-8f951e1d03d8">1</characteristic></characteristics>
       </profile>
     </profiles>
     <selectionEntryGroups>
-      <selectionEntryGroup id="1d7ed0cd-ee39-5725-a530-73350e593a46" name="Armas" hidden="false"><entryLinks><entryLink id="bedb6c5a-c654-5561-8daf-f435c2639644" name="Garra" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry"/><entryLink id="9b4654c6-23e3-55f1-acca-9fbefa4f00a8" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry"/><entryLink id="4364ffef-5a74-5f84-9ff1-b813b309c82d" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry"/><entryLink id="1248f68e-864a-527e-ba09-3f0d2c397020" name="Filo pequeño" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry"/><entryLink id="b2de26c9-ccd7-59ae-b652-308c1e0474c0" name="Lanza" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry"/><entryLink id="56d51771-fe5e-5d7a-974d-3af8639f1fda" name="Maza" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry"/><entryLink id="ac070d08-e859-5161-a1d2-a460359b6ce3" name="Jabalina" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry"/><entryLink id="6dbe3918-e92e-5a57-bf1b-5a803be1222c" name="Arco" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry"/><entryLink id="f0b66490-91eb-5be8-80c1-427c94b1a733" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry"/><entryLink id="6365dfe6-26a2-5b98-a1de-5346e16efeac" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry"/><entryLink id="9919ea9f-6fe9-56f0-9329-a7d517c7959a" name="Filo pesado" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry"/><entryLink id="b69084f1-da05-5b13-b73d-8cbbb1efe153" name="Filo medio" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="ee05a38c-e6ec-5233-b687-03cb51534309" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry"/><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry"/><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry"/><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="d3ea45ae-b873-5301-89e6-127b1354fddb" name="Líder" hidden="false"><entryLinks><entryLink id="93df50bd-f05b-50a2-8cbb-7b20c80df581" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="1d7ed0cd-ee39-5725-a530-73350e593a46" name="Armas" hidden="false"><entryLinks><entryLink id="4a7270fb-e4a5-5a5a-b80f-63956ab5f65b" name="" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry" /><entryLink id="c38583a3-1617-5d1a-811b-0b6663ab24e6" name="" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry" /><entryLink id="1a7c6271-e1f0-544f-87d6-5af4e040ac7e" name="" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry" /><entryLink id="74e7c875-d5df-5f32-8f48-6a78f0ccefc9" name="" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry" /><entryLink id="f5752d96-91e4-55c8-aa48-c85558ebedea" name="" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry" /><entryLink id="28af9915-2760-50d1-b337-a001d35038e1" name="" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry" /><entryLink id="3d631b52-32de-52c8-a1de-3b50da710f06" name="" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry" /><entryLink id="35ff97b3-5c9e-593e-9924-83246bdcac98" name="" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry" /><entryLink id="7cb3dab7-21a6-52ad-a9a0-76cdd138f58a" name="" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry" /><entryLink id="f012bdd1-7aaa-5209-98da-22b47cd25073" name="" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry" /><entryLink id="52938a88-8960-5f1b-80fa-0d2a08edec9d" name="" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry" /><entryLink id="60232028-13cc-53aa-a4d4-db0023cc7493" name="" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="ee05a38c-e6ec-5233-b687-03cb51534309" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry" /><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry" /><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry" /><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="d3ea45ae-b873-5301-89e6-127b1354fddb" name="Líder" hidden="false"><entryLinks><entryLink id="93df50bd-f05b-50a2-8cbb-7b20c80df581" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry" /></entryLinks></selectionEntryGroup>
       
       
     </selectionEntryGroups>
   </selectionEntry>
   <selectionEntry id="ecb6cefa-84b3-5b3d-b2fe-0270c3aada6c" name="Veterano" type="unit" hidden="false">
     <categoryLinks>
-      <categoryLink id="9c8958dc-1cc6-571f-b547-8a142a973132" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true"/>
+      <categoryLink id="9c8958dc-1cc6-571f-b547-8a142a973132" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true" />
     </categoryLinks>
-    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="25.0"/></costs>
+    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="25.0" /></costs>
     <profiles>
       <profile id="59b79537-2433-51bc-843b-22f1995bca77" name="Veterano" hidden="false" typeId="e2ad59cc-8a0f-5a5c-a68d-fe269a4304c3">
         <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a-5a40-9070-b1105dac434d">4</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058-55c2-b912-9f43fe8c5f7e">4</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9-5817-bb2a-515356bf5e25">4</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39-5cda-a244-b9ac328c8b88">4</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa-5955-9b0d-9a1af773ab2f">4</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb-5ed0-9dd3-cd399141079c">4</characteristic><characteristic name="PD" typeId="5647392f-fd63-5360-b4cb-8f951e1d03d8">2</characteristic></characteristics>
       </profile>
     </profiles>
     <selectionEntryGroups>
-      <selectionEntryGroup id="ef01d034-7a2d-57de-8657-9359b4ae75f8" name="Armas" hidden="false"><entryLinks><entryLink id="bedb6c5a-c654-5561-8daf-f435c2639644" name="Garra" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry"/><entryLink id="9b4654c6-23e3-55f1-acca-9fbefa4f00a8" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry"/><entryLink id="4364ffef-5a74-5f84-9ff1-b813b309c82d" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry"/><entryLink id="1248f68e-864a-527e-ba09-3f0d2c397020" name="Filo pequeño" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry"/><entryLink id="b2de26c9-ccd7-59ae-b652-308c1e0474c0" name="Lanza" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry"/><entryLink id="56d51771-fe5e-5d7a-974d-3af8639f1fda" name="Maza" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry"/><entryLink id="ac070d08-e859-5161-a1d2-a460359b6ce3" name="Jabalina" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry"/><entryLink id="6dbe3918-e92e-5a57-bf1b-5a803be1222c" name="Arco" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry"/><entryLink id="f0b66490-91eb-5be8-80c1-427c94b1a733" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry"/><entryLink id="6365dfe6-26a2-5b98-a1de-5346e16efeac" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry"/><entryLink id="9919ea9f-6fe9-56f0-9329-a7d517c7959a" name="Filo pesado" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry"/><entryLink id="b69084f1-da05-5b13-b73d-8cbbb1efe153" name="Filo medio" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="176a47bb-d350-5d0a-9fe4-44bff53e3342" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry"/><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry"/><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry"/><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="991d25cc-9854-502f-a1b5-033cbc7236fd" name="Líder" hidden="false"><entryLinks><entryLink id="221929a9-753c-5441-b07a-301c32d53550" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="ef01d034-7a2d-57de-8657-9359b4ae75f8" name="Armas" hidden="false"><entryLinks><entryLink id="6ba3aee8-9feb-527c-87da-bd164ab06be4" name="" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry" /><entryLink id="90c95936-3da8-5461-a32a-81bbc774c0d6" name="" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry" /><entryLink id="de41489b-e9e0-5c57-93c2-8e4c11618111" name="" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry" /><entryLink id="81d465d0-9cbc-5047-8dec-e252b5d8c770" name="" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry" /><entryLink id="160678ff-6e37-5a98-bedf-bad527c214e5" name="" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry" /><entryLink id="65db6805-2144-5d03-96b2-56c193ae67ba" name="" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry" /><entryLink id="0c7c4e09-0d8b-569c-9816-977fc67c2d79" name="" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry" /><entryLink id="2cd7eb5b-da18-5e5b-90ab-e3b27148f6fa" name="" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry" /><entryLink id="e3c98069-e7c8-5185-9e7c-1717c59d63fc" name="" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry" /><entryLink id="edb69cee-4518-5ccd-a1a7-12bb6d609bd9" name="" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry" /><entryLink id="1410b32b-8623-5842-89ac-930b900e46ea" name="" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry" /><entryLink id="efc34d21-cd16-5504-87a9-04c9ae98f7d6" name="" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="176a47bb-d350-5d0a-9fe4-44bff53e3342" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry" /><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry" /><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry" /><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="991d25cc-9854-502f-a1b5-033cbc7236fd" name="Líder" hidden="false"><entryLinks><entryLink id="221929a9-753c-5441-b07a-301c32d53550" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry" /></entryLinks></selectionEntryGroup>
       
       
     </selectionEntryGroups>
   </selectionEntry>
   <selectionEntry id="fd3cac23-dbdb-5d90-be6a-dfee1f2ccf93" name="Criatura" type="unit" hidden="false">
     <categoryLinks>
-      <categoryLink id="710facb5-7850-5fc6-bde4-92595dc2a84e" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true"/>
+      <categoryLink id="710facb5-7850-5fc6-bde4-92595dc2a84e" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true" />
     </categoryLinks>
-    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="40.0"/></costs>
+    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="40.0" /></costs>
     <profiles>
       <profile id="135f448d-7392-55d7-a6d2-fcb3a28b77a8" name="Criatura" hidden="false" typeId="e2ad59cc-8a0f-5a5c-a68d-fe269a4304c3">
         <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a-5a40-9070-b1105dac434d">5</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058-55c2-b912-9f43fe8c5f7e">4</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9-5817-bb2a-515356bf5e25">4</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39-5cda-a244-b9ac328c8b88">5</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa-5955-9b0d-9a1af773ab2f">5</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb-5ed0-9dd3-cd399141079c">5</characteristic><characteristic name="PD" typeId="5647392f-fd63-5360-b4cb-8f951e1d03d8">2</characteristic></characteristics>
       </profile>
     </profiles>
     <selectionEntryGroups>
-      <selectionEntryGroup id="b565b9ef-feac-5ae0-a864-2c64b94ac533" name="Armas" hidden="false"><entryLinks><entryLink id="bedb6c5a-c654-5561-8daf-f435c2639644" name="Garra" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry"/><entryLink id="9b4654c6-23e3-55f1-acca-9fbefa4f00a8" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry"/><entryLink id="4364ffef-5a74-5f84-9ff1-b813b309c82d" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry"/><entryLink id="1248f68e-864a-527e-ba09-3f0d2c397020" name="Filo pequeño" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry"/><entryLink id="b2de26c9-ccd7-59ae-b652-308c1e0474c0" name="Lanza" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry"/><entryLink id="56d51771-fe5e-5d7a-974d-3af8639f1fda" name="Maza" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry"/><entryLink id="ac070d08-e859-5161-a1d2-a460359b6ce3" name="Jabalina" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry"/><entryLink id="6dbe3918-e92e-5a57-bf1b-5a803be1222c" name="Arco" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry"/><entryLink id="f0b66490-91eb-5be8-80c1-427c94b1a733" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry"/><entryLink id="6365dfe6-26a2-5b98-a1de-5346e16efeac" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry"/><entryLink id="9919ea9f-6fe9-56f0-9329-a7d517c7959a" name="Filo pesado" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry"/><entryLink id="b69084f1-da05-5b13-b73d-8cbbb1efe153" name="Filo medio" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="50ffa018-b2e6-543d-a3a7-aade3d641cb0" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry"/><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry"/><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry"/><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="29262151-4f16-543a-93fb-651d9bc2c31e" name="Líder" hidden="false"><entryLinks><entryLink id="0bbb22d2-c3be-5c5d-b287-7c206ec8bb15" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="b565b9ef-feac-5ae0-a864-2c64b94ac533" name="Armas" hidden="false"><entryLinks><entryLink id="61a0ed5e-8d9e-5056-a358-51b096dd179c" name="" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry" /><entryLink id="d834a1c3-a0ac-512b-b5c4-9fdef3fa5612" name="" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry" /><entryLink id="536ccb2d-793e-527e-8891-cd9dd1129949" name="" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry" /><entryLink id="4e4f0512-3d9b-550b-a458-3ed077e428bc" name="" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="29262151-4f16-543a-93fb-651d9bc2c31e" name="Líder" hidden="false"><entryLinks><entryLink id="0bbb22d2-c3be-5c5d-b287-7c206ec8bb15" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry" /></entryLinks></selectionEntryGroup>
       
       
     </selectionEntryGroups>
   </selectionEntry>
   <selectionEntry id="9926d6f0-4723-59de-b502-616cb93e921f" name="Héroe" type="unit" hidden="false">
     <categoryLinks>
-      <categoryLink id="6c17e5db-a851-5a7e-a969-022fc197960c" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true"/>
+      <categoryLink id="6c17e5db-a851-5a7e-a969-022fc197960c" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true" />
     </categoryLinks>
-    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="40.0"/></costs>
+    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="40.0" /></costs>
     <profiles>
       <profile id="6d5f7691-bd95-5696-88dc-75028ecc9b71" name="Héroe" hidden="false" typeId="e2ad59cc-8a0f-5a5c-a68d-fe269a4304c3">
         <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a-5a40-9070-b1105dac434d">6</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058-55c2-b912-9f43fe8c5f7e">5</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9-5817-bb2a-515356bf5e25">5</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39-5cda-a244-b9ac328c8b88">4</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa-5955-9b0d-9a1af773ab2f">4</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb-5ed0-9dd3-cd399141079c">5</characteristic><characteristic name="PD" typeId="5647392f-fd63-5360-b4cb-8f951e1d03d8">2</characteristic></characteristics>
       </profile>
     </profiles>
     <selectionEntryGroups>
-      <selectionEntryGroup id="4f7f1da2-ed6c-53d7-a548-b41e4d60b3f4" name="Armas" hidden="false"><entryLinks><entryLink id="bedb6c5a-c654-5561-8daf-f435c2639644" name="Garra" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry"/><entryLink id="9b4654c6-23e3-55f1-acca-9fbefa4f00a8" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry"/><entryLink id="4364ffef-5a74-5f84-9ff1-b813b309c82d" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry"/><entryLink id="1248f68e-864a-527e-ba09-3f0d2c397020" name="Filo pequeño" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry"/><entryLink id="b2de26c9-ccd7-59ae-b652-308c1e0474c0" name="Lanza" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry"/><entryLink id="56d51771-fe5e-5d7a-974d-3af8639f1fda" name="Maza" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry"/><entryLink id="ac070d08-e859-5161-a1d2-a460359b6ce3" name="Jabalina" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry"/><entryLink id="6dbe3918-e92e-5a57-bf1b-5a803be1222c" name="Arco" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry"/><entryLink id="f0b66490-91eb-5be8-80c1-427c94b1a733" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry"/><entryLink id="6365dfe6-26a2-5b98-a1de-5346e16efeac" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry"/><entryLink id="9919ea9f-6fe9-56f0-9329-a7d517c7959a" name="Filo pesado" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry"/><entryLink id="b69084f1-da05-5b13-b73d-8cbbb1efe153" name="Filo medio" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="24f508c6-49ec-5973-bc87-4060ca6d2299" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry"/><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry"/><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry"/><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="e53acd55-1245-5c5f-82af-21ded332f96c" name="Líder" hidden="false"><entryLinks><entryLink id="cc31f061-a3a0-525b-97a0-0c1492561a81" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="4f7f1da2-ed6c-53d7-a548-b41e4d60b3f4" name="Armas" hidden="false"><entryLinks><entryLink id="c7e7f4d7-56ab-5684-82c4-3d165b3eaeb1" name="" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry" /><entryLink id="9528b818-31d2-57e4-94d8-31ac0aaed007" name="" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry" /><entryLink id="f8021e17-3737-58f9-8373-be1b0798ae13" name="" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry" /><entryLink id="651e41d7-a98d-50c3-b5f5-b0023944d7c7" name="" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry" /><entryLink id="e451d442-61c0-5b07-9184-9565fb2e545d" name="" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry" /><entryLink id="acaaa70f-9e3b-527a-bf36-1c6c59244842" name="" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry" /><entryLink id="b4863f90-1ae8-52e1-88bd-533eb1a48f71" name="" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry" /><entryLink id="1b4c8b1b-eddc-5c51-8e38-e7f98edd2d82" name="" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry" /><entryLink id="e5b55d3f-da0a-5018-b35f-94318bfc0c8e" name="" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry" /><entryLink id="b8896f7f-af27-595a-b183-a880ff8fe5ce" name="" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry" /><entryLink id="b4d2ee00-98e8-58c0-8c8e-37908e242223" name="" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry" /><entryLink id="5a234b4f-af6f-5bcb-b562-9ddeaff18d32" name="" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="24f508c6-49ec-5973-bc87-4060ca6d2299" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry" /><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry" /><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry" /><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="e53acd55-1245-5c5f-82af-21ded332f96c" name="Líder" hidden="false"><entryLinks><entryLink id="cc31f061-a3a0-525b-97a0-0c1492561a81" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry" /></entryLinks></selectionEntryGroup>
       
       
     </selectionEntryGroups>
   </selectionEntry>
   <selectionEntry id="49a3ef56-4afa-5b06-ab38-010022864b51" name="Hechicero" type="unit" hidden="false">
     <categoryLinks>
-      <categoryLink id="7ef0bb42-62ba-5ba9-bf9c-2a4a7c1ef7d0" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true"/>
+      <categoryLink id="7ef0bb42-62ba-5ba9-bf9c-2a4a7c1ef7d0" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true" />
     </categoryLinks>
-    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="50.0"/></costs>
+    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="50.0" /></costs>
     <profiles>
       <profile id="d097bae8-911f-59f8-a038-07be633dfba1" name="Hechicero" hidden="false" typeId="e2ad59cc-8a0f-5a5c-a68d-fe269a4304c3">
         <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a-5a40-9070-b1105dac434d">5</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058-55c2-b912-9f43fe8c5f7e">2</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9-5817-bb2a-515356bf5e25">2</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39-5cda-a244-b9ac328c8b88">3</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa-5955-9b0d-9a1af773ab2f">3</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb-5ed0-9dd3-cd399141079c">5</characteristic><characteristic name="PD" typeId="5647392f-fd63-5360-b4cb-8f951e1d03d8">2</characteristic></characteristics>
       </profile>
     </profiles>
     <selectionEntryGroups>
-      <selectionEntryGroup id="b4ade199-bbc1-54af-a14f-4a5318d69368" name="Armas" hidden="false"><entryLinks><entryLink id="bedb6c5a-c654-5561-8daf-f435c2639644" name="Garra" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry"/><entryLink id="9b4654c6-23e3-55f1-acca-9fbefa4f00a8" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry"/><entryLink id="4364ffef-5a74-5f84-9ff1-b813b309c82d" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry"/><entryLink id="1248f68e-864a-527e-ba09-3f0d2c397020" name="Filo pequeño" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry"/><entryLink id="b2de26c9-ccd7-59ae-b652-308c1e0474c0" name="Lanza" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry"/><entryLink id="56d51771-fe5e-5d7a-974d-3af8639f1fda" name="Maza" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry"/><entryLink id="ac070d08-e859-5161-a1d2-a460359b6ce3" name="Jabalina" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry"/><entryLink id="6dbe3918-e92e-5a57-bf1b-5a803be1222c" name="Arco" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry"/><entryLink id="f0b66490-91eb-5be8-80c1-427c94b1a733" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry"/><entryLink id="6365dfe6-26a2-5b98-a1de-5346e16efeac" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry"/><entryLink id="9919ea9f-6fe9-56f0-9329-a7d517c7959a" name="Filo pesado" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry"/><entryLink id="b69084f1-da05-5b13-b73d-8cbbb1efe153" name="Filo medio" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="a31923fa-14bf-5070-9aca-acdac34df6f7" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry"/><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry"/><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry"/><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="0fc1887d-998d-5069-b114-dbb5d946b659" name="Líder" hidden="false"><entryLinks><entryLink id="6af4e62c-e164-5bb5-b299-fc53d377e369" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="b4ade199-bbc1-54af-a14f-4a5318d69368" name="Armas" hidden="false"><entryLinks><entryLink id="a477fe1b-9348-5d74-a9ff-575e3ccbd9b6" name="" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry" /><entryLink id="9f8f1edc-2996-567e-b4e7-216460f8502b" name="" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry" /><entryLink id="3f8dcc1b-d44b-55f1-8515-61cf05ee7877" name="" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry" /><entryLink id="cb53900a-e432-5328-ad84-a0cffdf99ad0" name="" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry" /><entryLink id="052423ea-0548-566a-aa83-6fbee90ada65" name="" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry" /><entryLink id="7932eda7-f468-5ead-9a51-f59252d537b3" name="" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry" /><entryLink id="8476dbe9-577d-5194-bb89-ae059b62ada7" name="" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry" /><entryLink id="47fe821d-44f6-5829-81b0-a01071cdd552" name="" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry" /><entryLink id="48ea96ee-532e-5ef4-8fc3-ebd6310242b0" name="" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry" /><entryLink id="15b9c14a-e43a-59d6-957e-868b6b2dd0d0" name="" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry" /><entryLink id="bb94ff53-fbd3-581c-96d3-e6fcf95a351e" name="" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry" /><entryLink id="25ca4f9c-bdfe-54ab-9614-6f28d5c4fb7a" name="" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="a31923fa-14bf-5070-9aca-acdac34df6f7" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry" /><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry" /><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry" /><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="0fc1887d-998d-5069-b114-dbb5d946b659" name="Líder" hidden="false"><entryLinks><entryLink id="6af4e62c-e164-5bb5-b299-fc53d377e369" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry" /></entryLinks></selectionEntryGroup>
       
       
-      <selectionEntryGroup id="cad7cbe3-d4e5-5e3b-907a-5919be228249" name="Hechizos" hidden="false"><entryLinks><entryLink id="b5099732-df9a-5941-89e6-db8c1cf3b80a" name="Abrasar (fuego)" hidden="false" targetId="6dfcd1c8-c3eb-50b6-841e-ce41b0fa3759" type="selectionEntry"/><entryLink id="a5d6424b-1f2f-5e46-adf2-a6f3a15bba90" name="Ráfaga (aire)" hidden="false" targetId="72082961-da98-582d-ba3f-1b36d7e71821" type="selectionEntry"/><entryLink id="30e036bf-9062-54fc-afd0-0097467852e1" name="Sudario de llamas (fuego)" hidden="false" targetId="59481c05-cc39-5d06-afee-23afbd0e04b6" type="selectionEntry"/><entryLink id="047c3a64-d36f-5eb7-b39b-46e0a63ed0e3" name="Torbellino (aire)" hidden="false" targetId="a18c4f98-53c8-5a94-84cb-a024e3b55531" type="selectionEntry"/><entryLink id="e1bc03e7-2702-58cd-a4fc-cb2b3cebff53" name="Asfixiar (aire)" hidden="false" targetId="42cb25b6-5042-5f6b-ba7c-72b42c7faf86" type="selectionEntry"/><entryLink id="cca2c9b4-99d2-563a-8ec4-048eacb64ad8" name="Escarcha (agua)" hidden="false" targetId="31c4f30e-1f43-516c-97c9-450a57819fad" type="selectionEntry"/><entryLink id="a8897865-205b-5701-a513-553d3e019b09" name="Piel pétrea (tierra)" hidden="false" targetId="fd264c65-52e6-511a-add2-193e0c52e0c8" type="selectionEntry"/><entryLink id="f211ae9c-be44-5b1a-a966-66ae3fd56ad5" name="Proyectil ígneo (fuego)" hidden="false" targetId="c0170e9a-54c3-56a7-b69c-a12e5d8752d8" type="selectionEntry"/><entryLink id="fa7b6188-26a3-50b0-b910-5a07b95f465f" name="Vuelo (aire)" hidden="false" targetId="564380f8-1a3b-50ef-8150-b5c6f0a506e3" type="selectionEntry"/><entryLink id="c0434405-25bd-54ab-8073-a89d1814af25" name="Explosión (fuego)" hidden="false" targetId="056f73bb-dc67-56a3-ad5c-646924ba15b2" type="selectionEntry"/><entryLink id="8d9fc61d-f1ab-5ac0-b7db-7f24a79b3448" name="Tsunami (agua)" hidden="false" targetId="28fefe73-21f6-5840-9cf8-3f9dec885326" type="selectionEntry"/><entryLink id="c5fd8f6d-b4f0-54f2-af4a-23c1c94a8f07" name="Terremoto (tierra)" hidden="false" targetId="87870c06-b94f-51c9-8d47-aaa579002149" type="selectionEntry"/><entryLink id="75d81bcb-97ba-5d86-b89f-9cb51ad884c6" name="Alas negras" hidden="false" targetId="9485b3fb-f754-5eb6-9743-73b8eb64622a" type="selectionEntry"/><entryLink id="ab432b8d-9224-5a42-96a0-bf97f81ee6aa" name="Doble sombrío" hidden="false" targetId="835f25cd-1798-530f-82a3-efe64a95d697" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="cad7cbe3-d4e5-5e3b-907a-5919be228249" name="Hechizos" hidden="false"><entryLinks><entryLink id="b5099732-df9a-5941-89e6-db8c1cf3b80a" name="Abrasar (fuego)" hidden="false" targetId="6dfcd1c8-c3eb-50b6-841e-ce41b0fa3759" type="selectionEntry" /><entryLink id="a5d6424b-1f2f-5e46-adf2-a6f3a15bba90" name="Ráfaga (aire)" hidden="false" targetId="72082961-da98-582d-ba3f-1b36d7e71821" type="selectionEntry" /><entryLink id="30e036bf-9062-54fc-afd0-0097467852e1" name="Sudario de llamas (fuego)" hidden="false" targetId="59481c05-cc39-5d06-afee-23afbd0e04b6" type="selectionEntry" /><entryLink id="047c3a64-d36f-5eb7-b39b-46e0a63ed0e3" name="Torbellino (aire)" hidden="false" targetId="a18c4f98-53c8-5a94-84cb-a024e3b55531" type="selectionEntry" /><entryLink id="e1bc03e7-2702-58cd-a4fc-cb2b3cebff53" name="Asfixiar (aire)" hidden="false" targetId="42cb25b6-5042-5f6b-ba7c-72b42c7faf86" type="selectionEntry" /><entryLink id="cca2c9b4-99d2-563a-8ec4-048eacb64ad8" name="Escarcha (agua)" hidden="false" targetId="31c4f30e-1f43-516c-97c9-450a57819fad" type="selectionEntry" /><entryLink id="a8897865-205b-5701-a513-553d3e019b09" name="Piel pétrea (tierra)" hidden="false" targetId="fd264c65-52e6-511a-add2-193e0c52e0c8" type="selectionEntry" /><entryLink id="f211ae9c-be44-5b1a-a966-66ae3fd56ad5" name="Proyectil ígneo (fuego)" hidden="false" targetId="c0170e9a-54c3-56a7-b69c-a12e5d8752d8" type="selectionEntry" /><entryLink id="fa7b6188-26a3-50b0-b910-5a07b95f465f" name="Vuelo (aire)" hidden="false" targetId="564380f8-1a3b-50ef-8150-b5c6f0a506e3" type="selectionEntry" /><entryLink id="c0434405-25bd-54ab-8073-a89d1814af25" name="Explosión (fuego)" hidden="false" targetId="056f73bb-dc67-56a3-ad5c-646924ba15b2" type="selectionEntry" /><entryLink id="8d9fc61d-f1ab-5ac0-b7db-7f24a79b3448" name="Tsunami (agua)" hidden="false" targetId="28fefe73-21f6-5840-9cf8-3f9dec885326" type="selectionEntry" /><entryLink id="c5fd8f6d-b4f0-54f2-af4a-23c1c94a8f07" name="Terremoto (tierra)" hidden="false" targetId="87870c06-b94f-51c9-8d47-aaa579002149" type="selectionEntry" /><entryLink id="75d81bcb-97ba-5d86-b89f-9cb51ad884c6" name="Alas negras" hidden="false" targetId="9485b3fb-f754-5eb6-9743-73b8eb64622a" type="selectionEntry" /><entryLink id="ab432b8d-9224-5a42-96a0-bf97f81ee6aa" name="Doble sombrío" hidden="false" targetId="835f25cd-1798-530f-82a3-efe64a95d697" type="selectionEntry" /></entryLinks></selectionEntryGroup>
     </selectionEntryGroups>
   </selectionEntry>
   <selectionEntry id="1d0940bb-3d8f-5fc9-8d5c-9e8b1ffb9dfb" name="Bruja" type="unit" hidden="false">
     <categoryLinks>
-      <categoryLink id="d5ade914-73dd-5709-b7d5-ce116756d452" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true"/>
+      <categoryLink id="d5ade914-73dd-5709-b7d5-ce116756d452" name="Miembros de la banda" hidden="false" targetId="ed682e8c-d739-57e6-a724-39ca35874168" primary="true" />
     </categoryLinks>
-    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="65.0"/></costs>
+    <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="65.0" /></costs>
     <profiles>
       <profile id="2d7fab83-585e-5cdc-a344-20d0a5184a78" name="Bruja" hidden="false" typeId="e2ad59cc-8a0f-5a5c-a68d-fe269a4304c3">
         <characteristics><characteristic name="Agilidad" typeId="ff951803-a26a-5a40-9070-b1105dac434d">5</characteristic><characteristic name="Combate" typeId="5b0f2fee-6058-55c2-b912-9f43fe8c5f7e">2</characteristic><characteristic name="Precisión" typeId="4f5ea7f7-d3d9-5817-bb2a-515356bf5e25">2</characteristic><characteristic name="Fuerza" typeId="77fcad22-0a39-5cda-a244-b9ac328c8b88">3</characteristic><characteristic name="Dureza" typeId="ada3c037-8cfa-5955-9b0d-9a1af773ab2f">3</characteristic><characteristic name="Coraje" typeId="d5add068-0fdb-5ed0-9dd3-cd399141079c">5</characteristic><characteristic name="PD" typeId="5647392f-fd63-5360-b4cb-8f951e1d03d8">2</characteristic></characteristics>
       </profile>
     </profiles>
     <selectionEntryGroups>
-      <selectionEntryGroup id="1ab535ca-5f53-5646-8a78-06a85caaeb4d" name="Armas" hidden="false"><entryLinks><entryLink id="bedb6c5a-c654-5561-8daf-f435c2639644" name="Garra" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry"/><entryLink id="9b4654c6-23e3-55f1-acca-9fbefa4f00a8" name="Arma arrojadiza" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry"/><entryLink id="4364ffef-5a74-5f84-9ff1-b813b309c82d" name="Cerbatana" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry"/><entryLink id="1248f68e-864a-527e-ba09-3f0d2c397020" name="Filo pequeño" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry"/><entryLink id="b2de26c9-ccd7-59ae-b652-308c1e0474c0" name="Lanza" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry"/><entryLink id="56d51771-fe5e-5d7a-974d-3af8639f1fda" name="Maza" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry"/><entryLink id="ac070d08-e859-5161-a1d2-a460359b6ce3" name="Jabalina" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry"/><entryLink id="6dbe3918-e92e-5a57-bf1b-5a803be1222c" name="Arco" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry"/><entryLink id="f0b66490-91eb-5be8-80c1-427c94b1a733" name="Mandíbulas" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry"/><entryLink id="6365dfe6-26a2-5b98-a1de-5346e16efeac" name="Maza pesada" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry"/><entryLink id="9919ea9f-6fe9-56f0-9329-a7d517c7959a" name="Filo pesado" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry"/><entryLink id="b69084f1-da05-5b13-b73d-8cbbb1efe153" name="Filo medio" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="1bb27645-9034-5fe4-859c-b05877480726" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry"/><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry"/><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry"/><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry"/></entryLinks></selectionEntryGroup>
-      <selectionEntryGroup id="8667af07-075e-5b45-a331-e431ad0437d3" name="Líder" hidden="false"><entryLinks><entryLink id="4311cbdc-4b9d-5a5c-9fc3-ec3450e0b2e4" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="1ab535ca-5f53-5646-8a78-06a85caaeb4d" name="Armas" hidden="false"><entryLinks><entryLink id="2c617f7e-2b3c-5775-ac35-682731fe7bf9" name="" hidden="false" targetId="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" type="selectionEntry" /><entryLink id="0ccd8082-00be-5151-b4af-438ea3ddd6a7" name="" hidden="false" targetId="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" type="selectionEntry" /><entryLink id="587f62f4-3cca-5829-87c4-afecab660975" name="" hidden="false" targetId="490ffd47-8a88-5f56-87c2-047aa1fea926" type="selectionEntry" /><entryLink id="2915e7ea-ce06-5894-9c47-86fd5673c054" name="" hidden="false" targetId="fb3f2566-181f-5708-b85e-bbcba2282cc7" type="selectionEntry" /><entryLink id="f30b2501-52c4-5c01-a1e9-2dca29b126fb" name="" hidden="false" targetId="01de3ebc-9fdb-53d0-9305-3e21813c3561" type="selectionEntry" /><entryLink id="374129d8-ba7f-57e3-b080-806b004ad973" name="" hidden="false" targetId="9958319e-9538-5130-9ab5-46e1c0f2c53d" type="selectionEntry" /><entryLink id="154a99f2-e863-5db6-aad6-bf74e698b361" name="" hidden="false" targetId="6a19c5b3-0b07-5722-936b-f1c747515798" type="selectionEntry" /><entryLink id="9fb2870c-d1c6-5792-9d3d-3b7f7baed44d" name="" hidden="false" targetId="903dd611-552c-5712-8254-06479b6cb124" type="selectionEntry" /><entryLink id="0c902d31-82ae-5fdb-bb88-a739862d1135" name="" hidden="false" targetId="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" type="selectionEntry" /><entryLink id="9fa2c8fc-a6a4-5c87-9e7f-9777e80d5fd6" name="" hidden="false" targetId="12ea2b00-753e-5c26-95df-29400949d9cf" type="selectionEntry" /><entryLink id="6de9193c-51cf-5a1d-b773-86b68ee5ee66" name="" hidden="false" targetId="8b07242b-7c35-5647-a56e-59f018d6f2f4" type="selectionEntry" /><entryLink id="ea1863b0-393e-5c7c-b3fc-db00c9e114cf" name="" hidden="false" targetId="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="1bb27645-9034-5fe4-859c-b05877480726" name="Armadura/Equipo" hidden="false"><entryLinks><entryLink id="5fcb0775-a263-52b1-b528-fcb5387552d5" name="Ropas/Pieles" hidden="false" targetId="ea142133-e94a-5488-8449-f52ad0d3ae31" type="selectionEntry" /><entryLink id="0093255b-58e4-50d0-863c-d792e8cea4d9" name="Huesos/Pellejos" hidden="false" targetId="515ee353-b1c9-5f5f-b000-689e436ae812" type="selectionEntry" /><entryLink id="765e1ea7-6eab-5f54-8bf9-16657afa4b7a" name="Cuero/Escamas" hidden="false" targetId="0424428f-b5d6-5ba3-941c-cee2cc519145" type="selectionEntry" /><entryLink id="69c9e1fd-4dcb-5bcf-8ec2-1ab6633b83b1" name="Escudo" hidden="false" targetId="6cee4601-3d6a-5324-9199-ec4653a95ee9" type="selectionEntry" /></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="8667af07-075e-5b45-a331-e431ad0437d3" name="Líder" hidden="false"><entryLinks><entryLink id="4311cbdc-4b9d-5a5c-9fc3-ec3450e0b2e4" name="Es el Líder" hidden="false" targetId="10f4cd46-b581-5297-8057-534baaa4377a" type="selectionEntry" /></entryLinks></selectionEntryGroup>
       
       
-      <selectionEntryGroup id="b75c97de-96b0-5c4a-be85-2701f5bdec5b" name="Hechizos" hidden="false"><entryLinks><entryLink id="b5099732-df9a-5941-89e6-db8c1cf3b80a" name="Abrasar (fuego)" hidden="false" targetId="6dfcd1c8-c3eb-50b6-841e-ce41b0fa3759" type="selectionEntry"/><entryLink id="a5d6424b-1f2f-5e46-adf2-a6f3a15bba90" name="Ráfaga (aire)" hidden="false" targetId="72082961-da98-582d-ba3f-1b36d7e71821" type="selectionEntry"/><entryLink id="30e036bf-9062-54fc-afd0-0097467852e1" name="Sudario de llamas (fuego)" hidden="false" targetId="59481c05-cc39-5d06-afee-23afbd0e04b6" type="selectionEntry"/><entryLink id="047c3a64-d36f-5eb7-b39b-46e0a63ed0e3" name="Torbellino (aire)" hidden="false" targetId="a18c4f98-53c8-5a94-84cb-a024e3b55531" type="selectionEntry"/><entryLink id="e1bc03e7-2702-58cd-a4fc-cb2b3cebff53" name="Asfixiar (aire)" hidden="false" targetId="42cb25b6-5042-5f6b-ba7c-72b42c7faf86" type="selectionEntry"/><entryLink id="cca2c9b4-99d2-563a-8ec4-048eacb64ad8" name="Escarcha (agua)" hidden="false" targetId="31c4f30e-1f43-516c-97c9-450a57819fad" type="selectionEntry"/><entryLink id="a8897865-205b-5701-a513-553d3e019b09" name="Piel pétrea (tierra)" hidden="false" targetId="fd264c65-52e6-511a-add2-193e0c52e0c8" type="selectionEntry"/><entryLink id="f211ae9c-be44-5b1a-a966-66ae3fd56ad5" name="Proyectil ígneo (fuego)" hidden="false" targetId="c0170e9a-54c3-56a7-b69c-a12e5d8752d8" type="selectionEntry"/><entryLink id="fa7b6188-26a3-50b0-b910-5a07b95f465f" name="Vuelo (aire)" hidden="false" targetId="564380f8-1a3b-50ef-8150-b5c6f0a506e3" type="selectionEntry"/><entryLink id="c0434405-25bd-54ab-8073-a89d1814af25" name="Explosión (fuego)" hidden="false" targetId="056f73bb-dc67-56a3-ad5c-646924ba15b2" type="selectionEntry"/><entryLink id="8d9fc61d-f1ab-5ac0-b7db-7f24a79b3448" name="Tsunami (agua)" hidden="false" targetId="28fefe73-21f6-5840-9cf8-3f9dec885326" type="selectionEntry"/><entryLink id="c5fd8f6d-b4f0-54f2-af4a-23c1c94a8f07" name="Terremoto (tierra)" hidden="false" targetId="87870c06-b94f-51c9-8d47-aaa579002149" type="selectionEntry"/><entryLink id="75d81bcb-97ba-5d86-b89f-9cb51ad884c6" name="Alas negras" hidden="false" targetId="9485b3fb-f754-5eb6-9743-73b8eb64622a" type="selectionEntry"/><entryLink id="ab432b8d-9224-5a42-96a0-bf97f81ee6aa" name="Doble sombrío" hidden="false" targetId="835f25cd-1798-530f-82a3-efe64a95d697" type="selectionEntry"/></entryLinks></selectionEntryGroup>
+      <selectionEntryGroup id="b75c97de-96b0-5c4a-be85-2701f5bdec5b" name="Hechizos" hidden="false"><entryLinks><entryLink id="b5099732-df9a-5941-89e6-db8c1cf3b80a" name="Abrasar (fuego)" hidden="false" targetId="6dfcd1c8-c3eb-50b6-841e-ce41b0fa3759" type="selectionEntry" /><entryLink id="a5d6424b-1f2f-5e46-adf2-a6f3a15bba90" name="Ráfaga (aire)" hidden="false" targetId="72082961-da98-582d-ba3f-1b36d7e71821" type="selectionEntry" /><entryLink id="30e036bf-9062-54fc-afd0-0097467852e1" name="Sudario de llamas (fuego)" hidden="false" targetId="59481c05-cc39-5d06-afee-23afbd0e04b6" type="selectionEntry" /><entryLink id="047c3a64-d36f-5eb7-b39b-46e0a63ed0e3" name="Torbellino (aire)" hidden="false" targetId="a18c4f98-53c8-5a94-84cb-a024e3b55531" type="selectionEntry" /><entryLink id="e1bc03e7-2702-58cd-a4fc-cb2b3cebff53" name="Asfixiar (aire)" hidden="false" targetId="42cb25b6-5042-5f6b-ba7c-72b42c7faf86" type="selectionEntry" /><entryLink id="cca2c9b4-99d2-563a-8ec4-048eacb64ad8" name="Escarcha (agua)" hidden="false" targetId="31c4f30e-1f43-516c-97c9-450a57819fad" type="selectionEntry" /><entryLink id="a8897865-205b-5701-a513-553d3e019b09" name="Piel pétrea (tierra)" hidden="false" targetId="fd264c65-52e6-511a-add2-193e0c52e0c8" type="selectionEntry" /><entryLink id="f211ae9c-be44-5b1a-a966-66ae3fd56ad5" name="Proyectil ígneo (fuego)" hidden="false" targetId="c0170e9a-54c3-56a7-b69c-a12e5d8752d8" type="selectionEntry" /><entryLink id="fa7b6188-26a3-50b0-b910-5a07b95f465f" name="Vuelo (aire)" hidden="false" targetId="564380f8-1a3b-50ef-8150-b5c6f0a506e3" type="selectionEntry" /><entryLink id="c0434405-25bd-54ab-8073-a89d1814af25" name="Explosión (fuego)" hidden="false" targetId="056f73bb-dc67-56a3-ad5c-646924ba15b2" type="selectionEntry" /><entryLink id="8d9fc61d-f1ab-5ac0-b7db-7f24a79b3448" name="Tsunami (agua)" hidden="false" targetId="28fefe73-21f6-5840-9cf8-3f9dec885326" type="selectionEntry" /><entryLink id="c5fd8f6d-b4f0-54f2-af4a-23c1c94a8f07" name="Terremoto (tierra)" hidden="false" targetId="87870c06-b94f-51c9-8d47-aaa579002149" type="selectionEntry" /><entryLink id="75d81bcb-97ba-5d86-b89f-9cb51ad884c6" name="Alas negras" hidden="false" targetId="9485b3fb-f754-5eb6-9743-73b8eb64622a" type="selectionEntry" /><entryLink id="ab432b8d-9224-5a42-96a0-bf97f81ee6aa" name="Doble sombrío" hidden="false" targetId="835f25cd-1798-530f-82a3-efe64a95d697" type="selectionEntry" /></entryLinks></selectionEntryGroup>
     </selectionEntryGroups>
   </selectionEntry>
-  </selectionEntries>
+  <selectionEntry id="f9870709-12f1-5bd8-8a12-5c1bd210c65d" name="Tótem (gratis)" type="upgrade" hidden="false"><categoryLinks><categoryLink id="b5a728ac-3486-5ebe-8a8d-66d2d862a388" name="Configuración" hidden="false" targetId="b188ed4d-ba7b-593a-bc39-2cfc0cb6bb5e" primary="true" /></categoryLinks><costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs><rules><rule id="9aedcf95-3c6d-57a2-bf91-5122f2683ace" name="Tótem"><description>1 vez por turno, una miniatura a 15cm del Tótem propio puede repetir una tirada. En contacto: Acción gastando 2 PD para reverenciarlo y perder 2 marcadores de Pavor.</description></rule></rules></selectionEntry></selectionEntries>
   <sharedSelectionEntries>
     
     <selectionEntry id="5161b487-931a-5d33-9dc8-613076fdb001" name="Partida Hasta 100 pts" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="c1c59839-52cc-5e38-86ca-c85a48296cd4" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="c1c59839-52cc-5e38-86ca-c85a48296cd4" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="88d8eac0-b053-5ebd-a240-f99fdd90e0d8" name="Límite de miniaturas"><description>Máximo de miniaturas: 3.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="17fc440d-031b-5d84-bd96-6f786b2d681e" name="Partida 101–200 pts" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="d53ec4e4-7a2d-56ea-8c1e-7c27a014d357" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="d53ec4e4-7a2d-56ea-8c1e-7c27a014d357" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="2a5e3cb3-15cf-51cd-a14d-c98be36a5d83" name="Límite de miniaturas"><description>Máximo de miniaturas: 6.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="1908c910-8ffe-5725-b84a-172fa70dfaa4" name="Partida 201–300 pts" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="717415ea-047e-5709-a960-7370d5e410f8" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="717415ea-047e-5709-a960-7370d5e410f8" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="e9042433-79c2-5eb6-b91d-97686da2d934" name="Límite de miniaturas"><description>Máximo de miniaturas: 9.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="8fc03970-9ea9-54c7-bec0-109dcc26b8a6" name="Partida 301–400 pts" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="e7e1af6d-a3c6-5d6f-a53a-7f79ef93772c" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="e7e1af6d-a3c6-5d6f-a53a-7f79ef93772c" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="6a6a865c-1c39-59f4-8ece-a9a5fa2d7c9a" name="Límite de miniaturas"><description>Máximo de miniaturas: 12.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="3c3076a9-3ffb-5f49-94d5-ef5ed1889895" name="Partida 401–500 pts" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="332188d3-4a5a-5045-a830-bcfb3fe5009c" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="332188d3-4a5a-5045-a830-bcfb3fe5009c" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="ad5a356e-b516-5169-bd6e-89cbaf5a1954" name="Límite de miniaturas"><description>Máximo de miniaturas: 15.</description></rule></rules>
     </selectionEntry>
     
-    <selectionEntry id="f9870709-12f1-5bd8-8a12-5c1bd210c65d" name="Tótem (gratis)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="b5a728ac-3486-5ebe-8a8d-66d2d862a388" name="Configuración" hidden="false" targetId="f90ad3df-a959-56e8-b71a-865df35c2636" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
-      <rules><rule id="9aedcf95-3c6d-57a2-bf91-5122f2683ace" name="Tótem"><description>1 vez por turno, una miniatura a 15cm del Tótem propio puede repetir una tirada. En contacto: Acción gastando 2 PD para reverenciarlo y perder 2 marcadores de Pavor.</description></rule></rules>
-    </selectionEntry>
-    
     <selectionEntry id="5f01da5d-463a-59c2-b9c3-441505bca51b" name="Hueso-piedra" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="6d5340ba-8490-5ebe-83cb-fd81fd9be915" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="6d5340ba-8490-5ebe-83cb-fd81fd9be915" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="f2681bef-2a0a-5978-9751-af8d650d7486" name="Material: Hueso-piedra"><description>Multiplicador coste x0.5</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="152cefd1-3233-5d36-8498-f4e250a2eea9" name="Hierro" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="ef5ebe41-c00b-5b50-9545-e3fd20323f96" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="ef5ebe41-c00b-5b50-9545-e3fd20323f96" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="3c9c7023-ac42-56f1-8901-b9dfc03d3537" name="Material: Hierro"><description>Multiplicador coste x1</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="c67ee193-3b64-5a5d-a399-a248cfe6edc5" name="Acero" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="5b591592-82bf-51c5-8fff-9483939471b0" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="5b591592-82bf-51c5-8fff-9483939471b0" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="88acb69c-5e11-504d-9848-4b6a7d0b9969" name="Material: Acero"><description>Multiplicador coste x2</description></rule></rules>
     </selectionEntry>
     
     <selectionEntry id="01de3ebc-9fdb-53d0-9305-3e21813c3561" name="Garra" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="6a4e2134-6943-500b-b580-2f4836879076" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="4.0"/></costs>
+      <categoryLinks><categoryLink id="6a4e2134-6943-500b-b580-2f4836879076" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="4.0" /></costs>
       <profiles>
         <profile id="6d580a24-0c09-5c96-b5a2-7b1b8ef2feb7" name="Garra" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
-            <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353"></characteristic>
+            <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353" />
             <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede">3</characteristic>
-            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9"></characteristic>
+            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9" />
             <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e">ni otro arma distinta ni escudo</characteristic>
           </characteristics>
         </profile>
@@ -200,43 +193,43 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="95d3d10f-44ce-59f7-b79d-650dace6c3e3" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="64710865-5261-5b3b-97a2-18fe49f2a104" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="796704c1-1c5e-5da7-a820-a5c23595ebaa" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="638de39c-bb6a-5fa1-aee5-9a5b54974e8f" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="64710865-5261-5b3b-97a2-18fe49f2a104" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="796704c1-1c5e-5da7-a820-a5c23595ebaa" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="638de39c-bb6a-5fa1-aee5-9a5b54974e8f" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="42a67c31-13b5-589e-9ab3-99d7da19c4ac" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="14369f69-d8cb-54ce-9ed6-cde024b6f87e" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="42a67c31-13b5-589e-9ab3-99d7da19c4ac" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="14369f69-d8cb-54ce-9ed6-cde024b6f87e" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="9958319e-9538-5130-9ab5-46e1c0f2c53d" name="Arma arrojadiza" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="4a38e797-ed89-5aa9-9582-17272fc9f3ce" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="4.0"/></costs>
+      <categoryLinks><categoryLink id="4a38e797-ed89-5aa9-9582-17272fc9f3ce" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="4.0" /></costs>
       <profiles>
         <profile id="a1d44858-70c9-5fc1-a258-cfbd422209cd" name="Arma arrojadiza" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
             <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353">+1/0/-1</characteristic>
             <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede">2/1/0</characteristic>
             <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9">5/10/15</characteristic>
-            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e"></characteristic>
+            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e" />
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup id="0d9686ec-151c-55c8-9d8f-d85012d58560" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="3fce74a4-b592-56dc-9a2e-a5d2c09ec63d" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="34ac2476-3a7d-58aa-8f5b-6c3ef0ff51f8" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="78fe0454-edcf-5284-896c-cfea9d5f770e" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="3fce74a4-b592-56dc-9a2e-a5d2c09ec63d" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="34ac2476-3a7d-58aa-8f5b-6c3ef0ff51f8" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="78fe0454-edcf-5284-896c-cfea9d5f770e" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="19af0367-51d0-5bef-a25f-786734164baa" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="94567a9f-14c4-52a1-adf9-ddc06a2e4863" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="19af0367-51d0-5bef-a25f-786734164baa" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="94567a9f-14c4-52a1-adf9-ddc06a2e4863" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="6a19c5b3-0b07-5722-936b-f1c747515798" name="Cerbatana" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="1bf94819-0f1b-5f59-a840-09cd8ac12edb" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0"/></costs>
+      <categoryLinks><categoryLink id="1bf94819-0f1b-5f59-a840-09cd8ac12edb" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0" /></costs>
       <profiles>
         <profile id="d48ed301-5336-5559-b121-ff4e1bc6d890" name="Cerbatana" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
@@ -250,49 +243,49 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="dd44eb21-5d5e-5fbd-b053-4b208a345461" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="f3b41081-8f36-5a2a-bdc2-a746938faf24" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="603587d3-6180-5113-9236-98bfe3db084d" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="6dd60a31-f875-58f2-8441-5a93a2b4a777" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="f3b41081-8f36-5a2a-bdc2-a746938faf24" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="603587d3-6180-5113-9236-98bfe3db084d" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="6dd60a31-f875-58f2-8441-5a93a2b4a777" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="159adea3-d9b3-5805-8d90-a7b6dd7473cf" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="90fef8f6-84d5-5384-a77d-ef33f34b2a74" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="159adea3-d9b3-5805-8d90-a7b6dd7473cf" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="90fef8f6-84d5-5384-a77d-ef33f34b2a74" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="903dd611-552c-5712-8254-06479b6cb124" name="Filo pequeño" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="dccc6a91-cc83-5f79-bbef-673ff1672d60" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0"/></costs>
+      <categoryLinks><categoryLink id="dccc6a91-cc83-5f79-bbef-673ff1672d60" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0" /></costs>
       <profiles>
         <profile id="91867606-43b1-5882-9b59-859a3a1d13f1" name="Filo pequeño" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
             <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353">1</characteristic>
             <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede">2</characteristic>
-            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9"></characteristic>
-            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e"></characteristic>
+            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9" />
+            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e" />
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup id="ae6b537e-3e62-5f61-82b5-dd6be931b888" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="23cff066-b111-529d-9fe2-fbf179d64b02" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="7826656c-bcb4-56e0-8af1-24a803246716" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="2bf331f0-08a4-533e-88dd-4d54d3938960" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="23cff066-b111-529d-9fe2-fbf179d64b02" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="7826656c-bcb4-56e0-8af1-24a803246716" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="2bf331f0-08a4-533e-88dd-4d54d3938960" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="bf038e5c-5b4f-58de-b53d-73b650bde67e" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="c86b6dd5-f8ff-559b-b303-3438a2e29e29" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="bf038e5c-5b4f-58de-b53d-73b650bde67e" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="c86b6dd5-f8ff-559b-b303-3438a2e29e29" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="d3f4564c-84e8-5d42-a8c0-6abb1c4d4727" name="Lanza" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="401f13ea-6c0d-5e3e-b327-aaa532fe0dc4" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0"/></costs>
+      <categoryLinks><categoryLink id="401f13ea-6c0d-5e3e-b327-aaa532fe0dc4" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0" /></costs>
       <profiles>
         <profile id="1be28ef3-c155-545a-b995-d77845a222fe" name="Lanza" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
             <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353">1</characteristic>
-            <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede"></characteristic>
-            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9"></characteristic>
+            <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede" />
+            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9" />
             <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e">+1 Fuerza y Penetracion por accion de Asalto, No otro arma</characteristic>
           </characteristics>
         </profile>
@@ -300,68 +293,68 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="82f81ad3-33e2-5fbb-9865-c90becb410c6" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="123c1fbe-a6bc-5ad3-8fa6-9cf06feeb26d" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="6514998e-b8b1-55c7-a13b-0a305aae46bb" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="b8d1f141-f5ba-5374-99dd-500b50c490be" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="123c1fbe-a6bc-5ad3-8fa6-9cf06feeb26d" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="6514998e-b8b1-55c7-a13b-0a305aae46bb" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="b8d1f141-f5ba-5374-99dd-500b50c490be" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="f412f90b-4073-5d6c-839c-f9e5cf5c02cc" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="923c4cbe-8fc1-52dd-bd21-7aa551eb1bde" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="f412f90b-4073-5d6c-839c-f9e5cf5c02cc" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="923c4cbe-8fc1-52dd-bd21-7aa551eb1bde" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="12ea2b00-753e-5c26-95df-29400949d9cf" name="Maza" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="fa94b6b8-99f5-56f3-9d3d-8ec8fbcb6827" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0"/></costs>
+      <categoryLinks><categoryLink id="fa94b6b8-99f5-56f3-9d3d-8ec8fbcb6827" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="6.0" /></costs>
       <profiles>
         <profile id="b38e8b9e-e67e-5b70-b8af-57f9dd1f428f" name="Maza" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
             <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353">2</characteristic>
             <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede">1</characteristic>
-            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9"></characteristic>
-            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e"></characteristic>
+            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9" />
+            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e" />
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup id="65043536-77d1-5444-811e-59c5b291b810" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="55e53254-c479-5258-ae5c-7975ed9ef657" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="9ca7ba3c-7b11-5eac-b524-13aa0c29686b" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="a6f5a2e7-92d2-5c0e-ab4f-cc2c6063f479" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="55e53254-c479-5258-ae5c-7975ed9ef657" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="9ca7ba3c-7b11-5eac-b524-13aa0c29686b" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="a6f5a2e7-92d2-5c0e-ab4f-cc2c6063f479" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="e85ec124-a9bc-5747-ae89-f6cd1e15ffe4" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="ba3960f4-cbad-50ea-af42-cb72e7576d5b" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="e85ec124-a9bc-5747-ae89-f6cd1e15ffe4" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="ba3960f4-cbad-50ea-af42-cb72e7576d5b" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="8b07242b-7c35-5647-a56e-59f018d6f2f4" name="Jabalina" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="7d340e38-96d2-5a69-8028-d5e0b4d6e654" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0"/></costs>
+      <categoryLinks><categoryLink id="7d340e38-96d2-5a69-8028-d5e0b4d6e654" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0" /></costs>
       <profiles>
         <profile id="6b127a15-6c5c-5e99-92cc-4e6fc5d90cd1" name="Jabalina" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
             <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353">3/4/2</characteristic>
             <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede">2</characteristic>
             <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9">10/30/40</characteristic>
-            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e"></characteristic>
+            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e" />
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup id="da6428db-9f4d-564f-ac28-470698afd41f" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="6ba3c4aa-2408-59c4-a3cc-a4b80e35e456" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="57eadd94-44fa-5152-8f37-e7bb66997374" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="735a0f8b-8b4a-5e8e-ab1f-4e72a466a488" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="6ba3c4aa-2408-59c4-a3cc-a4b80e35e456" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="57eadd94-44fa-5152-8f37-e7bb66997374" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="735a0f8b-8b4a-5e8e-ab1f-4e72a466a488" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="eeb332d3-e753-5136-8844-24a00e99923b" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="b38df73a-e7e6-5674-b01e-8a9a26609530" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="eeb332d3-e753-5136-8844-24a00e99923b" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="b38df73a-e7e6-5674-b01e-8a9a26609530" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="2e30cfb1-b7a0-5a58-b709-2c6f12eb2c59" name="Arco" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="307484c5-b163-5603-b135-40dbd8b26e0d" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0"/></costs>
+      <categoryLinks><categoryLink id="307484c5-b163-5603-b135-40dbd8b26e0d" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0" /></costs>
       <profiles>
         <profile id="f9fa50ac-14b0-5445-9d1a-b945c45cc6fe" name="Arco" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
@@ -375,49 +368,49 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="ed60a45c-49ff-508e-be3f-e3ee08b3f998" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="633ab2d6-c784-5ea2-a898-997db24bdbe4" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="0f929155-024b-5b21-b31e-89917fa807dc" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="2858e427-7956-5bff-95d4-8d78539d38f7" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="633ab2d6-c784-5ea2-a898-997db24bdbe4" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="0f929155-024b-5b21-b31e-89917fa807dc" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="2858e427-7956-5bff-95d4-8d78539d38f7" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="9b820bfe-0438-53f1-9ad2-5925fa4b3645" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="21e14517-520b-5391-94b2-00981efe0ecc" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="9b820bfe-0438-53f1-9ad2-5925fa4b3645" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="21e14517-520b-5391-94b2-00981efe0ecc" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="b2f94c90-4d4d-5ce9-9fb9-dfbc0e9f5e67" name="Mandíbulas" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="6f06ed3b-4b53-50ee-90e5-7dbfd2821bee" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="4.0"/></costs>
+      <categoryLinks><categoryLink id="6f06ed3b-4b53-50ee-90e5-7dbfd2821bee" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="4.0" /></costs>
       <profiles>
         <profile id="ace2e4df-5ed9-535a-b5a6-a336f51188ce" name="Mandíbulas" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
             <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353">1</characteristic>
             <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede">1</characteristic>
-            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9"></characteristic>
-            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e"></characteristic>
+            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9" />
+            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e" />
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup id="522d6cc7-64d2-5013-a87a-98870ac80c4b" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="f13f23ca-c015-526b-bed0-ac83ba4640c3" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="a8b53d98-6628-5d28-800f-a5064be569e0" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="38170a2a-3011-55e7-add4-51e5de09a3c2" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="f13f23ca-c015-526b-bed0-ac83ba4640c3" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="a8b53d98-6628-5d28-800f-a5064be569e0" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="38170a2a-3011-55e7-add4-51e5de09a3c2" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="92a12e32-c677-5598-a347-fdb86f57e2dd" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="4e5aa23b-f294-5310-a85a-22fd5a9533aa" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="92a12e32-c677-5598-a347-fdb86f57e2dd" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="4e5aa23b-f294-5310-a85a-22fd5a9533aa" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="639f0a00-2bf1-56d8-8c36-d5dcefa3858e" name="Maza pesada" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="60ada87b-d24d-57e9-aa04-6ff8eac30408" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0"/></costs>
+      <categoryLinks><categoryLink id="60ada87b-d24d-57e9-aa04-6ff8eac30408" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0" /></costs>
       <profiles>
         <profile id="31e4b3e4-e4a4-57ce-856a-cab3f9213efa" name="Maza pesada" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
             <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353">4</characteristic>
             <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede">2</characteristic>
-            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9"></characteristic>
+            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9" />
             <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e">Ni otro arma ni escudo</characteristic>
           </characteristics>
         </profile>
@@ -425,24 +418,24 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="5ac54431-cc49-5a56-b3e3-0a0cc9a9a120" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="c3c4198b-2d70-5d4f-bf9d-3bbff1b9ba55" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="bdd71a09-6ab6-535b-a6b1-997c5019c65c" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="a30b3fea-7f62-5738-b1ff-f3da94b1939f" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="c3c4198b-2d70-5d4f-bf9d-3bbff1b9ba55" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="bdd71a09-6ab6-535b-a6b1-997c5019c65c" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="a30b3fea-7f62-5738-b1ff-f3da94b1939f" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="0626f97b-2222-5eab-840a-8b1613b9e27b" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="158a3699-31ff-5039-999f-f9f0a4206c90" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="0626f97b-2222-5eab-840a-8b1613b9e27b" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="158a3699-31ff-5039-999f-f9f0a4206c90" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="490ffd47-8a88-5f56-87c2-047aa1fea926" name="Filo pesado" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="364328c1-7573-5830-8d6a-76bd2fcc7b3a" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0"/></costs>
+      <categoryLinks><categoryLink id="364328c1-7573-5830-8d6a-76bd2fcc7b3a" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0" /></costs>
       <profiles>
         <profile id="f0883bf1-9ad1-537a-bb12-b0db11e66458" name="Filo pesado" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
             <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353">3</characteristic>
             <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede">4</characteristic>
-            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9"></characteristic>
+            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9" />
             <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e">-1 Agilidad, Ni otro arma ni escudo</characteristic>
           </characteristics>
         </profile>
@@ -450,262 +443,262 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="8c461d39-42af-5ba4-b4c2-331e1702f640" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="4c8474b4-4a05-5ec8-88f1-79d20d440de0" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="47ed7804-1603-5783-a639-a41e889fd71e" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="55a8b967-4ec6-5d9f-8904-5fd7f7b0f5c4" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="4c8474b4-4a05-5ec8-88f1-79d20d440de0" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="47ed7804-1603-5783-a639-a41e889fd71e" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="55a8b967-4ec6-5d9f-8904-5fd7f7b0f5c4" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="9d7bf6dd-5045-5c28-b09f-1f25bf6ee704" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="993ce23f-f89e-56f5-80e3-7ab60cf04ccb" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="9d7bf6dd-5045-5c28-b09f-1f25bf6ee704" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="993ce23f-f89e-56f5-80e3-7ab60cf04ccb" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry id="fb3f2566-181f-5708-b85e-bbcba2282cc7" name="Filo medio" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="482d609e-4fe5-5f30-84ae-b481e98ba822" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="12.0"/></costs>
+      <categoryLinks><categoryLink id="482d609e-4fe5-5f30-84ae-b481e98ba822" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="12.0" /></costs>
       <profiles>
         <profile id="66ca2fca-e35a-581e-90cd-2ffbc0f211e5" name="Filo medio" hidden="false" typeId="1fbf623c-3069-512b-9aaa-e4439d5e9c78">
           <characteristics>
             <characteristic name="Fuerza" typeId="857ddf0a-52c3-5ae2-a99e-fa4b28169353">2</characteristic>
             <characteristic name="Penetración" typeId="19ee0400-ac64-524a-9dfe-46a5d5e0bede">3</characteristic>
-            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9"></characteristic>
-            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e"></characteristic>
+            <characteristic name="Alcance" typeId="7b935bfb-aee2-5e69-9888-cab0fd306af9" />
+            <characteristic name="Reglas" typeId="3899f2c4-c7b1-58df-9fba-637b8586530e" />
           </characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
         <selectionEntryGroup id="549c7bcb-10d8-57ae-970f-ee5bcbd43ce8" name="Material" hidden="false">
           <entryLinks>
-            <entryLink id="324fb153-a57a-5022-8d68-75ab2b7b8794" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry"/><entryLink id="88e8e6d0-fb76-59b0-80a3-f0a56917c670" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry"/><entryLink id="d0af9ec4-743d-5fe6-9ac9-40a17e689755" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry"/>
+            <entryLink id="324fb153-a57a-5022-8d68-75ab2b7b8794" name="Hueso-piedra" hidden="false" targetId="5f01da5d-463a-59c2-b9c3-441505bca51b" type="selectionEntry" /><entryLink id="88e8e6d0-fb76-59b0-80a3-f0a56917c670" name="Hierro" hidden="false" targetId="152cefd1-3233-5d36-8498-f4e250a2eea9" type="selectionEntry" /><entryLink id="d0af9ec4-743d-5fe6-9ac9-40a17e689755" name="Acero" hidden="false" targetId="c67ee193-3b64-5a5d-a399-a248cfe6edc5" type="selectionEntry" />
           </entryLinks>
           <constraints>
-            <constraint id="2ccc1863-af83-5920-b386-a42572ebaa26" type="min" value="1.0" field="selections" scope="parent"/>
-            <constraint id="00d784a1-ce6a-5a4a-9c66-d7ab8a55b65b" type="max" value="1.0" field="selections" scope="parent"/>
+            <constraint id="2ccc1863-af83-5920-b386-a42572ebaa26" type="min" value="1.0" field="selections" scope="parent" />
+            <constraint id="00d784a1-ce6a-5a4a-9c66-d7ab8a55b65b" type="max" value="1.0" field="selections" scope="parent" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
     
     <selectionEntry id="ea142133-e94a-5488-8449-f52ad0d3ae31" name="Ropas/Pieles" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="e17e0e5e-6449-5ab0-8345-fbe1cf8e5f10" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="e17e0e5e-6449-5ab0-8345-fbe1cf8e5f10" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="a6ebad11-25aa-537e-b29b-58df2304b37e" name="Ropas/Pieles"><description>Blindaje 2</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="515ee353-b1c9-5f5f-b000-689e436ae812" name="Huesos/Pellejos" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="4e36bbf7-b7f4-5841-8846-9af6852816b3" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="4e36bbf7-b7f4-5841-8846-9af6852816b3" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="2a09b70c-ba50-5163-8d73-2312cf15312e" name="Huesos/Pellejos"><description>Blindaje 3</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="0424428f-b5d6-5ba3-941c-cee2cc519145" name="Cuero/Escamas" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="00c97a23-fd16-5dd7-a414-c3a0d568c278" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="00c97a23-fd16-5dd7-a414-c3a0d568c278" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="545eea35-dee8-54e8-8f6e-4045e0f7d2ca" name="Cuero/Escamas"><description>Blindaje 4</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="6cee4601-3d6a-5324-9199-ec4653a95ee9" name="Escudo" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="a1a0fc3f-009b-5349-a5c3-1781e0946782" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="a1a0fc3f-009b-5349-a5c3-1781e0946782" name="Equipo de la banda" hidden="false" targetId="9a994c26-7687-51a4-bce9-fe4c495bd79a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
       <rules><rule id="707ae865-3f09-529a-a0d9-3ea633ecf751" name="Escudo"><description>+2 Blindaje en CaC, -1 Combate (si se usa). Cobertura +2 vs disparos.</description></rule></rules>
     </selectionEntry>
     
     <selectionEntry id="f77377be-a748-56e0-b021-911fee8cd33f" name="ALAS" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="d716ee85-7a38-5d07-83a0-3c9bb14afbdc" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0"/></costs>
-      <rules><rule id="5caf3b2d-6d35-5289-a449-5598f64a20a9" name="ALAS"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="d716ee85-7a38-5d07-83a0-3c9bb14afbdc" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0" /></costs>
+      <rules><rule id="5caf3b2d-6d35-5289-a449-5598f64a20a9" name="ALAS"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="196aa1b9-48ec-5807-99f0-9fbebe99888c" name="ALIENTO" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="174a7c41-78f0-5d65-9ae7-4729c71c194d" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0"/></costs>
-      <rules><rule id="4abee203-cf61-5dda-b1a0-0517be2d64c7" name="ALIENTO"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="174a7c41-78f0-5d65-9ae7-4729c71c194d" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0" /></costs>
+      <rules><rule id="4abee203-cf61-5dda-b1a0-0517be2d64c7" name="ALIENTO"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="99f7f358-e7a9-503f-bcd3-1e44fd160cda" name="ASPECTO ATROZ" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="b7dad0e2-8fdc-53a4-9425-1b43cca1cc50" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="12.0"/></costs>
-      <rules><rule id="2e3c2e0c-645a-50cc-bcd4-b362a98a1202" name="ASPECTO ATROZ"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="b7dad0e2-8fdc-53a4-9425-1b43cca1cc50" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="12.0" /></costs>
+      <rules><rule id="2e3c2e0c-645a-50cc-bcd4-b362a98a1202" name="ASPECTO ATROZ"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="8b9d51f8-41e7-5970-8bca-d0998346d280" name="BRUTAL" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="fb86e5de-f7ee-5f86-9a8a-e70604479c95" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0"/></costs>
-      <rules><rule id="88b86753-8572-5b78-831d-0e768892a391" name="BRUTAL"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="fb86e5de-f7ee-5f86-9a8a-e70604479c95" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0" /></costs>
+      <rules><rule id="88b86753-8572-5b78-831d-0e768892a391" name="BRUTAL"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="eb5d358e-a8f4-5aab-991f-43fe17e87a6e" name="CHUPASANGRES" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="4d35a593-1381-5026-91f4-54980d62651f" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
-      <rules><rule id="a3b46d95-97eb-5b37-b27b-a7de93e51d82" name="CHUPASANGRES"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="4d35a593-1381-5026-91f4-54980d62651f" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
+      <rules><rule id="a3b46d95-97eb-5b37-b27b-a7de93e51d82" name="CHUPASANGRES"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="77f067c3-2e1a-5ac1-85f2-139972d3d017" name="CONSTRICTORA" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="1378c69d-b1ab-53e6-9958-9463cb0746f4" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
-      <rules><rule id="86c7b62f-6e72-5882-89ce-bd88b98d7110" name="CONSTRICTORA"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="1378c69d-b1ab-53e6-9958-9463cb0746f4" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
+      <rules><rule id="86c7b62f-6e72-5882-89ce-bd88b98d7110" name="CONSTRICTORA"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="bb9d2d50-30ba-5a48-923c-691b79cf243c" name="FIRME" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="b03b3bb9-3dc3-5c16-bdbb-1bb62d1b72bc" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
-      <rules><rule id="2be8780c-9d81-51ed-94f8-35380b6c5d11" name="FIRME"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="b03b3bb9-3dc3-5c16-bdbb-1bb62d1b72bc" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
+      <rules><rule id="2be8780c-9d81-51ed-94f8-35380b6c5d11" name="FIRME"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="6d070cf6-f2ec-5122-aff1-ab2f90f7cb28" name="MONTURA" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="d7491a84-aae1-507b-889b-0432f77da706" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
-      <rules><rule id="f062ced0-6500-59a7-a169-ed775f99cf18" name="MONTURA"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="d7491a84-aae1-507b-889b-0432f77da706" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
+      <rules><rule id="f062ced0-6500-59a7-a169-ed775f99cf18" name="MONTURA"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="2b8d3dbd-6daf-5da2-9d4f-6d47667fa3cc" name="MÚLTIPLES CABEZAS" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="71ba8312-2381-5c96-84e6-8023f4b3153c" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
-      <rules><rule id="99474e89-0315-53db-b1a1-03ab0cb8c197" name="MÚLTIPLES CABEZAS"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="71ba8312-2381-5c96-84e6-8023f4b3153c" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
+      <rules><rule id="99474e89-0315-53db-b1a1-03ab0cb8c197" name="MÚLTIPLES CABEZAS"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="3364c6dd-63a6-5361-93cf-0a4108ff89b6" name="TREPADORA" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="43f39774-202f-56ec-92eb-a0039815f42a" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
-      <rules><rule id="d792a5f5-07ac-572b-8817-61a362ab9dca" name="TREPADORA"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="43f39774-202f-56ec-92eb-a0039815f42a" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
+      <rules><rule id="d792a5f5-07ac-572b-8817-61a362ab9dca" name="TREPADORA"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="ba21d573-9d62-5619-8fe5-cf77c2771701" name="VELOZ" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="6a354b06-ea9b-5203-97d2-f936911da8de" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0"/></costs>
-      <rules><rule id="889e1557-efd0-5e65-ae8f-8da13b6f35c1" name="VELOZ"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="6a354b06-ea9b-5203-97d2-f936911da8de" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0" /></costs>
+      <rules><rule id="889e1557-efd0-5e65-ae8f-8da13b6f35c1" name="VELOZ"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="dfabad4a-fc56-52d2-9134-2649351ceff1" name="VENENO" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="109cbb14-839d-54d7-9c71-53efcad4de7e" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
-      <rules><rule id="acfff30a-282b-54f4-b862-e5e095f8d8c7" name="VENENO"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="109cbb14-839d-54d7-9c71-53efcad4de7e" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
+      <rules><rule id="acfff30a-282b-54f4-b862-e5e095f8d8c7" name="VENENO"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="b45297d3-26b7-5a5b-b77d-a41756a7f8a2" name="CRUEL" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="ff39dab3-9944-5fca-994d-1e07ae9effa1" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0"/></costs>
-      <rules><rule id="651a466b-b0ab-5b6c-a984-78c91e4a98fb" name="CRUEL"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="ff39dab3-9944-5fca-994d-1e07ae9effa1" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0" /></costs>
+      <rules><rule id="651a466b-b0ab-5b6c-a984-78c91e4a98fb" name="CRUEL"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="552a59c7-bf3d-5759-a4c2-852d3cb2636d" name="IMPÁVIDO" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="3e131825-a8ef-53d0-bba8-2273bc9fcc95" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0"/></costs>
-      <rules><rule id="128c2763-d367-518f-ab79-a9ea8c31a2a6" name="IMPÁVIDO"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="3e131825-a8ef-53d0-bba8-2273bc9fcc95" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0" /></costs>
+      <rules><rule id="128c2763-d367-518f-ab79-a9ea8c31a2a6" name="IMPÁVIDO"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="76149879-8feb-51ed-bf58-c2aecfef5123" name="INICIADO" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="ab775e61-724c-563e-b1ad-4e22a7f24ac6" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0"/></costs>
-      <rules><rule id="a73008c2-716c-5ebf-9f27-3572efbeb07c" name="INICIADO"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="ab775e61-724c-563e-b1ad-4e22a7f24ac6" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="8.0" /></costs>
+      <rules><rule id="a73008c2-716c-5ebf-9f27-3572efbeb07c" name="INICIADO"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="2bddd43e-a41d-56fa-b55e-83b41da12ec2" name="INSPIRADOR" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="9ed343f2-9023-5073-841b-3f8748ef0675" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0"/></costs>
-      <rules><rule id="f70dcbe9-cf14-5231-bd4b-ddc0852573c1" name="INSPIRADOR"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="9ed343f2-9023-5073-841b-3f8748ef0675" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0" /></costs>
+      <rules><rule id="f70dcbe9-cf14-5231-bd4b-ddc0852573c1" name="INSPIRADOR"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="77e8c375-f15d-51e1-ba6a-a2ba809ae400" name="INSTINTO DE SUPERVIVENCIA" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="29f19253-0a39-5f16-bf77-de1ec27a5ecb" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
-      <rules><rule id="a3870b4b-387c-544b-965b-0b01f117b3e9" name="INSTINTO DE SUPERVIVENCIA"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="29f19253-0a39-5f16-bf77-de1ec27a5ecb" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
+      <rules><rule id="a3870b4b-387c-544b-965b-0b01f117b3e9" name="INSTINTO DE SUPERVIVENCIA"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="bffb1151-7d0b-5ae4-a621-8509ca6ac39e" name="MONTADO" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="f7b3af58-548d-55d0-baef-6888c54b852e" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0"/></costs>
-      <rules><rule id="4672fdd8-92bf-5b62-8284-48af6a32cbe7" name="MONTADO"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="f7b3af58-548d-55d0-baef-6888c54b852e" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0" /></costs>
+      <rules><rule id="4672fdd8-92bf-5b62-8284-48af6a32cbe7" name="MONTADO"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="bdc8ce23-28b8-5ca8-8473-e9cc6c77c300" name="OBSTINADO" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="4f9d00a8-7e3c-530f-a6fa-8ab7a223391c" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
-      <rules><rule id="0b67ce0e-d9cc-52f2-a067-4115e36fffc9" name="OBSTINADO"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="4f9d00a8-7e3c-530f-a6fa-8ab7a223391c" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
+      <rules><rule id="0b67ce0e-d9cc-52f2-a067-4115e36fffc9" name="OBSTINADO"><description /></rule></rules>
     </selectionEntry>
     <selectionEntry id="e9519a4b-d3d9-598c-8cd1-750c724ccf2e" name="PIEL CURTIDA" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="ecc1d018-643d-5ae7-a36d-e3b3c84e8ed3" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="18.0"/></costs>
+      <categoryLinks><categoryLink id="ecc1d018-643d-5ae7-a36d-e3b3c84e8ed3" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="18.0" /></costs>
       <rules><rule id="2415263e-976a-5b0a-9f13-4bff45ead755" name="PIEL CURTIDA"><description>+2 Blindaje (se acumula con equipo).</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="eddab97a-2e15-5725-aedd-da9ac06136c4" name="PRESENCIA IMPONENTE" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="5886e8a1-4f3c-563e-83e6-cf9f4c9c7c9a" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0"/></costs>
+      <categoryLinks><categoryLink id="5886e8a1-4f3c-563e-83e6-cf9f4c9c7c9a" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="15.0" /></costs>
       <rules><rule id="f00a293a-dfa6-5582-a691-d12ff302cf25" name="PRESENCIA IMPONENTE"><description>Enemigos a 10 cm o menos: 1 complicación a Disparo y Combate.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="1c45aa33-b683-5c6a-ad40-0f443795c151" name="RESISTENTE" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="99cf235e-cf3f-52b8-9205-143591a098e4" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0"/></costs>
+      <categoryLinks><categoryLink id="99cf235e-cf3f-52b8-9205-143591a098e4" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0" /></costs>
       <rules><rule id="5588da3e-3b4b-5435-b3ec-e4efd2d6ea0f" name="RESISTENTE"><description>+1 Dureza.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="bd00115e-d64e-5d44-b558-8986d7a8f4d6" name="SALVAJE" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="40fe84f5-1b0a-5630-8d0a-fe0c05fa6f96" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0"/></costs>
+      <categoryLinks><categoryLink id="40fe84f5-1b0a-5630-8d0a-fe0c05fa6f96" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0" /></costs>
       <rules><rule id="0a49067a-76cf-50a5-a633-1a38982e89a6" name="SALVAJE"><description>Puede completar su activación tras ser Abatido; al final queda baja definitiva si es último turno o es Abatido de nuevo. No genera PD en su siguiente activación tras ser Abatido.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="7792b08d-1d16-5520-922b-d7c4ffeded23" name="TESTARUDO" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="fd6e6011-c69f-5e55-985f-c64040f16a9e" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0"/></costs>
+      <categoryLinks><categoryLink id="fd6e6011-c69f-5e55-985f-c64040f16a9e" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="5.0" /></costs>
       <rules><rule id="0af106a8-4f1a-54cd-ba7a-1b8a7156dd32" name="TESTARUDO"><description>Si saca 1 en tirada enfrentada de Combate, puede repetirla.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="f7cc27a5-5010-50c2-b8e9-6034a24297e5" name="ÁGIL" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="9affee26-7abf-5955-ae67-a72cb28d9ae8" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0"/></costs>
-      <rules><rule id="82bdd3ce-39fc-5490-a772-75b6e5d8b773" name="ÁGIL"><description></description></rule></rules>
+      <categoryLinks><categoryLink id="9affee26-7abf-5955-ae67-a72cb28d9ae8" name="Mejoras" hidden="false" targetId="4cc4d2fa-f187-5bf6-9832-7eb0f91e497a" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="10.0" /></costs>
+      <rules><rule id="82bdd3ce-39fc-5490-a772-75b6e5d8b773" name="ÁGIL"><description /></rule></rules>
     </selectionEntry>
     
     <selectionEntry id="6dfcd1c8-c3eb-50b6-841e-ce41b0fa3759" name="Abrasar (fuego) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="5f347630-b489-5d45-ac90-114275bbb3de" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="1.0"/></costs>
+      <categoryLinks><categoryLink id="5f347630-b489-5d45-ac90-114275bbb3de" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="1.0" /></costs>
       <rules><rule id="1c19da29-64a6-52e7-b6a3-63583bbc7028" name="Abrasar (fuego)"><description>Fuente: Elementos, PD: 1.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="72082961-da98-582d-ba3f-1b36d7e71821" name="Ráfaga (aire) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="977f3769-cb49-53d8-9311-d73217e56411" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="1.0"/></costs>
+      <categoryLinks><categoryLink id="977f3769-cb49-53d8-9311-d73217e56411" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="1.0" /></costs>
       <rules><rule id="541945c6-559d-5f25-bc9a-1594c9240b5a" name="Ráfaga (aire)"><description>Fuente: Elementos, PD: 1.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="59481c05-cc39-5d06-afee-23afbd0e04b6" name="Sudario de llamas (fuego) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="e9cc43be-5ef1-59a8-86f0-406c4c64ceef" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="1.0"/></costs>
+      <categoryLinks><categoryLink id="e9cc43be-5ef1-59a8-86f0-406c4c64ceef" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="1.0" /></costs>
       <rules><rule id="3c91c7b3-4f2a-5540-98de-4b71dc083a99" name="Sudario de llamas (fuego)"><description>Fuente: Elementos, PD: 1.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="a18c4f98-53c8-5a94-84cb-a024e3b55531" name="Torbellino (aire) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="5909ed4c-e4ea-5c0f-a408-7c6ab75d18e6" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="1.0"/></costs>
+      <categoryLinks><categoryLink id="5909ed4c-e4ea-5c0f-a408-7c6ab75d18e6" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="1.0" /></costs>
       <rules><rule id="9ee67aaa-ecd5-5b3c-aa5b-4fc557d83b66" name="Torbellino (aire)"><description>Fuente: Elementos, PD: 1.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="42cb25b6-5042-5f6b-ba7c-72b42c7faf86" name="Asfixiar (aire) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="9c1054b0-7b7d-58b1-a0b7-901f3d6eff68" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0"/></costs>
+      <categoryLinks><categoryLink id="9c1054b0-7b7d-58b1-a0b7-901f3d6eff68" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0" /></costs>
       <rules><rule id="b2c7485c-0753-556d-be4d-0da429d8bf68" name="Asfixiar (aire)"><description>Fuente: Elementos, PD: 2.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="31c4f30e-1f43-516c-97c9-450a57819fad" name="Escarcha (agua) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="49600fbd-0980-5a39-90f6-942a2f5d310e" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0"/></costs>
+      <categoryLinks><categoryLink id="49600fbd-0980-5a39-90f6-942a2f5d310e" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0" /></costs>
       <rules><rule id="c271e44e-e206-554e-8d50-71f582951b4b" name="Escarcha (agua)"><description>Fuente: Elementos, PD: 2.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="fd264c65-52e6-511a-add2-193e0c52e0c8" name="Piel pétrea (tierra) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="c584572b-068f-5d8c-97c1-bfe1f52976ae" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0"/></costs>
+      <categoryLinks><categoryLink id="c584572b-068f-5d8c-97c1-bfe1f52976ae" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0" /></costs>
       <rules><rule id="3b913bd7-5210-5c39-82c6-ed941553953a" name="Piel pétrea (tierra)"><description>Fuente: Elementos, PD: 2.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="c0170e9a-54c3-56a7-b69c-a12e5d8752d8" name="Proyectil ígneo (fuego) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="566d54b1-50c1-588d-9e5e-91a9fe0cb85b" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0"/></costs>
+      <categoryLinks><categoryLink id="566d54b1-50c1-588d-9e5e-91a9fe0cb85b" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0" /></costs>
       <rules><rule id="0dbefa32-f6ef-543e-9804-3881d0ca2752" name="Proyectil ígneo (fuego)"><description>Fuente: Elementos, PD: 2.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="564380f8-1a3b-50ef-8150-b5c6f0a506e3" name="Vuelo (aire) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="ee4f8855-d29d-5e4f-bddb-1f33abd19000" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0"/></costs>
+      <categoryLinks><categoryLink id="ee4f8855-d29d-5e4f-bddb-1f33abd19000" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0" /></costs>
       <rules><rule id="88af5735-82f0-5663-a2e5-8d7dbe41ec63" name="Vuelo (aire)"><description>Fuente: Elementos, PD: 2.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="056f73bb-dc67-56a3-ad5c-646924ba15b2" name="Explosión (fuego) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="e256542c-d145-5e11-ad89-f4dbbeff5e3b" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="3.0"/></costs>
+      <categoryLinks><categoryLink id="e256542c-d145-5e11-ad89-f4dbbeff5e3b" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="3.0" /></costs>
       <rules><rule id="a4cd3a5c-9af4-5e1b-b98b-694e55985702" name="Explosión (fuego)"><description>Fuente: Elementos, PD: 3.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="28fefe73-21f6-5840-9cf8-3f9dec885326" name="Tsunami (agua) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="afb72341-994a-5b31-bf03-887631527899" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="3.0"/></costs>
+      <categoryLinks><categoryLink id="afb72341-994a-5b31-bf03-887631527899" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="3.0" /></costs>
       <rules><rule id="78452114-539e-5622-99c7-2ceeb73f9044" name="Tsunami (agua)"><description>Fuente: Elementos, PD: 3.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="87870c06-b94f-51c9-8d47-aaa579002149" name="Terremoto (tierra) (Elementos)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="98c6cb36-95d6-50ca-9ba0-03e02e959e3b" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="3.0"/></costs>
+      <categoryLinks><categoryLink id="98c6cb36-95d6-50ca-9ba0-03e02e959e3b" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="3.0" /></costs>
       <rules><rule id="1b74b41e-b496-5ff8-8dd7-67f38c19cc61" name="Terremoto (tierra)"><description>Fuente: Elementos, PD: 3.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="9485b3fb-f754-5eb6-9743-73b8eb64622a" name="Alas negras (Sombras)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="9d0f644b-6616-5663-b34d-9ec5e9a3aef2" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0"/></costs>
+      <categoryLinks><categoryLink id="9d0f644b-6616-5663-b34d-9ec5e9a3aef2" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="2.0" /></costs>
       <rules><rule id="84ec53f4-c239-5298-bbdd-bac3e5ef56d1" name="Alas negras"><description>Fuente: Sombras, PD: 2.0.</description></rule></rules>
     </selectionEntry>
     <selectionEntry id="835f25cd-1798-530f-82a3-efe64a95d697" name="Doble sombrío (Sombras)" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="a3419dfa-2598-5946-97cb-6cd1d3647248" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="3.0"/></costs>
+      <categoryLinks><categoryLink id="a3419dfa-2598-5946-97cb-6cd1d3647248" name="Hechizos" hidden="false" targetId="b526b9d2-e114-5c74-9a5e-ef0c7ed844bd" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /><cost name="PD" costTypeId="ba090b93-20ac-5119-a422-8afa565fbb1a" value="3.0" /></costs>
       <rules><rule id="17af93f8-c2d4-528d-9ca3-7a7f91f240f5" name="Doble sombrío"><description>Fuente: Sombras, PD: 3.0.</description></rule></rules>
     </selectionEntry>
     
     <selectionEntry id="10f4cd46-b581-5297-8057-534baaa4377a" name="Es el Líder" type="upgrade" hidden="false">
-      <categoryLinks><categoryLink id="5818862f-6329-5563-bac0-1a923d3f3f40" name="Líder" hidden="false" targetId="36d9f929-1520-51e5-bb4c-32d94dd7e108" primary="false"/></categoryLinks>
-      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0"/></costs>
+      <categoryLinks><categoryLink id="5818862f-6329-5563-bac0-1a923d3f3f40" name="Líder" hidden="false" targetId="36d9f929-1520-51e5-bb4c-32d94dd7e108" primary="false" /></categoryLinks>
+      <costs><cost name="pts" costTypeId="df4f4ed1-2175-54a6-af75-826d7dcb0491" value="0.0" /></costs>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
