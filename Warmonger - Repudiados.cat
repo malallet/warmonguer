@@ -407,95 +407,95 @@ Puntos de Destino:
     
     <selectionEntry id="3228-f57e-d4a6-575b" name="ALAS" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
-      <rules><rule id="2985-4edf-1558-5906" name="ALAS"><description /></rule></rules>
+      <rules><rule id="c9f00460-37e2-4242-bb90-c3309d016e06" name="ALAS"><description>Del cuerpo de la Criatura salen unas alas. Puede usar su Movimiento de manera tridimensional (en cualquier dirección si la escenografía lo permite), pero debe finalizar posándose donde pueda estar de pie. Ignora Terreno difícil y abrupto y puede atravesar Terreno impasable.</description></rule></rules>
     <constraints><constraint id="3218-8fe9-cf66-527b" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="5f8b-c7ed-f7f6-5a67" name="ALIENTO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
-      <rules><rule id="765d-a533-0c91-5f5f" name="ALIENTO"><description /></rule></rules>
+      <rules><rule id="47eb2837-19d6-4b8d-b927-dfdd9b8da820" name="ALIENTO"><description>La Criatura puede gastar 1 Acción (coste 3 PD) para realizar un ataque a distancia con plantilla de lágrima desde el centro del borde delantero de la peana. Todo lo tocado resulta Impactado: Fuerza 4, Penetración 3. Si se usa en Turno N, no puede volver a usarse hasta el Turno N+2.</description></rule></rules>
     <constraints><constraint id="27bc-e7c0-f1b0-5e3a" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="d51f-d04c-2d22-5ce3" name="ASPECTO ATROZ" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></costs>
-      <rules><rule id="1f7b-4b86-548c-5b3d" name="ASPECTO ATROZ"><description /></rule></rules>
+      <rules><rule id="fc71c2fc-1502-486a-9133-7994f842138b" name="ASPECTO ATROZ"><description>Si una miniatura quiere Asaltar a esta Criatura, debe superar antes una tirada de Coraje o será incapaz de hacerlo (podrá realizar otra Acción en su lugar).</description></rule></rules>
     <constraints><constraint id="5053-df2c-270e-5262" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="fb57-39fc-9a76-53f6" name="BRUTAL" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></costs>
-      <rules><rule id="73aa-b1e0-3691-5654" name="BRUTAL"><description /></rule></rules>
+      <rules><rule id="47c8ef87-9d23-49e3-b5bd-15e649fedbf3" name="BRUTAL"><description>Si la Criatura Abate a una miniatura enemiga, generará 2 marcadores de Pavor en los enemigos en lugar de 1.</description></rule></rules>
     <constraints><constraint id="5b97-54bf-33ac-5ad9" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="f3ce-9b26-b6d5-550f" name="CHUPASANGRES" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
-      <rules><rule id="60c0-e01b-db08-53d6" name="CHUPASANGRES"><description /></rule></rules>
+      <rules><rule id="42f45237-10c0-4b90-b17c-ca56cfb7dc11" name="CHUPASANGRES"><description>Cuando esta Criatura Abata a una miniatura rival en cuerpo a cuerpo, su banda ganará 1 PD extra durante ese Turno de juego.</description></rule></rules>
     <constraints><constraint id="b2f0-3946-de91-5ba4" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="c0b8-eb41-24ed-5eef" name="CONSTRICTORA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
-      <rules><rule id="4280-e795-4f1f-519f" name="CONSTRICTORA"><description /></rule></rules>
+      <rules><rule id="2f75d612-ac81-47f7-8850-2d264d1155af" name="CONSTRICTORA"><description>Puede gastar 1 PD adicional cuando vaya a Combatir y la miniatura enemiga contará con 1 complicación al Combate.</description></rule></rules>
     <constraints><constraint id="ac5d-7c43-18f2-5853" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="81b6-6e74-3005-5f68" name="FIRME" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
-      <rules><rule id="7393-4017-261f-51dc" name="FIRME"><description /></rule></rules>
+      <rules><rule id="00908605-6e4c-4ee7-81e1-2ce5ae42289b" name="FIRME"><description>Considera Terreno difícil como Terreno normal y Terreno abrupto como Terreno difícil.</description></rule></rules>
     <constraints><constraint id="1482-910a-e1b7-5837" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="036e-1174-bf7b-5569" name="MONTURA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
-      <rules><rule id="71ce-d0c4-16b1-561a" name="MONTURA"><description /></rule><rule id="45123db1-1fd3-4457-879e-f4521b67395c" name="Montura"><description>Permite equipar a la Criatura con ciertas armas/equipo marcados con * (p. ej. Lanza/Maza/Filo medio y Escudo).</description></rule></rules>
+      <rules><rule id="f5fe7cc7-cf35-4513-9cb0-86f18572fc9c" name="MONTURA"><description>La Criatura lleva incluido un jinete o quieres que pueda usar armas. Podrá utilizar las armas/equipo marcados con * de su equipo. Esta mejora puede repetirse.</description></rule></rules>
     <constraints><constraint id="533d6b72-b6a5-4854-8f69-c870fb541215" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="acfd-c059-e4bd-5fa8" name="MÚLTIPLES CABEZAS" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
-      <rules><rule id="8333-a584-0061-5ab3" name="MÚLTIPLES CABEZAS"><description /></rule></rules>
+      <rules><rule id="293631d6-650b-481d-b519-6594b489d85a" name="MÚLTIPLES CABEZAS"><description>La Línea de visión de la miniatura se considera de 360º.</description></rule></rules>
     <constraints><constraint id="e64b-8ba9-d5c3-5b29" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="a299-24e2-c968-5dea" name="TREPADORA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
-      <rules><rule id="57bb-08ae-6956-564c" name="TREPADORA"><description /></rule></rules>
+      <rules><rule id="84c6e288-ec00-4d8a-941a-b5b6f5ef88e0" name="TREPADORA"><description>Ignora la regla que no le permite escalar superficies verticales.</description></rule></rules>
     <constraints><constraint id="ae55-fa66-3c80-57dd" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="5d4a-0747-6919-54a5" name="VELOZ" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
-      <rules><rule id="3105-f7e7-fb04-5418" name="VELOZ"><description /></rule></rules>
+      <rules><rule id="bb56d97f-0588-4450-b3a0-2b739d1f130c" name="VELOZ"><description>Mueve 15 cm en lugar de los 10 cm habituales.</description></rule></rules>
     <constraints><constraint id="8fb5-35ad-0f10-57bf" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="15e8-df67-22c1-5096" name="VENENO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
-      <rules><rule id="2f55-cc6b-d39d-506e" name="VENENO"><description /></rule></rules>
+      <rules><rule id="ec5fe165-4a82-44a6-ab25-8cfdac38d295" name="VENENO"><description>Si está equipada con garras o mandíbulas, cuando Impacta con ellas a un enemigo, este podrá sufrir daño de Veneno incluso tras superar su tirada de Dureza. En su Fase de activación posterior, antes de realizar Acciones, debe superar una tirada enfrentada de Dureza contra Fuerza 3 o resultará Abatida.</description></rule></rules>
     <constraints><constraint id="3906-5ad1-65a6-5451" type="max" value="1" field="selections" scope="parent" /></constraints></selectionEntry>
     <selectionEntry id="f586-48b0-d44f-58c9" name="CRUEL" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
-      <rules><rule id="84d2-f536-f042-503d" name="CRUEL"><description /></rule></rules>
+      <rules><rule id="7939847f-accb-4886-a179-74fb27613a80" name="CRUEL"><description>El Héroe destaca por su extrema crueldad. Si Abate a una miniatura enemiga, generará 2 marcadores de Pavor en los enemigos en lugar de 1.</description></rule></rules>
     <constraints><constraint id="35c4-a254-4534-5ec9" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="20d5-077e-733c-5ab8" name="IMPÁVIDO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
-      <rules><rule id="fd61-5b34-8b8d-5273" name="IMPÁVIDO"><description /></rule></rules>
+      <rules><rule id="073e28c4-71a1-4f7b-9637-c79a3ac9631c" name="IMPÁVIDO"><description>El Héroe no se deja amedrentar de ninguna manera. No se retirará de la mesa cuando los marcadores de Pavor igualen al doble de su Coraje.</description></rule></rules>
     <constraints><constraint id="5a91-19e9-3255-5c5e" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="9397-d513-fbb4-579e" name="INICIADO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></costs>
-      <rules><rule id="7e95-c1cf-c07e-547d" name="INICIADO"><description /></rule></rules>
+      <rules><rule id="a6d45b7c-1e4a-4c4d-81a3-5fb0abe38ffb" name="INICIADO"><description>El Héroe conoce hasta cierto punto los caminos de la Hechicería y puede elegir un Hechizo de nivel 1 de las Fuentes de Hechicería disponibles normalmente para los Hechiceros de su banda.</description></rule></rules>
     <constraints><constraint id="25e9-057f-02dd-5a24" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="6f8c-ff5f-20dd-5b91" name="INSPIRADOR" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
-      <rules><rule id="2034-701c-e522-54ac" name="INSPIRADOR"><description /></rule></rules>
+      <rules><rule id="0774048c-e5fd-43b8-93bf-8bcf6cd8f5a6" name="INSPIRADOR"><description>El Héroe es una fuente de inspiración para sus compañeros. Cuando Abata una miniatura enemiga, todas las miniaturas aliadas en un radio de 15 cm retirarán un marcador de Pavor.</description></rule></rules>
     <constraints><constraint id="d020-5e9d-0f0c-56fd" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="861f-338b-2aaf-5c6f" name="INSTINTO DE SUPERVIVENCIA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
-      <rules><rule id="e923-eefa-97e3-5820" name="INSTINTO DE SUPERVIVENCIA"><description /></rule></rules>
+      <rules><rule id="7e595cdc-93c6-44f8-b8d2-a0c404c05276" name="INSTINTO DE SUPERVIVENCIA"><description>El Héroe hace lo necesario para poder sobrevivir. Si una miniatura aliada es Abatida en un radio de 10 cm, ganará 1 ventaja no acumulable a las tiradas donde use su Dureza (ya sean de Atributo o enfrentadas). Esta ventaja se agota al usarse, pero podrá volver a adquirirse.</description></rule></rules>
     <constraints><constraint id="ca8c-7935-1605-55bf" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="85e9-91b3-6793-5fc4" name="MONTADO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
-      <rules><rule id="0f22-bc19-9f1c-548d" name="MONTADO"><description /></rule></rules>
+      <rules><rule id="4e2c9d16-454e-4008-a04f-5182fd9baf35" name="MONTADO"><description>El Héroe cabalga una montura. Mueve 15 cm en lugar de 10 cm, pero es incapaz de escalar superficies verticales (ni por escalerilla) y de Rapiñar un cadáver.</description></rule></rules>
     <constraints><constraint id="e3a1-b2c2-6b20-53c4" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="83d3-58cd-1a23-55ad" name="OBSTINADO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
-      <rules><rule id="22dd-8ddb-a680-56fd" name="OBSTINADO"><description /></rule></rules>
+      <rules><rule id="32bc7109-0890-4a91-b9dc-30169bdff20f" name="OBSTINADO"><description>El Héroe está curtido frente a los horrores de las Tierras Impías. No sufrirá la complicación causada cuando los marcadores de Pavor igualen o superen a su Coraje.</description></rule></rules>
     <constraints><constraint id="18c9-c273-abbd-5c79" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="b526-2432-1be4-53aa" name="PIEL CURTIDA" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="18.0" /></costs>
-      <rules><rule id="f48acf6a-d086-41ca-8bbb-07a2de00d77b" name="PIEL CURTIDA"><description>+2 Blindaje (se acumula con equipo).</description></rule></rules>
+      <rules><rule id="22070979-326e-4eda-b684-c3384d0fac7b" name="PIEL CURTIDA"><description>El Héroe tiene una piel extremadamente dura. Obtiene un +2 al Blindaje que se acumula con el equipo.</description></rule></rules>
     <constraints><constraint id="e9b2-a760-2359-5a2d" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="c245-a0d6-7e1f-57da" name="PRESENCIA IMPONENTE" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
-      <rules><rule id="7e56d5f8-22de-473e-bf95-882c6482b1fb" name="PRESENCIA IMPONENTE"><description>Enemigos a 10 cm o menos: 1 complicación a Disparo y Combate.</description></rule></rules>
+      <rules><rule id="92906bc3-e921-4ec8-93c9-b33f6359d032" name="PRESENCIA IMPONENTE"><description>Las miniaturas enemigas a 10 cm o menos del Héroe sufren 1 complicación a todas sus tiradas de Disparo y Combate.</description></rule></rules>
     <constraints><constraint id="6e6d-582e-f30b-5595" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="8739-f720-e4ce-5687" name="RESISTENTE" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
-      <rules><rule id="a05a2209-26fb-4ae0-b27c-039fa643cbb5" name="RESISTENTE"><description>+1 Dureza.</description></rule></rules>
+      <rules><rule id="880ae694-7cc3-4fe9-9cd2-7137456a40e9" name="RESISTENTE"><description>El Héroe tiene un aguante extraordinario ante los azares del combate. Obtiene un +1 a su Atributo de Dureza.</description></rule></rules>
     <constraints><constraint id="8675-82d2-3d3f-5c8a" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="07be-fca7-d174-5c22" name="SALVAJE" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
-      <rules><rule id="715a612a-52a2-4a4e-a84e-7ec0c0819865" name="SALVAJE"><description>Puede completar su activación tras ser Abatido; al final queda baja definitiva si es último turno o es Abatido de nuevo. No genera PD en su siguiente activación tras ser Abatido.</description></rule></rules>
+      <rules><rule id="41ce7fb3-d714-46c4-aea8-8bc8b3473e63" name="SALVAJE"><description>El Héroe ignora heridas que derribarían a otros. Puede completar su Fase de activación propia tras resultar Abatido. Al final de esa Fase, si acaba el último Turno o resulta Abatido de nuevo (lo que ocurra antes), se considera baja definitiva. Si su próxima Fase fuese el Turno siguiente a ser Abatido, aunque esté sobre la mesa no generará PD.</description></rule></rules>
     <constraints><constraint id="1712-0792-eeb7-54ab" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="d46a-b039-c2ff-5b37" name="TESTARUDO" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></costs>
@@ -503,7 +503,7 @@ Puntos de Destino:
     <constraints><constraint id="f2e1-6a0c-0b38-572c" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     <selectionEntry id="5736-0c94-34a5-531f" name="ÁGIL" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></costs>
-      <rules><rule id="d785-fce6-6c66-5883" name="ÁGIL"><description /></rule></rules>
+      <rules><rule id="f417125b-c8e5-4347-b324-439fe7ba7a62" name="ÁGIL"><description>El Héroe tiene unos reflejos superiores a la media. Obtiene un +1 a su Atributo de Agilidad.</description></rule></rules>
     <constraints><constraint id="e9e7-fc23-9cbd-5671" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     
     <selectionEntry id="64b6-d49b-49c9-5edb" name="Abrasar (fuego) (Elementos)" type="upgrade" hidden="false">
