@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<index xmlns="http://www.battlescribe.net/schema/dataIndexSchema" name="Warmonger (Community)">
-  <gameSystem id="ca3c-89ca-46a7-5b63" name="Warmonger" revision="1" battleScribeVersion="2.03" filePath="Warmonger.gst"/>
-  <catalogue id="d191-870d-2a00-5b04" name="Warmonger - Repudiados" revision="1" battleScribeVersion="2.03" gameSystemId="ca3c-89ca-46a7-5b63" filePath="Warmonger - Repudiados.cat"/>
-</index>
