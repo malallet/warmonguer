@@ -20,9 +20,7 @@
   <categoryEntries>
     <categoryEntry id="5849b8c0-b1d3-5b6d-ab11-93b33b1e1434" name="Unidad" hidden="false"/>
     <categoryEntry id="6c351d76-d81d-5ad6-9c5e-057c3bcb9a30" name="Líder" hidden="false">
-      <constraints>
-        <constraint id="b246079f-eb54-56fe-9e9b-6f98d128f9f0" type="max" value="1.0" field="selections" scope="roster"/>
-      </constraints>
+      <constraints><constraint id="b246079f-eb54-56fe-9e9b-6f98d128f9f0" type="max" value="1.0" field="selections" scope="roster"/></constraints>
     </categoryEntry>
   </categoryEntries>
 </gameSystem>
