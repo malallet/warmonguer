@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <index xmlns="http://www.battlescribe.net/schema/dataIndexSchema" name="Warmonger (Community)">
-  <repositoryUrl>https://github.com/malallet/warmonguer</repositoryUrl>
-  <gameSystem id="ca3c89ca-46a7-5b63-b90c-27323cc72fec" name="Warmonger" revision="1" battleScribeVersion="2.03" filePath="Warmonger.gst"/>
-  <catalogue id="d191870d-2a00-5b04-82f8-bc7d7a5017e7" name="Warmonger - Repudiados" revision="1" battleScribeVersion="2.03" gameSystemId="ca3c89ca-46a7-5b63-b90c-27323cc72fec" filePath="Warmonger - Repudiados.cat"/>
+  <gameSystem id="ca3c-89ca-46a7-5b63" name="Warmonger" revision="1" battleScribeVersion="2.03" filePath="Warmonger.gst"/>
+  <catalogue id="d191-870d-2a00-5b04" name="Warmonger - Repudiados" revision="1" battleScribeVersion="2.03" gameSystemId="ca3c-89ca-46a7-5b63" filePath="Warmonger - Repudiados.cat"/>
 </index>
