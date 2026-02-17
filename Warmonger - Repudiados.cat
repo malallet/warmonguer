@@ -477,69 +477,69 @@ Puntos de Destino:
       <rules><rule id="f417125b-c8e5-4347-b324-439fe7ba7a62" name="ÁGIL"><description>El Héroe tiene unos reflejos superiores a la media. Obtiene un +1 a su Atributo de Agilidad.</description></rule></rules>
     <constraints><constraint id="e9e7-fc23-9cbd-5671" type="max" value="1" field="selections" scope="roster" /></constraints></selectionEntry>
     
-    <selectionEntry id="64b6-d49b-49c9-5edb" name="Abrasar (fuego) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="64b6-d49b-49c9-5edb" name="Fuego · 1PD · Abrasar" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs>
     <rules><rule id="e64bb932-f6df-408a-a354-a3f373ae40e5" name="Abrasar (fuego)"><description>El Hechicero elige un punto en Línea de visión a una 
 distancia máxima de 45 cm. Coloca la plantilla redonda 
 y todas las miniaturas que toque sufrirán una incómoda 
 sensación ardiente por toda su piel. Los impactados sufrirán 2 
 complicaciones a su siguiente tirada de Combate o Precisión.</description></rule></rules></selectionEntry>
-    <selectionEntry id="2a8d-f3e6-4475-5a7b" name="Ráfaga (aire) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="2a8d-f3e6-4475-5a7b" name="Aire · 1PD · Ráfaga" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs>
     <rules><rule id="9b9777ba-134e-44e0-9edc-8699a70d48f1" name="Ráfaga (aire)"><description>El Hechicero elige a cualquier número de aliados a una 
 distancia máxima de 20 cm. Su siguiente disparo doblará los 
 alcances habituales.</description></rule></rules></selectionEntry>
-    <selectionEntry id="ff2c-7e78-399e-5e69" name="Sudario de llamas (fuego) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="ff2c-7e78-399e-5e69" name="Fuego · 1PD · Sudario de llamas" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs>
     <rules><rule id="ce52c7c3-0926-4d15-927b-bdb3bfa45c8f" name="Sudario de llamas (fuego)"><description>El Hechicero y cualquier miniatura aliada en un radio de 10 
 cm quedan envueltos por un sudario de llamas espectrales. 
 Cualquier miniatura que les Impacte en cuerpo a cuerpo sufrirá 
 un impacto automático de Fuerza 3. El efecto desaparece 
 después de eso para la miniatura impactada.</description></rule></rules></selectionEntry>
-    <selectionEntry id="fe05-18aa-e3b1-5ffa" name="Torbellino (aire) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="fe05-18aa-e3b1-5ffa" name="Aire · 1PD · Torbellino" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs>
     <rules><rule id="a195f951-64fa-48a5-b0f9-37c37018aa84" name="Torbellino (aire)"><description>El Hechicero levanta un torbellino rugiente, sobre él y 
 todas las miniaturas aliadas a 15 cm o menos que impone 
 2 complicaciones a cualquier disparo recibido sobre estas 
 miniaturas hasta que acabe el Turno de juego.</description></rule></rules></selectionEntry>
-    <selectionEntry id="0ca2-826a-f3ed-5d6a" name="Asfixiar (aire) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="0ca2-826a-f3ed-5d6a" name="Aire · 2PD · Asfixiar" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs>
     <rules><rule id="48f40c21-cd84-4f52-9665-97b46e102ed3" name="Asfixiar (aire)"><description>El Hechicero elige a una miniatura enemiga en Línea de 
 visión a una distancia máxima de 40 cm y elimina brevemente 
 el aire a su alrededor para impedirle respirar. El objetivo gana 
 al instante 2 marcadores de Pavor y tendrá 1 complicación a 
 todas sus tiradas durante su siguiente Fase de activación.</description></rule></rules></selectionEntry>
-    <selectionEntry id="55a8-4f07-ea47-510d" name="Escarcha (agua) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="55a8-4f07-ea47-510d" name="Agua · 2PD · Escarcha" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs>
     <rules><rule id="50427f4a-3d26-44a2-b2fe-df3d3c60f96c" name="Escarcha (agua)"><description>El Hechicero elige a un enemigo en Línea de visión a una 
 distancia máxima de 45 cm, y le arroja una granizada de 
 cortantes cristales de hielo. El objetivo sufre un impacto de 
 Fuerza 2 y Penetración 2.</description></rule></rules></selectionEntry>
-    <selectionEntry id="0bfb-60b5-0ad3-50dd" name="Piel pétrea (tierra) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="0bfb-60b5-0ad3-50dd" name="Tierra · 2PD · Piel pétrea" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs>
     <rules><rule id="6ef8c1d3-4e61-42fc-91d6-f7de3c9e9af6" name="Piel pétrea (tierra)"><description>El Hechicero hace que él o una miniatura aliada en Línea 
 de visión a 15 cm o menos adopte el color y la dureza de la 
 piedra. Pasará a tener un +2 a su Blindaje (no acumulable con 
 la mejora Piel curtida).</description></rule></rules></selectionEntry>
-    <selectionEntry id="9250-bebf-cc2d-5ec0" name="Proyectil ígneo (fuego) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="9250-bebf-cc2d-5ec0" name="Fuego · 2PD · Proyectil ígneo" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs>
     <rules><rule id="35874f60-8500-47fb-9599-9d4704586dd4" name="Proyectil ígneo (fuego)"><description>El Hechicero elige a una miniatura enemiga en Línea de 
 visión que no esté en Combate a una distancia máxima de 30 
 cm y le arroja un proyectil ardiente que surge de sus manos. El 
 objetivo sufre un impacto de Fuerza 3 y Penetración 2.</description></rule></rules></selectionEntry>
-    <selectionEntry id="9d4c-0e96-d6aa-5835" name="Vuelo (aire) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="9d4c-0e96-d6aa-5835" name="Aire · 2PD · Vuelo" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs>
     <rules><rule id="30282edf-af82-488b-9b2b-3d7033fb45af" name="Vuelo (aire)"><description>Un manto de viento aparece elevando al Hechicero y 
 moviéndolo por el aire. Podrá avanzar hasta 30 cm ignorando 
 todo tipo de terreno, e incluso moverse en tres dimensiones 
 para alcanzar posiciones elevadas.</description></rule></rules></selectionEntry>
-    <selectionEntry id="c543-00e0-0088-5e6e" name="Explosión (fuego) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="c543-00e0-0088-5e6e" name="Fuego · 3PD · Explosión" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></costs>
     <rules><rule id="c1042eb0-13a2-499d-b50d-8659bbf62a3d" name="Explosión (fuego)"><description>El Hechicero invoca una terrible columna de fuego surgida 
 de su propio cuerpo que causa un impacto de Fuerza 5 y 
 Penetración 2 a todas las miniaturas en un radio de 20 cm de 
 su posición.</description></rule></rules></selectionEntry>
-    <selectionEntry id="d7ca-c156-20d1-5a5d" name="Tsunami (agua) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="d7ca-c156-20d1-5a5d" name="Agua · 3PD · Tsunami" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></costs>
     <rules><rule id="6c260c5f-4434-4cf5-8f73-ca676ea29071" name="Tsunami (agua)"><description>El Hechicero hace aparecer una terrible ola de la nada. Todas 
 las miniaturas en el frontal del Hechicero en una distancia 
@@ -549,7 +549,7 @@ elemento de escenografía sufrirán un Impacto de Fuerza 2 y
 Penetración 1 si es ligero, Fuerza 4 y Penetración 2 si es medio 
 y Fuerza 6 y Penetración 3 si es pesado. Si una miniatura es 
 echada de la mesa se retirará de la partida.</description></rule></rules></selectionEntry>
-    <selectionEntry id="54c3-3c8c-d849-5621" name="Terremoto (tierra) (Elementos)" type="upgrade" hidden="false">
+    <selectionEntry id="54c3-3c8c-d849-5621" name="Tierra · 3PD · Terremoto" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></costs>
     <rules><rule id="0379f5b6-fd68-4d4e-b69c-a757010a3297" name="Terremoto (tierra)"><description>El Hechicero da una poderosa palmada y la tierra se sacude 
 frente a él, haciendo que el suelo se resquebraje y creando 
@@ -569,33 +569,33 @@ esto la grieta desaparece.
 • Acceso a Brujería; sus Hechizos pueden elegirse de Brujería, Elementos, Maldición o Muerte.
 • Siempre conocen Sometimiento (adicional a los 3 Hechizos habituales).
 • No ganan marcadores de Pavor.
-• No conceden puntos de victoria al ser abatidas/sacrificadas/eliminadas: se desvanecen sin dejar marcador de Abatido.</description></rule></rules></selectionEntry><selectionEntry id="4bd0c649-696c-4deb-b98c-d4dc4e7860d6" name="Sometimiento (Brujería)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></costs><rules><rule id="a106f6e6-42ab-4573-9d78-0c138d6bcca2" name="Sometimiento"><description>Solo Bruja (usa X PD)</description></rule></rules></selectionEntry><selectionEntry id="0edfa41b-bbe2-4279-a03f-dd85573794c8" name="Estigma (Maldición)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs><rules><rule id="97eb438c-aa1a-4753-b332-df54e31d3863" name="Estigma"><description>El Hechicero elige un punto en Línea de visión a una distancia 
+• No conceden puntos de victoria al ser abatidas/sacrificadas/eliminadas: se desvanecen sin dejar marcador de Abatido.</description></rule></rules></selectionEntry><selectionEntry id="4bd0c649-696c-4deb-b98c-d4dc4e7860d6" name="Brujería · XPD · Sometimiento" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></costs><rules><rule id="a106f6e6-42ab-4573-9d78-0c138d6bcca2" name="Sometimiento"><description>Solo Bruja (usa X PD)</description></rule></rules></selectionEntry><selectionEntry id="0edfa41b-bbe2-4279-a03f-dd85573794c8" name="Maldición · 1PD · Estigma" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs><rules><rule id="97eb438c-aa1a-4753-b332-df54e31d3863" name="Estigma"><description>El Hechicero elige un punto en Línea de visión a una distancia 
 máxima de 60 cm. Coloca la plantilla redonda y todas las 
 miniaturas que toque quedaran marcadas con un estigma de 
 fatalidad. Los impactados no podrán utilizar ninguna ventaja 
-durante este Turno de juego.</description></rule></rules></selectionEntry><selectionEntry id="d939aedc-ba51-4eaa-b0c1-0cdb3743e854" name="Mal de ojo (Maldición)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs><rules><rule id="7077e229-b008-45cb-ae5b-15d8c029d2a3" name="Mal de ojo"><description>El Hechicero elige un punto en Línea de visión a una distancia 
+durante este Turno de juego.</description></rule></rules></selectionEntry><selectionEntry id="d939aedc-ba51-4eaa-b0c1-0cdb3743e854" name="Maldición · 1PD · Mal de ojo" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs><rules><rule id="7077e229-b008-45cb-ae5b-15d8c029d2a3" name="Mal de ojo"><description>El Hechicero elige un punto en Línea de visión a una distancia 
 máxima de 45 cm. Coloca la plantilla redonda y todas las 
 miniaturas que toque sufrirán las consecuencias de un terrible 
 y funesto mal de ojo. Los impactados tendrán 1 complicación 
-en su siguiente tirada.</description></rule></rules></selectionEntry><selectionEntry id="272c2014-b634-47a9-9672-4747fb4c02d6" name="Blasfemia (Maldición)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs><rules><rule id="a6ed5988-abdf-4ad6-8711-9d597a6bc18a" name="Blasfemia"><description>El Hechicero señala con su dedo y pronuncia una palabra 
+en su siguiente tirada.</description></rule></rules></selectionEntry><selectionEntry id="272c2014-b634-47a9-9672-4747fb4c02d6" name="Maldición · 2PD · Blasfemia" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs><rules><rule id="a6ed5988-abdf-4ad6-8711-9d597a6bc18a" name="Blasfemia"><description>El Hechicero señala con su dedo y pronuncia una palabra 
 impía en un idioma olvidado hace eones. Los aliados en un 
 radio de 30 cm eliminan al instante 2 marcadores de Pavor 
-cada uno.</description></rule></rules></selectionEntry><selectionEntry id="7cdabf5e-e678-4792-96ed-de16581eb5d2" name="Condenación (Maldición)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></costs><rules><rule id="21942b93-a34d-4a44-aed6-c290501b76a5" name="Condenación"><description>El Hechicero elige un punto en Línea de visión a una distancia 
+cada uno.</description></rule></rules></selectionEntry><selectionEntry id="7cdabf5e-e678-4792-96ed-de16581eb5d2" name="Maldición · 3PD · Condenación" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></costs><rules><rule id="21942b93-a34d-4a44-aed6-c290501b76a5" name="Condenación"><description>El Hechicero elige un punto en Línea de visión a una distancia 
 máxima de 45 cm. Coloca la plantilla redonda y todas las 
 miniaturas que toque contemplarán en su mente todas las 
 espantosas muertes que les podrían sobrevenir en este lugar 
 condenado. Los impactados ganarán al instante 3 marcadores 
-de Pavor.NATURALEZA</description></rule></rules></selectionEntry><selectionEntry id="cb89d9e5-c54b-4f54-a5d6-30886f16e66c" name="Energía oscura (Muerte)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs><rules><rule id="8d567329-39ef-41ab-89e8-748b280c156f" name="Energía oscura"><description>El Hechicero elige a un Guerrero o Veterano aliado en un radio 
+de Pavor.NATURALEZA</description></rule></rules></selectionEntry><selectionEntry id="cb89d9e5-c54b-4f54-a5d6-30886f16e66c" name="Muerte · 1PD · Energía oscura" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs><rules><rule id="8d567329-39ef-41ab-89e8-748b280c156f" name="Energía oscura"><description>El Hechicero elige a un Guerrero o Veterano aliado en un radio 
 de 30 cm al que pueda ver, insuflándole de energía macabra. El 
 objetivo podrá realizar inmediatamente una Acción que tuviera 
-un coste de máximo1 PD de manera gratuita.</description></rule></rules></selectionEntry><selectionEntry id="cf90b83a-1891-4675-a063-360c54537329" name="Absorción vital (Muerte)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs><rules><rule id="3a3dfc5d-088d-413a-9194-e014315e05ba" name="Absorción vital"><description>El Hechicero alza las manos y se alimenta de la energía vital 
+un coste de máximo1 PD de manera gratuita.</description></rule></rules></selectionEntry><selectionEntry id="cf90b83a-1891-4675-a063-360c54537329" name="Muerte · 2PD · Absorción vital" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs><rules><rule id="3a3dfc5d-088d-413a-9194-e014315e05ba" name="Absorción vital"><description>El Hechicero alza las manos y se alimenta de la energía vital 
 de sus rivales. Consume 1 PD de la reserva del rival y lo añade 
-a su propia reserva durante este Turno de juego.</description></rule></rules></selectionEntry><selectionEntry id="8863f2b1-4ddd-45f2-83c9-ef4f34310976" name="Ola de muerte (Muerte)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></costs><rules><rule id="b4241530-fa26-4eec-83a6-342240bcd118" name="Ola de muerte"><description>El Hechicero lanza una ola de energía que marchita la 
+a su propia reserva durante este Turno de juego.</description></rule></rules></selectionEntry><selectionEntry id="8863f2b1-4ddd-45f2-83c9-ef4f34310976" name="Muerte · 3PD · Ola de muerte" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></costs><rules><rule id="b4241530-fa26-4eec-83a6-342240bcd118" name="Ola de muerte"><description>El Hechicero lanza una ola de energía que marchita la 
 vida. Todas las miniaturas en un radio de 30 cm que no sean 
 Muertos Vivientes ganarán 3 marcadores de Pavor. Además, 
 deberán superar una tirada de Dureza y si no la superan 
 perderán permanentemente 2 puntos de Dureza.
-56</description></rule></rules></selectionEntry><selectionEntry id="878197ab-f0c1-44db-85dd-deaf63592c88" name="Intercambio (Brujería)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs><rules><rule id="90e98a02-74e2-4fc8-ae3e-55fc5141c964" name="Intercambio"><description>Solo Bruja</description></rule></rules></selectionEntry><selectionEntry id="c8ffde6a-95f0-41a6-a33e-e3da19a9faac" name="Elegido (Brujería)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs><rules><rule id="2a9f82e5-bea2-46b8-9976-eb32bdf4a3f8" name="Elegido"><description>Solo Bruja</description></rule></rules></selectionEntry><selectionEntry id="535a53d7-11a6-4caa-bfb7-3bb0b96e284d" name="Sacrificio (Brujería)" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></costs><rules><rule id="818461bb-66f2-44f0-ad9f-c47c8d0be892" name="Sacrificio"><description>Solo Bruja</description></rule></rules></selectionEntry><selectionEntry id="0531f6da-fa5e-4fa2-92ad-cd140fdee89e" name="Filo pequeño (Piedra)" type="upgrade" hidden="false">
+56</description></rule></rules></selectionEntry><selectionEntry id="878197ab-f0c1-44db-85dd-deaf63592c88" name="Brujería · 1PD · Intercambio" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></costs><rules><rule id="90e98a02-74e2-4fc8-ae3e-55fc5141c964" name="Intercambio"><description>Solo Bruja</description></rule></rules></selectionEntry><selectionEntry id="c8ffde6a-95f0-41a6-a33e-e3da19a9faac" name="Brujería · 2PD · Elegido" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></costs><rules><rule id="2a9f82e5-bea2-46b8-9976-eb32bdf4a3f8" name="Elegido"><description>Solo Bruja</description></rule></rules></selectionEntry><selectionEntry id="535a53d7-11a6-4caa-bfb7-3bb0b96e284d" name="Brujería · 3PD · Sacrificio" type="upgrade" hidden="false"><costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></costs><rules><rule id="818461bb-66f2-44f0-ad9f-c47c8d0be892" name="Sacrificio"><description>Solo Bruja</description></rule></rules></selectionEntry><selectionEntry id="0531f6da-fa5e-4fa2-92ad-cd140fdee89e" name="Filo pequeño (Piedra)" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="3.0" /></costs>
       <profiles>
         <profile id="14e6-46b2-70a8-56d1" name="Filo pequeño" hidden="false" typeId="6d42-1949-1689-5d6c">
