@@ -1,0 +1,872 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:catalogue xmlns:ns0="http://www.battlescribe.net/schema/catalogueSchema" id="281b-d513-8249-dbb8" name="Warmonger – Sjeverni" revision="1" battleScribeVersion="2.03" gameSystemId="e27c-7301-7426-5156" authorName="Carlos" author="Carlos">
+  <ns0:selectionEntries>
+    
+    <ns0:selectionEntry id="5670-d78d-3156-5602" name="Tótem (gratis)" type="upgrade" hidden="false">
+      <ns0:categoryLinks><ns0:categoryLink id="ca26-be24-7325-521c" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /></ns0:categoryLinks>
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="0c98-0144-5d47-5720" name="Tótem"><ns0:description>1 vez por Turno, una miniatura a 15 cm del Tótem propio podrá repetir una tirada. En contacto: Acción gastando 2 PD para reverenciarlo y perderá 2 marcadores de Pavor.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="19d3bc86-6fdc-4064-b9d4-9aadf2357795" type="min" value="1" field="selections" scope="roster" /><ns0:constraint id="d6b5ddc1-a836-46d9-ad8a-ea638f82dd28" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    
+    <ns0:selectionEntry id="ac46-6a49-8404-5f18" name="Guerrero" type="model" import="true" hidden="false">
+      <ns0:categoryLinks>
+        <ns0:categoryLink id="aff1-31e1-f7f7-5e9c" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" primary="true" />
+        <ns0:categoryLink id="b875-ebb5-3e29-59a7" name="Banda: Repudiados" hidden="false" targetId="59e0-30f8-b40a-5e4a" primary="false" />
+      </ns0:categoryLinks>
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="201e-738c-fa0d-5437" name="Guerrero" hidden="false" typeId="e97e-3b36-64f9-5f19">
+          <ns0:characteristics><ns0:characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">3</ns0:characteristic><ns0:characteristic name="Combate" typeId="29cd-abc5-a63d-544c">3</ns0:characteristic><ns0:characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">3</ns0:characteristic><ns0:characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</ns0:characteristic><ns0:characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</ns0:characteristic><ns0:characteristic name="Coraje" typeId="305e-ca72-b153-5716">3</ns0:characteristic><ns0:characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">1</ns0:characteristic></ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+      <ns0:selectionEntryGroups>
+        <ns0:selectionEntryGroup id="08df-dd38-ce63-59e0" name="Armas" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="e776c9a1-8431-4303-b088-e86720eed102" import="true" name="Garras" hidden="false" type="selectionEntry" targetId="8655-afee-b105-58d2" /><ns0:entryLink id="b961165f-053b-4fd3-9fbf-cd04a29d13cf" import="true" name="Cerbatana" hidden="false" type="selectionEntry" targetId="de91-8e4d-0f4f-5223" /><ns0:entryLink id="bfc1c46f-3a81-40ab-a9d0-3e137a6f26ee" import="true" name="Arco" hidden="false" type="selectionEntry" targetId="b682-d8fc-6807-5b45" /><ns0:entryLink id="28b41f50-73d6-4ebd-8cca-3911364d211b" import="true" name="Filo pequeño (Piedra)" hidden="false" type="selectionEntry" targetId="0531f6da-fa5e-4fa2-92ad-cd140fdee89e" /><ns0:entryLink id="0b189af2-8501-4e82-a6b4-3ebd959f8407" import="true" name="Filo pequeño (Hierro)" hidden="false" type="selectionEntry" targetId="3cc1-ee98-65da-52b8" /><ns0:entryLink id="96a48b1a-df3f-4616-a563-bcbd77a1c5ab" import="true" name="Filo pequeño (Acero)" hidden="false" type="selectionEntry" targetId="bb26acb4-d941-403a-a8b0-6cdd4f59de12" /><ns0:entryLink id="e16e7b02-5788-47f9-8a52-44b9ad878fc1" import="true" name="Lanza (Piedra)" hidden="false" type="selectionEntry" targetId="cbd1ff55-4337-4599-a984-9201e4613f9d" /><ns0:entryLink id="b5575057-e730-4d57-8b76-110da84d22a7" import="true" name="Lanza (Hierro)" hidden="false" type="selectionEntry" targetId="05d7-8aa6-c77b-5458" /><ns0:entryLink id="210fd2ac-b116-42cc-9b8f-874789b78d26" import="true" name="Lanza (Acero)" hidden="false" type="selectionEntry" targetId="2850a5f3-41d0-4d83-afcf-30122775e72e" /><ns0:entryLink id="53a02b6a-355c-4852-9d09-b069629313ff" import="true" name="Maza (Piedra)" hidden="false" type="selectionEntry" targetId="337e8eee-37d0-487b-8a0a-78b071b97e3c" /><ns0:entryLink id="2b991bdf-28fb-4bf4-a5c3-7151687a4825" import="true" name="Maza (Hierro)" hidden="false" type="selectionEntry" targetId="8b68-f6e7-c03c-5b24" /><ns0:entryLink id="a3e2cdc7-b7d8-418d-820f-df18c9c3b73f" import="true" name="Maza (Acero)" hidden="false" type="selectionEntry" targetId="23652566-2cb6-4ce4-a820-f6a3f2f3fda1" /><ns0:entryLink id="3299b30d-6e38-4f9d-b5ac-4bbdd8e12f10" import="true" name="Jabalina (Piedra)" hidden="false" type="selectionEntry" targetId="feedbbe4-1ae1-4f4e-9521-afb7fa6d5e18" /><ns0:entryLink id="8a09691e-7fa5-450f-8e1d-7f79c45cb87a" import="true" name="Jabalina (Hierro)" hidden="false" type="selectionEntry" targetId="7e01-b408-5b45-50db" /><ns0:entryLink id="b9cde3c6-6d12-48fe-a74a-8d4964a49c48" import="true" name="Jabalina (Acero)" hidden="false" type="selectionEntry" targetId="18366058-f35f-4d70-9582-59109d0b7498" /></ns0:entryLinks>
+          
+        <ns0:constraints><ns0:constraint id="d351be5a-6bf1-452c-85a7-ba4bad6f0289" type="min" value="0" field="selections" scope="parent" /><ns0:constraint id="2f6b5a11-caf8-4a27-a8ce-d16891bb1954" type="max" value="2" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="e864-109c-76b6-5b70" name="Armadura/Equipo" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="d15f125a-8374-4602-8ae1-196dfcfcf77f" import="true" name="Ropas/Pieles" hidden="false" type="selectionEntry" targetId="bad4-89cb-00fe-5b64" /><ns0:entryLink id="4591a59b-0ece-4434-8295-2fd2102c3cd1" import="true" name="Huesos/Pellejos" hidden="false" type="selectionEntry" targetId="f4c7-9326-444e-58dc" /><ns0:entryLink id="0fea8eb9-3148-43f4-aa50-ccd2c9b8d77f" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece" /><ns0:entryLink id="d83e3b6c-4883-4603-821d-14e04ee3602f" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0" /></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="5e0e-8d8b-0add-5d7e" name="Líder" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="0488-ce5e-2ae7-5131" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true" /></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        
+        
+      </ns0:selectionEntryGroups>
+    <ns0:rules><ns0:rule id="303f194d-ca27-4631-a156-b1f9162ca2a8" name="Reglas de Guerrero"><ns0:description>Solo los Guerreros (y el Líder) pueden controlar o interaccionar con los objetivos, salvo que el escenario indique lo contrario. Genera 1 PD en lugar de 2.</ns0:description></ns0:rule><ns0:rule id="ef1a5acc-d044-4115-b9d4-08765b1b0345" name="Generación de PD"><ns0:description>Genera 1 Punto de Destino (PD) por Turno en lugar de los 2 habituales.</ns0:description></ns0:rule><ns0:rule id="a8a9e8bd-5980-42b6-895b-3532b429bfce" name="Armas obligatorias"><ns0:description>Debes seleccionar al menos 1 arma (y un máximo de 2 si aplica). New Recruit puede no autoseleccionar armas; revisa este requisito.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="487f-167f-0aab-5a17" name="Veterano" type="model" import="true" hidden="false">
+      <ns0:categoryLinks>
+        <ns0:categoryLink id="7ef2-c290-5827-5515" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" primary="true" />
+        <ns0:categoryLink id="6056-91aa-1489-5bbb" name="Banda: Repudiados" hidden="false" targetId="59e0-30f8-b40a-5e4a" primary="false" />
+      </ns0:categoryLinks>
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="25.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="482a-0e00-8f54-5eb7" name="Veterano" hidden="false" typeId="e97e-3b36-64f9-5f19">
+          <ns0:characteristics><ns0:characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">4</ns0:characteristic><ns0:characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</ns0:characteristic><ns0:characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</ns0:characteristic><ns0:characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</ns0:characteristic><ns0:characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</ns0:characteristic><ns0:characteristic name="Coraje" typeId="305e-ca72-b153-5716">4</ns0:characteristic><ns0:characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</ns0:characteristic></ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+      <ns0:selectionEntryGroups>
+        <ns0:selectionEntryGroup id="3cbb-3669-2cee-5714" name="Armas" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="1ab7b2ed-859f-4692-9c4f-bb7805f79884" import="true" name="Garras" hidden="false" type="selectionEntry" targetId="8655-afee-b105-58d2" /><ns0:entryLink id="4482755f-670e-4b7b-8329-464a853ac97c" import="true" name="Arco" hidden="false" type="selectionEntry" targetId="b682-d8fc-6807-5b45" /><ns0:entryLink id="31403e6f-186e-4225-a00b-7d82cbe989cc" import="true" name="Filo pequeño (Piedra)" hidden="false" type="selectionEntry" targetId="0531f6da-fa5e-4fa2-92ad-cd140fdee89e" /><ns0:entryLink id="bb8ac2fd-a836-4134-880e-b747e759a534" import="true" name="Filo pequeño (Hierro)" hidden="false" type="selectionEntry" targetId="3cc1-ee98-65da-52b8" /><ns0:entryLink id="f74db418-471d-49c8-9a5c-f8340c05f8fc" import="true" name="Filo pequeño (Acero)" hidden="false" type="selectionEntry" targetId="bb26acb4-d941-403a-a8b0-6cdd4f59de12" /><ns0:entryLink id="25eca79d-5e7f-4782-9dff-86ab32484b1d" import="true" name="Lanza (Piedra)" hidden="false" type="selectionEntry" targetId="cbd1ff55-4337-4599-a984-9201e4613f9d" /><ns0:entryLink id="59702689-1cd4-44e7-8fe3-91541a110989" import="true" name="Lanza (Hierro)" hidden="false" type="selectionEntry" targetId="05d7-8aa6-c77b-5458" /><ns0:entryLink id="2d89c08b-3926-462f-ae37-6c9154e8e70e" import="true" name="Lanza (Acero)" hidden="false" type="selectionEntry" targetId="2850a5f3-41d0-4d83-afcf-30122775e72e" /><ns0:entryLink id="037ead26-6d37-4034-9d08-fc4a32ba0afe" import="true" name="Maza (Piedra)" hidden="false" type="selectionEntry" targetId="337e8eee-37d0-487b-8a0a-78b071b97e3c" /><ns0:entryLink id="113141e6-48c0-4c1e-8462-c9f4c294cf4b" import="true" name="Maza (Hierro)" hidden="false" type="selectionEntry" targetId="8b68-f6e7-c03c-5b24" /><ns0:entryLink id="8fc1f83f-1ac2-439d-b4d0-8bc2ad5926a0" import="true" name="Maza (Acero)" hidden="false" type="selectionEntry" targetId="23652566-2cb6-4ce4-a820-f6a3f2f3fda1" /><ns0:entryLink id="83f760f4-714d-42e4-8131-f7375f5139fd" import="true" name="Maza pesada (Piedra)" hidden="false" type="selectionEntry" targetId="5c9e615c-bc05-4301-b125-7d8c38041cf0" /><ns0:entryLink id="b2606137-f666-4ad8-8915-3a7b186ac6e3" import="true" name="Maza pesada (Hierro)" hidden="false" type="selectionEntry" targetId="9110-bb10-b58c-504a" /><ns0:entryLink id="6ac2e3af-266b-43ad-853f-08a6dcd14d1b" import="true" name="Maza pesada (Acero)" hidden="false" type="selectionEntry" targetId="c7d155b8-2a69-4cbb-8cde-a31907db0265" /><ns0:entryLink id="a214939d-3169-4f9f-a70c-67123d2f85f1" import="true" name="Jabalina (Piedra)" hidden="false" type="selectionEntry" targetId="feedbbe4-1ae1-4f4e-9521-afb7fa6d5e18" /><ns0:entryLink id="30e3cbc1-9391-4f43-9021-fa21bee419bd" import="true" name="Jabalina (Hierro)" hidden="false" type="selectionEntry" targetId="7e01-b408-5b45-50db" /><ns0:entryLink id="9c9dfa38-7efa-469c-8cb2-082e23a73103" import="true" name="Jabalina (Acero)" hidden="false" type="selectionEntry" targetId="18366058-f35f-4d70-9582-59109d0b7498" /><ns0:entryLink id="3b208d3a-ef52-4cbc-99a5-516b2d32a5f4" import="true" name="Filo pesado (Piedra)" hidden="false" type="selectionEntry" targetId="4803a1d5-f839-4608-8e83-1d5b477404fd" /><ns0:entryLink id="3f2360f5-6217-4a24-a0ca-0ec27b64abb8" import="true" name="Filo pesado (Hierro)" hidden="false" type="selectionEntry" targetId="3eaf-647f-39c9-5fd2" /><ns0:entryLink id="2968339a-678b-443e-b02d-0773d350d38a" import="true" name="Filo pesado (Acero)" hidden="false" type="selectionEntry" targetId="1ca31066-844d-4c6f-b41c-1784ef55c6bc" /><ns0:entryLink id="7f927423-bc73-4af6-9c46-35356ba57505" import="true" name="Filo medio (Piedra)" hidden="false" type="selectionEntry" targetId="abe13683-a8eb-4be6-bfca-df4053680f83" /><ns0:entryLink id="7d7d3563-db5c-4f3d-965f-99be1fe3a30a" import="true" name="Filo medio (Hierro)" hidden="false" type="selectionEntry" targetId="b642-629c-b0d7-537b" /><ns0:entryLink id="3dc4d55e-b106-4843-b963-93673f8a50a4" import="true" name="Filo medio (Acero)" hidden="false" type="selectionEntry" targetId="6d82fafa-b4c9-4854-891c-b8777844ab64" /></ns0:entryLinks>
+          
+        <ns0:constraints><ns0:constraint id="99b0492d-4b62-4996-8354-865f845e7c6d" type="min" value="0" field="selections" scope="parent" /><ns0:constraint id="aeae4385-815e-42ce-bde4-20551aed7c99" type="max" value="2" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="0329-0d9e-d721-50d9" name="Armadura/Equipo" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="113b9c27-3a9e-4345-a9a6-f6a0bd1e8ada" import="true" name="Ropas/Pieles" hidden="false" type="selectionEntry" targetId="bad4-89cb-00fe-5b64" /><ns0:entryLink id="a652f9da-ded9-4182-a88c-a3f3428dad25" import="true" name="Huesos/Pellejos" hidden="false" type="selectionEntry" targetId="f4c7-9326-444e-58dc" /><ns0:entryLink id="b57038aa-41e9-47d5-9f05-aa5431bd46ff" import="true" name="Cuero/Escamas" hidden="false" type="selectionEntry" targetId="75d3-5693-f0ac-5a2e" /><ns0:entryLink id="3a417e59-b7ca-4dc1-868a-7cbb134a3d72" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece" /><ns0:entryLink id="6125bf7d-a0a4-46be-adf2-78abe19d407b" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0" /></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="4a95-47da-4d32-5e63" name="Líder" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="d8f4-1375-5c75-5dc9" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true" /></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        
+        
+      </ns0:selectionEntryGroups>
+    <ns0:rules><ns0:rule id="f325466c-b354-4ca1-a20e-f76a13f7fa70" name="Armas obligatorias"><ns0:description>Debes seleccionar al menos 1 arma (y un máximo de 2 si aplica). New Recruit puede no autoseleccionar armas; revisa este requisito.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="61e1-09c7-9215-56d1" name="Criatura" type="model" import="true" hidden="false">
+      <ns0:categoryLinks>
+        <ns0:categoryLink id="840e-d49e-3401-5587" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" primary="true" />
+        <ns0:categoryLink id="bbb5-b595-0150-5e32" name="Banda: Repudiados" hidden="false" targetId="59e0-30f8-b40a-5e4a" primary="false" />
+      </ns0:categoryLinks>
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="40.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="4479-d047-9935-56aa" name="Criatura" hidden="false" typeId="e97e-3b36-64f9-5f19">
+          <ns0:characteristics><ns0:characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</ns0:characteristic><ns0:characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</ns0:characteristic><ns0:characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</ns0:characteristic><ns0:characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">5</ns0:characteristic><ns0:characteristic name="Dureza" typeId="abac-eacb-0211-52eb">5</ns0:characteristic><ns0:characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</ns0:characteristic><ns0:characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</ns0:characteristic></ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+      <ns0:selectionEntryGroups>
+        <ns0:selectionEntryGroup id="5cef-1cc8-d35b-53ea" name="Armas" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="df5b3ac2-5c84-4a3c-b1ba-b9541b9499e0" import="true" name="Garra" hidden="false" type="selectionEntry" targetId="8655-afee-b105-58d2" /><ns0:entryLink id="8ff7dc1e-0200-4641-b45d-67b95094dbcd" import="true" name="Mandíbulas" hidden="false" type="selectionEntry" targetId="e8c6-3b94-89eb-5f2c" /></ns0:entryLinks>
+          
+          <ns0:constraints><ns0:constraint id="91971964-618d-4f5c-a28f-a73b40da9678" type="min" value="0" field="selections" scope="parent" /><ns0:constraint id="a4e49d96-5006-49bd-915e-1176702afc0e" type="max" value="2" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="9aab-38b6-eb59-5df4" name="Armadura/Equipo" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="338387b2-5662-41f6-a545-82ed33fc86b9" import="true" name="Ropas/Pieles" hidden="false" type="selectionEntry" targetId="bad4-89cb-00fe-5b64" /><ns0:entryLink id="72fa8430-be61-4e7e-88dd-e11ceb0f80d9" import="true" name="Huesos/Pellejos" hidden="false" type="selectionEntry" targetId="f4c7-9326-444e-58dc" /><ns0:entryLink id="3d742404-05b1-465d-bd2f-98d508490820" import="true" name="Cuero/Escamas" hidden="false" type="selectionEntry" targetId="75d3-5693-f0ac-5a2e" /><ns0:entryLink id="9405819e-bf20-4e7e-9bab-cb555a28dc3f" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0" /></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="a193-82fe-de8c-5a8f" name="Líder" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="d100-8f6b-0167-5483" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true" /></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        
+        
+      <ns0:selectionEntryGroup id="bc8b-996c-6048-50b3" name="Mejoras" hidden="false"><ns0:entryLinks><ns0:entryLink id="84b2-138d-1eee-557b" name="ALAS" hidden="false" targetId="3228-f57e-d4a6-575b" type="selectionEntry" import="true" /><ns0:entryLink id="6157-62ad-29f5-5516" name="ALIENTO" hidden="false" targetId="5f8b-c7ed-f7f6-5a67" type="selectionEntry" import="true" /><ns0:entryLink id="5347-b4ec-a841-5b61" name="ASPECTO ATROZ" hidden="false" targetId="d51f-d04c-2d22-5ce3" type="selectionEntry" import="true" /><ns0:entryLink id="375a-2e92-9f8c-52d2" name="BRUTAL" hidden="false" targetId="fb57-39fc-9a76-53f6" type="selectionEntry" import="true" /><ns0:entryLink id="3ea2-7db8-b362-5f55" name="CHUPASANGRES" hidden="false" targetId="f3ce-9b26-b6d5-550f" type="selectionEntry" import="true" /><ns0:entryLink id="1dd8-0596-d990-5503" name="CONSTRICTORA" hidden="false" targetId="c0b8-eb41-24ed-5eef" type="selectionEntry" import="true" /><ns0:entryLink id="f9ce-86f9-b4da-5f89" name="FIRME" hidden="false" targetId="81b6-6e74-3005-5f68" type="selectionEntry" import="true" /><ns0:entryLink id="5a60-c3ba-dcc0-5a57" name="MONTURA" hidden="false" targetId="036e-1174-bf7b-5569" type="selectionEntry" import="true" /><ns0:entryLink id="375e-f79a-c09b-510b" name="MÚLTIPLES CABEZAS" hidden="false" targetId="acfd-c059-e4bd-5fa8" type="selectionEntry" import="true" /><ns0:entryLink id="aa11-826c-7940-5578" name="TREPADORA" hidden="false" targetId="a299-24e2-c968-5dea" type="selectionEntry" import="true" /><ns0:entryLink id="12f5-5b07-8b15-5fdb" name="VELOZ" hidden="false" targetId="5d4a-0747-6919-54a5" type="selectionEntry" import="true" /><ns0:entryLink id="69cf-1004-f399-55e5" name="VENENO" hidden="false" targetId="15e8-df67-22c1-5096" type="selectionEntry" import="true" /></ns0:entryLinks></ns0:selectionEntryGroup><ns0:selectionEntryGroup id="67fab6d4-9e9b-4251-82fc-8dd65d4f3e23" name="Armas (Montura)" hidden="true"><ns0:entryLinks><ns0:entryLink id="f514a7e3-1457-432d-b090-1b2c7e7692c3" import="true" name="Maza (Piedra)" hidden="false" type="selectionEntry" targetId="337e8eee-37d0-487b-8a0a-78b071b97e3c" /><ns0:entryLink id="f4564d62-622f-4607-9266-4d47929dce0b" import="true" name="Maza (Hierro)" hidden="false" type="selectionEntry" targetId="8b68-f6e7-c03c-5b24" /><ns0:entryLink id="278cfa30-828e-4b8a-885e-3ac791bc8960" import="true" name="Maza (Acero)" hidden="false" type="selectionEntry" targetId="23652566-2cb6-4ce4-a820-f6a3f2f3fda1" /><ns0:entryLink id="280a3b25-49dd-4ce6-b934-0738913dda3e" import="true" name="Filo medio (Piedra)" hidden="false" type="selectionEntry" targetId="abe13683-a8eb-4be6-bfca-df4053680f83" /><ns0:entryLink id="d354bb6d-eaec-4f53-918d-6ab2bcde101d" import="true" name="Filo medio (Hierro)" hidden="false" type="selectionEntry" targetId="b642-629c-b0d7-537b" /><ns0:entryLink id="ec11097f-886d-44f7-80bb-2f5820ad6437" import="true" name="Filo medio (Acero)" hidden="false" type="selectionEntry" targetId="6d82fafa-b4c9-4854-891c-b8777844ab64" /><ns0:entryLink id="1342f8f4-7e03-4b30-9166-1029de54a317" import="true" name="Lanza (Piedra)" hidden="false" type="selectionEntry" targetId="cbd1ff55-4337-4599-a984-9201e4613f9d" /><ns0:entryLink id="6f600446-bed2-4038-8163-fe01a14487e9" import="true" name="Lanza (Hierro)" hidden="false" type="selectionEntry" targetId="05d7-8aa6-c77b-5458" /><ns0:entryLink id="cb13dab1-3e1c-4966-a378-4864615c403a" import="true" name="Lanza (Acero)" hidden="false" type="selectionEntry" targetId="2850a5f3-41d0-4d83-afcf-30122775e72e" /></ns0:entryLinks><ns0:modifiers><ns0:modifier type="set" field="hidden" value="false"><ns0:conditions><ns0:condition type="atLeast" value="1" field="selections" scope="parent" childId="036e-1174-bf7b-5569" shared="true" includeChildSelections="true" includeChildForces="true" /></ns0:conditions></ns0:modifier></ns0:modifiers><ns0:constraints><ns0:constraint id="fd912452-15be-40e4-a375-55a70e52bc8f" type="max" value="2" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup><ns0:selectionEntryGroup id="d28b0fd4-5f7f-448c-a41a-d52d5a77674b" name="Equipo (Montura)" hidden="true"><ns0:entryLinks><ns0:entryLink id="fa3d8de4-afe0-41d2-9c28-2e4f63a9c7a4" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece" /></ns0:entryLinks><ns0:modifiers><ns0:modifier type="set" field="hidden" value="false"><ns0:conditions><ns0:condition type="atLeast" value="1" field="selections" scope="parent" childId="036e-1174-bf7b-5569" shared="true" includeChildSelections="true" includeChildForces="true" /></ns0:conditions></ns0:modifier></ns0:modifiers></ns0:selectionEntryGroup></ns0:selectionEntryGroups>
+    <ns0:rules><ns0:rule id="0cbd7c6e-b4af-4864-bbfc-4fe91e0b8626" name="Límite de armas (Criatura)"><ns0:description>Debe llevar al menos 1 arma y un máximo de 2 en total (sumando ambos grupos).</ns0:description></ns0:rule><ns0:rule id="40f4e8a5-823d-4115-899f-21b94351080c" name="Armas obligatorias"><ns0:description>Debes seleccionar al menos 1 arma (y un máximo de 2 si aplica). New Recruit puede no autoseleccionar armas; revisa este requisito.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="e725-aceb-fbc3-5f9c" name="Héroe" type="model" import="true" hidden="false">
+      <ns0:categoryLinks>
+        <ns0:categoryLink id="126b-ddc4-f476-5c41" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" primary="true" />
+        <ns0:categoryLink id="95e0-359f-4f94-550c" name="Banda: Repudiados" hidden="false" targetId="59e0-30f8-b40a-5e4a" primary="false" />
+      </ns0:categoryLinks>
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="40.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="4a57-af53-0bee-5616" name="Héroe" hidden="false" typeId="e97e-3b36-64f9-5f19">
+          <ns0:characteristics><ns0:characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">6</ns0:characteristic><ns0:characteristic name="Combate" typeId="29cd-abc5-a63d-544c">5</ns0:characteristic><ns0:characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">5</ns0:characteristic><ns0:characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</ns0:characteristic><ns0:characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</ns0:characteristic><ns0:characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</ns0:characteristic><ns0:characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</ns0:characteristic></ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+      <ns0:selectionEntryGroups>
+        <ns0:selectionEntryGroup id="6f37-a344-8dfc-5ddf" name="Armas" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="cdd1aa53-f9bb-4a1e-9911-db01c7618e36" import="true" name="Garras" hidden="false" type="selectionEntry" targetId="8655-afee-b105-58d2" /><ns0:entryLink id="7398227d-a63c-4e89-ac3a-b110b7653651" import="true" name="Lanza (Piedra)" hidden="false" type="selectionEntry" targetId="cbd1ff55-4337-4599-a984-9201e4613f9d" /><ns0:entryLink id="72b74ef7-e202-4ab1-b6d0-3746ff432e84" import="true" name="Lanza (Hierro)" hidden="false" type="selectionEntry" targetId="05d7-8aa6-c77b-5458" /><ns0:entryLink id="267161bd-d5d5-4d5b-8c40-fd085c59bfb5" import="true" name="Lanza (Acero)" hidden="false" type="selectionEntry" targetId="2850a5f3-41d0-4d83-afcf-30122775e72e" /><ns0:entryLink id="07c3e931-6e61-4ed1-96d0-7394df31b913" import="true" name="Maza (Piedra)" hidden="false" type="selectionEntry" targetId="337e8eee-37d0-487b-8a0a-78b071b97e3c" /><ns0:entryLink id="d2fb92fd-7ed8-441b-b41f-664c246ce0da" import="true" name="Maza (Hierro)" hidden="false" type="selectionEntry" targetId="8b68-f6e7-c03c-5b24" /><ns0:entryLink id="1584ff64-1a98-4272-95c1-ca2262551394" import="true" name="Maza (Acero)" hidden="false" type="selectionEntry" targetId="23652566-2cb6-4ce4-a820-f6a3f2f3fda1" /><ns0:entryLink id="626ce378-e1e0-44d8-bbb2-9acdd83ae540" import="true" name="Maza pesada (Piedra)" hidden="false" type="selectionEntry" targetId="5c9e615c-bc05-4301-b125-7d8c38041cf0" /><ns0:entryLink id="1472abb3-2001-4c6d-9f33-871fd1409209" import="true" name="Maza pesada (Hierro)" hidden="false" type="selectionEntry" targetId="9110-bb10-b58c-504a" /><ns0:entryLink id="66e8777f-5fdf-4a2e-9073-f1d923dda362" import="true" name="Maza pesada (Acero)" hidden="false" type="selectionEntry" targetId="c7d155b8-2a69-4cbb-8cde-a31907db0265" /><ns0:entryLink id="7b5cc04a-091d-4a33-98be-b930875f25fc" import="true" name="Filo pesado (Piedra)" hidden="false" type="selectionEntry" targetId="4803a1d5-f839-4608-8e83-1d5b477404fd" /><ns0:entryLink id="830dc25c-2fc5-4904-82a3-8dcf52a7bb45" import="true" name="Filo pesado (Hierro)" hidden="false" type="selectionEntry" targetId="3eaf-647f-39c9-5fd2" /><ns0:entryLink id="a42204a9-d30f-4ee4-8299-df0b0e37fbcf" import="true" name="Filo pesado (Acero)" hidden="false" type="selectionEntry" targetId="1ca31066-844d-4c6f-b41c-1784ef55c6bc" /><ns0:entryLink id="6b466183-0d55-4ed1-8012-f465f4cb745d" import="true" name="Filo medio (Piedra)" hidden="false" type="selectionEntry" targetId="abe13683-a8eb-4be6-bfca-df4053680f83" /><ns0:entryLink id="7dc59c4f-c347-486c-b902-43d07d4b47fe" import="true" name="Filo medio (Hierro)" hidden="false" type="selectionEntry" targetId="b642-629c-b0d7-537b" /><ns0:entryLink id="0c88bcf5-033a-4550-9a7d-76ec19ee9720" import="true" name="Filo medio (Acero)" hidden="false" type="selectionEntry" targetId="6d82fafa-b4c9-4854-891c-b8777844ab64" /></ns0:entryLinks>
+          
+        <ns0:constraints><ns0:constraint id="6f91647b-0a1d-45e9-992c-022558ff0adf" type="min" value="0" field="selections" scope="parent" /><ns0:constraint id="438afcea-3e24-406a-b440-b8363d06f190" type="max" value="2" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="bb92-8ebe-acc4-5054" name="Armadura/Equipo" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="7d7c32de-413b-48bb-b6a4-3d675299d430" import="true" name="Ropas/Pieles" hidden="false" type="selectionEntry" targetId="bad4-89cb-00fe-5b64" /><ns0:entryLink id="95a6815b-e6d8-4499-bd84-1dfe878be25a" import="true" name="Huesos/Pellejos" hidden="false" type="selectionEntry" targetId="f4c7-9326-444e-58dc" /><ns0:entryLink id="8983ce05-7fb9-4c7b-ba28-e961bfaa9d5b" import="true" name="Cuero/Escamas" hidden="false" type="selectionEntry" targetId="75d3-5693-f0ac-5a2e" /><ns0:entryLink id="78527f37-8bfa-429b-abbc-ac51be8bf494" import="true" name="Escudo" hidden="false" type="selectionEntry" targetId="4920-8ade-930d-5ece" /><ns0:entryLink id="1f9063c2-bf9a-411a-b4a5-d512c8d773dc" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0" /></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="9518-fd29-34af-534f" name="Líder" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="584f-f3e6-89ab-534f" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true" /></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        
+        
+      <ns0:selectionEntryGroup id="85d6-0cbc-eb81-5197" name="Mejoras" hidden="false"><ns0:entryLinks><ns0:entryLink id="475a-fa31-4da8-573d" name="CRUEL" hidden="false" targetId="f586-48b0-d44f-58c9" type="selectionEntry" import="true" /><ns0:entryLink id="fc1f-77fe-55a9-57d2" name="IMPÁVIDO" hidden="false" targetId="20d5-077e-733c-5ab8" type="selectionEntry" import="true" /><ns0:entryLink id="e1f6-7b1d-81ee-59af" name="INICIADO" hidden="false" targetId="9397-d513-fbb4-579e" type="selectionEntry" import="true" /><ns0:entryLink id="af15-a01b-5cfa-5de2" name="INSPIRADOR" hidden="false" targetId="6f8c-ff5f-20dd-5b91" type="selectionEntry" import="true" /><ns0:entryLink id="bc36-39c4-7be9-5409" name="INSTINTO DE SUPERVIVENCIA" hidden="false" targetId="861f-338b-2aaf-5c6f" type="selectionEntry" import="true" /><ns0:entryLink id="0655-1769-2d2b-563a" name="MONTADO" hidden="false" targetId="85e9-91b3-6793-5fc4" type="selectionEntry" import="true" /><ns0:entryLink id="0534-3b69-a6e8-5001" name="OBSTINADO" hidden="false" targetId="83d3-58cd-1a23-55ad" type="selectionEntry" import="true" /><ns0:entryLink id="265f-586c-40e1-59f9" name="PIEL CURTIDA" hidden="false" targetId="b526-2432-1be4-53aa" type="selectionEntry" import="true" /><ns0:entryLink id="e8a0-3881-5cee-509b" name="PRESENCIA IMPONENTE" hidden="false" targetId="c245-a0d6-7e1f-57da" type="selectionEntry" import="true" /><ns0:entryLink id="58f7-2f64-18e8-58fd" name="RESISTENTE" hidden="false" targetId="8739-f720-e4ce-5687" type="selectionEntry" import="true" /><ns0:entryLink id="72a4-8679-afae-5788" name="SALVAJE" hidden="false" targetId="07be-fca7-d174-5c22" type="selectionEntry" import="true" /><ns0:entryLink id="300e-9336-4578-5df9" name="TESTARUDO" hidden="false" targetId="d46a-b039-c2ff-5b37" type="selectionEntry" import="true" /><ns0:entryLink id="c096-b3d2-d56e-5c2d" name="ÁGIL" hidden="false" targetId="5736-0c94-34a5-531f" type="selectionEntry" import="true" /></ns0:entryLinks><ns0:constraints><ns0:constraint id="346c-11e1-6972-5938" type="max" value="2" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup></ns0:selectionEntryGroups>
+    <ns0:rules><ns0:rule id="9661e786-4a31-4636-afd6-59cb9bef91a0" name="Armas obligatorias"><ns0:description>Debes seleccionar al menos 1 arma (y un máximo de 2 si aplica). New Recruit puede no autoseleccionar armas; revisa este requisito.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="94ae-71a1-075a-55c1" name="Hechicero" type="model" import="true" hidden="false">
+      <ns0:categoryLinks>
+        <ns0:categoryLink id="dde8-2e61-a200-5a96" name="Miembros de la banda" hidden="false" targetId="9236-971e-6ff9-5fa4" primary="true" />
+        <ns0:categoryLink id="cf5b-a428-1959-5bf9" name="Banda: Repudiados" hidden="false" targetId="59e0-30f8-b40a-5e4a" primary="false" />
+      </ns0:categoryLinks>
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="50.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="0cd5-9281-0626-56fd" name="Hechicero" hidden="false" typeId="e97e-3b36-64f9-5f19">
+          <ns0:characteristics><ns0:characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</ns0:characteristic><ns0:characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</ns0:characteristic><ns0:characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">2</ns0:characteristic><ns0:characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</ns0:characteristic><ns0:characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</ns0:characteristic><ns0:characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</ns0:characteristic><ns0:characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</ns0:characteristic></ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+      <ns0:selectionEntryGroups>
+        <ns0:selectionEntryGroup id="9829-b798-0b65-58fd" name="Armas" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="8b6b8a76-50ae-435a-8e32-af36ff31ea51" import="true" name="Garras" hidden="false" type="selectionEntry" targetId="8655-afee-b105-58d2" /><ns0:entryLink id="79146bb4-1ca5-40b6-8e87-cbd195e72c13" import="true" name="Maza (Piedra)" hidden="false" type="selectionEntry" targetId="337e8eee-37d0-487b-8a0a-78b071b97e3c" /><ns0:entryLink id="2a90b883-ab70-48cc-a5a8-74b2a5a4e016" import="true" name="Maza (Hierro)" hidden="false" type="selectionEntry" targetId="8b68-f6e7-c03c-5b24" /><ns0:entryLink id="069f877a-74c6-4165-8517-7826692bb70a" import="true" name="Maza (Acero)" hidden="false" type="selectionEntry" targetId="23652566-2cb6-4ce4-a820-f6a3f2f3fda1" /><ns0:entryLink id="aeb9fb56-bb54-4f69-849f-dddb8d379f7a" import="true" name="Filo pequeño (Piedra)" hidden="false" type="selectionEntry" targetId="0531f6da-fa5e-4fa2-92ad-cd140fdee89e" /><ns0:entryLink id="da28b820-26fa-4f61-9805-b23f59980768" import="true" name="Filo pequeño (Hierro)" hidden="false" type="selectionEntry" targetId="3cc1-ee98-65da-52b8" /><ns0:entryLink id="ed8b188a-3db1-4292-b98c-45aa10620cf1" import="true" name="Filo pequeño (Acero)" hidden="false" type="selectionEntry" targetId="bb26acb4-d941-403a-a8b0-6cdd4f59de12" /></ns0:entryLinks>
+          
+        <ns0:constraints><ns0:constraint id="40ca695e-d5eb-4424-93cf-aff34e2b41cb" type="min" value="0" field="selections" scope="parent" /><ns0:constraint id="2812e847-aa55-4642-a5f1-4c9d5d8c00d9" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="3691-0ee4-83fa-5908" name="Armadura/Equipo" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="9a2985cf-a7a9-43b1-8565-2af0c3fde8b8" import="true" name="Ropas/Pieles" hidden="false" type="selectionEntry" targetId="bad4-89cb-00fe-5b64" /><ns0:entryLink id="86b2bcb0-d28a-4be9-9f4b-fe2a35076594" import="true" name="Huesos/Pellejos" hidden="false" type="selectionEntry" targetId="f4c7-9326-444e-58dc" /><ns0:entryLink id="e89f22ee-8994-433c-8c50-0db8598ce7b2" import="true" name="Hierbas místicas" hidden="false" type="selectionEntry" targetId="d21a-cb0e-6266-55b0" /></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        <ns0:selectionEntryGroup id="b8d7-538f-08cc-510a" name="Líder" hidden="false">
+          <ns0:entryLinks><ns0:entryLink id="43f9-0db6-aa7e-52a8" name="Es el Líder" hidden="false" targetId="996f-03d3-d905-5948" type="selectionEntry" import="true"><ns0:modifiers><ns0:modifier type="set" value="true" field="hidden"><ns0:conditions><ns0:condition type="atLeast" value="1" field="selections" scope="parent" childId="66a86271-534d-4fb2-b595-bc916191c8fa" shared="true" includeChildSelections="true" includeChildForces="true" /></ns0:conditions></ns0:modifier></ns0:modifiers></ns0:entryLink></ns0:entryLinks>
+        </ns0:selectionEntryGroup>
+        
+        
+        <ns0:selectionEntryGroup id="14b76161-161e-4b4a-a5df-3f082fa0c791" name="Opciones" hidden="false"><ns0:entryLinks><ns0:entryLink id="0ae97dc2-0abd-4dbf-b2ec-e863c066ace3" import="true" name="Bruja" hidden="false" type="selectionEntry" targetId="66a86271-534d-4fb2-b595-bc916191c8fa" /></ns0:entryLinks><ns0:constraints><ns0:constraint id="9e229ce0-a871-4e4f-88a1-c2197daa98b3" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup><ns0:selectionEntryGroup id="c19d272c-a6c5-4f8b-9b31-432e78ba59a6" name="Familiar" hidden="false"><ns0:entryLinks><ns0:entryLink id="6b5808f4-16cc-4d65-8732-fd8b758ed960" import="true" name="Familiar: Entropía" hidden="false" type="selectionEntry" targetId="df737606-8b96-4a88-a83a-d5cdbb4ca819" /><ns0:entryLink id="636afb0e-aac9-425d-acf5-76c5458cb11e" import="true" name="Familiar: Hierro" hidden="false" type="selectionEntry" targetId="9cb1ddff-0410-4f60-8177-948c4c011abe" /><ns0:entryLink id="6b041d3b-b376-4880-915a-80ea7ac4ad7d" import="true" name="Familiar: Inocencia" hidden="false" type="selectionEntry" targetId="907a8005-f2e3-4a29-a444-a7ea709abdfb" /><ns0:entryLink id="6b4827ce-eb07-48ae-920e-84d700a175d1" import="true" name="Familiar: Magia" hidden="false" type="selectionEntry" targetId="1cad0e2b-9e2f-47d8-929d-4ebd3f58a926" /><ns0:entryLink id="b3112d04-bb64-4055-97f4-cb077fe1f3a4" import="true" name="Familiar: Miedo" hidden="false" type="selectionEntry" targetId="e3d21ef6-9463-4111-96c4-179d53a2d958" /><ns0:entryLink id="549cb706-0189-4372-ba93-a92f16e5e720" import="true" name="Familiar: Sangre" hidden="false" type="selectionEntry" targetId="b2379a5d-814a-4d0b-b5c7-f5a94f7468b5" /><ns0:entryLink id="b1983025-1065-4f60-91eb-d7730f9eb7af" import="true" name="Familiar: Venganza" hidden="false" type="selectionEntry" targetId="4eea1a06-7fc5-48fa-a80a-323c0cb46af9" /><ns0:entryLink id="57e48e27-d97c-4607-8183-2b272f50497e" import="true" name="Familiar: Visión" hidden="false" type="selectionEntry" targetId="4688c5cb-704f-40f9-ab45-d95ad4f84c49" /></ns0:entryLinks><ns0:constraints><ns0:constraint id="591219cd-705f-4076-8aef-4ae3b8c8461f" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup><ns0:selectionEntryGroup id="f48fca06-6585-44ec-80b7-f88c32c8e33b" name="Rol (Polvo y Huesos)" hidden="true"><ns0:entryLinks><ns0:entryLink id="c312e544-3bf2-4c9a-9c97-faa3c448246c" import="true" name="Nigromante" hidden="false" type="selectionEntry" targetId="a2623725-1982-4e67-8d18-93ef812bcf6e" /></ns0:entryLinks><ns0:modifiers><ns0:modifier type="set" field="hidden" value="false"><ns0:conditions><ns0:condition type="atLeast" value="1" field="selections" scope="roster" childId="845db7bf-f3e6-4fa5-8934-fafd23f9a980" shared="true" includeChildSelections="true" includeChildForces="true" /></ns0:conditions></ns0:modifier></ns0:modifiers></ns0:selectionEntryGroup><ns0:selectionEntryGroup id="2435558f-060e-4bd1-9377-4a644a1c41af" name="Hechizos (elige hasta 3)" hidden="false"><ns0:constraints><ns0:constraint id="80819240-b6a5-4d09-ae5b-1dffb8f31dae" type="max" value="3" field="selections" scope="model" /></ns0:constraints><ns0:entryLinks /></ns0:selectionEntryGroup></ns0:selectionEntryGroups>
+    <ns0:rules><ns0:rule id="5285d5cd-2e9e-41d6-912b-36a852b634e2" name="Reglas de Hechicero"><ns0:description>Tiene a su disposición 3 Hechizos (ver Hechicería). No gana marcadores de Pavor al lanzar un Hechizo.</ns0:description></ns0:rule><ns0:rule id="ec6e31cf-be99-452f-a47d-1039c95b1b1c" name="Armas obligatorias"><ns0:description>Debes seleccionar al menos 1 arma (y un máximo de 2 si aplica). New Recruit puede no autoseleccionar armas; revisa este requisito.</ns0:description></ns0:rule><ns0:rule id="45f3ac47-1046-418d-9c8c-ea9243e5e887" name="Hechicería"><ns0:description>Un Hechicero tiene acceso a 3 Hechizos. Selecciona hasta 3 en el grupo de Hechizos.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="0624bb8f-0175-490a-89fd-c06f2e6804df" name="Tamaño de partida" type="upgrade" hidden="false"><ns0:categoryLinks><ns0:categoryLink id="b788e671-7b62-40e4-9634-5f88aa7ad63a" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /></ns0:categoryLinks><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:selectionEntryGroups><ns0:selectionEntryGroup id="a00c2a28-2fd7-4b37-8f2f-5016600f29a1" name="Tamaño" hidden="false"><ns0:entryLinks><ns0:entryLink id="38f87e17-e0f0-4add-99b9-bde751a0d10b" import="true" name="Partida: Hasta 100 (100 pts)" hidden="false" type="selectionEntry" targetId="ab5da891-8404-401f-85dc-0e374bebec29" /><ns0:entryLink id="88bc59ab-f1c3-4055-bbdb-036fc248f145" import="true" name="Partida: 101 a 200 (200 pts)" hidden="false" type="selectionEntry" targetId="936d1b55-71ce-4597-9638-d961733114b1" /><ns0:entryLink id="7efa8b3b-1f3c-4c8a-a1c5-38f3f57f424a" import="true" name="Partida: 201 a 300 (300 pts)" hidden="false" type="selectionEntry" targetId="cf39953a-36f2-461d-a3f5-b6573d9c2669" /><ns0:entryLink id="355b42a5-c27d-4baa-914d-97ef99e7b59b" import="true" name="Partida: 301 a 400 (400 pts)" hidden="false" type="selectionEntry" targetId="3d177790-e870-4bf6-ba59-9756d4b2dcf5" /><ns0:entryLink id="7bd22c07-46ea-4380-9d12-a020140d3e02" import="true" name="Partida: 401 a 500 (500 pts)" hidden="false" type="selectionEntry" targetId="f64b3893-0fc0-4ccf-99b7-1c986fa721ae" /></ns0:entryLinks><ns0:constraints><ns0:constraint id="39835040-8cd4-459b-93d1-7384f3e62330" type="min" value="1" field="selections" scope="parent" /><ns0:constraint id="0604577a-0e48-4320-acd0-1dc9843a0cda" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup></ns0:selectionEntryGroups></ns0:selectionEntry><ns0:selectionEntry id="75201e68-3d83-4bac-a9d5-486f1e3386c1" name="Reglas globales" type="upgrade" hidden="false"><ns0:categoryLinks><ns0:categoryLink id="ed95a08a-1b7a-4320-a21b-f2eaed416671" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="true" /></ns0:categoryLinks><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="6c116a86-0bdf-4b5e-a593-a3548b990915" name="Reglas globales"><ns0:description>Material de las armas:
+• Piedra: al impactar, 1 complicación en Fuerza vs Dureza. Coste = mitad.
+• Hierro: sin cambios.
+• Acero: al impactar, 1 ventaja en Fuerza vs Dureza. Coste = doble. Máximo 3 armas de acero en toda la banda.
+
+Familiares:
+• Los Hechiceros (incluyendo Brujas) pueden equiparse con 1 familiar pagando su coste.
+
+Puntos de Destino:
+• Por defecto, una miniatura genera 2 PD por Turno salvo que su perfil indique lo contrario.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="7ddbd427-86e3-4ed4-9912-a135eaabd53e" name="Facción" type="upgrade" hidden="false"><ns0:categoryLinks><ns0:categoryLink id="2caaf0bb-bca1-4477-b7e6-4e182d4e2d93" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /></ns0:categoryLinks><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:selectionEntryGroups><ns0:selectionEntryGroup id="e8346cb9-ec22-4ada-9118-691b6b8a0e6c" name="Macro-facción" hidden="false"><ns0:entryLinks><ns0:entryLink id="27c05e28-e8c4-44ad-b4b9-a63255bea53e" import="true" name="Macro: Tribus Humanas" hidden="false" type="selectionEntry" targetId="1466714f-8a24-439e-8bb5-f25433755cbd" /></ns0:entryLinks><ns0:constraints><ns0:constraint id="5ab1afed-c048-4ee1-bac4-a393f542d869" type="min" value="1" field="selections" scope="parent" /><ns0:constraint id="82e98b38-796d-422e-98b7-30499841b625" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntryGroup><ns0:selectionEntryGroup id="2b6e1505-66f3-4ec9-8863-708346af95f4" name="Subfacción (Tribus Humanas)" hidden="true"><ns0:entryLinks><ns0:entryLink id="148d5a51-8dab-4437-b398-1b97b3563582" import="true" name="Subfacción: Sjeverni" hidden="false" type="selectionEntry" targetId="33320c05-ca58-40ff-94e5-a6686b6b2d37" /></ns0:entryLinks><ns0:constraints><ns0:constraint id="0c591d9d-847c-43d3-b4d9-73d878c8d5c6" type="min" value="1" field="selections" scope="parent" /><ns0:constraint id="b54a6fea-3715-406e-9bfb-c7eb0947bc5e" type="max" value="1" field="selections" scope="parent" /></ns0:constraints><ns0:modifiers><ns0:modifier type="set" field="hidden" value="false"><ns0:conditions><ns0:condition type="atLeast" value="1" field="selections" scope="roster" childId="1466714f-8a24-439e-8bb5-f25433755cbd" shared="true" includeChildSelections="true" includeChildForces="true" /></ns0:conditions></ns0:modifier></ns0:modifiers></ns0:selectionEntryGroup></ns0:selectionEntryGroups></ns0:selectionEntry></ns0:selectionEntries>
+  <ns0:categoryEntries>
+    <ns0:categoryEntry id="59e0-30f8-b40a-5e4a" name="Banda: Repudiados" hidden="false" />
+  <ns0:categoryEntry id="ebff7324-11f0-46b7-b9d0-cc4ab76d5a11" name="Armas de acero" hidden="false"><ns0:constraints><ns0:constraint id="5edb9ccc-7c74-49a2-b4ab-e35c969d4731" type="max" value="3" field="selections" scope="roster" /></ns0:constraints></ns0:categoryEntry></ns0:categoryEntries>
+  <ns0:sharedSelectionEntries>
+    
+    <ns0:selectionEntry id="996f-03d3-d905-5948" name="Es el Líder" type="upgrade" hidden="false">
+      <ns0:categoryLinks><ns0:categoryLink id="9913-b9b7-b827-5c70" name="Líder" hidden="false" targetId="6e8d-9fd6-b430-5c2a" primary="true" /></ns0:categoryLinks>
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+    </ns0:selectionEntry>
+    
+        <ns0:selectionEntry id="8b50-e0ef-3fb5-5dc1" name="Hasta 100" type="upgrade" hidden="false">
+          <ns0:categoryLinks><ns0:categoryLink id="0d92-c4a1-27df-55b0" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /></ns0:categoryLinks>
+          <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+        </ns0:selectionEntry>
+        <ns0:selectionEntry id="cf5f-9adc-e59d-505c" name="101 a 200" type="upgrade" hidden="false">
+          <ns0:categoryLinks><ns0:categoryLink id="ef53-b21e-f31c-5aaf" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /></ns0:categoryLinks>
+          <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+        </ns0:selectionEntry>
+        <ns0:selectionEntry id="f45d-8317-4445-544b" name="201 a 300" type="upgrade" hidden="false">
+          <ns0:categoryLinks><ns0:categoryLink id="4b4b-2fc9-e862-5a08" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /></ns0:categoryLinks>
+          <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+        </ns0:selectionEntry>
+        <ns0:selectionEntry id="5282-30f3-cf64-5ed6" name="301 a 400" type="upgrade" hidden="false">
+          <ns0:categoryLinks><ns0:categoryLink id="d59c-6522-f71e-5011" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /></ns0:categoryLinks>
+          <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+        </ns0:selectionEntry>
+        <ns0:selectionEntry id="925a-549e-764e-54e9" name="401 a 500" type="upgrade" hidden="false">
+          <ns0:categoryLinks><ns0:categoryLink id="06f5-c9a2-5fb8-5073" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /></ns0:categoryLinks>
+          <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+        </ns0:selectionEntry>
+    
+    <ns0:selectionEntry id="8655-afee-b105-58d2" name="Garra" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="4.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="bf7a-9898-b8c7-5bd0" name="Garra" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d" />
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">3</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">ni otro arma distinta ni escudo</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="3856-667c-ade6-5ee8" name="Arma arrojadiza" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="4.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="aa99-3265-db3b-5370" name="Arma arrojadiza" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">+1/0/-1</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2/1/0</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c">5/10/15</ns0:characteristic>
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="de91-8e4d-0f4f-5223" name="Cerbatana" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="b157-d2e4-6aae-53b4" name="Cerbatana" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">3/2/1</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">1</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c">10/20/30</ns0:characteristic>
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">Veneno Fuerza 2</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="3cc1-ee98-65da-52b8" name="Filo pequeño (Hierro)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="14e6-46b2-70a8-56d1" name="Filo pequeño" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">1</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="7b0a0702-5991-4cc9-aae9-81eb3ed16a1b" name="Material: Hierro"><ns0:description>No modifica reglas ni coste.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="05d7-8aa6-c77b-5458" name="Lanza (Hierro)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="4964-c306-1d85-5c2e" name="Lanza" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">1</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78" />
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">+1 Fuerza y Penetracion por accion de Asalto, No otro arma</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="0f4b7caa-61c7-497e-a146-4e7428a07d89" name="Material: Hierro"><ns0:description>No modifica reglas ni coste.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="8b68-f6e7-c03c-5b24" name="Maza (Hierro)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="8a57-e20c-0afe-5110" name="Maza" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">2</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">1</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="c41be5ef-b1b6-474b-a551-b9ba6f668c2c" name="Material: Hierro"><ns0:description>No modifica reglas ni coste.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="7e01-b408-5b45-50db" name="Jabalina (Hierro)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="62db-7375-3b07-5f62" name="Jabalina" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">3/4/2</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c">10/30/40</ns0:characteristic>
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="f4fe1ed5-5236-4c67-ba91-18a767cce8e5" name="Material: Hierro"><ns0:description>No modifica reglas ni coste.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="b682-d8fc-6807-5b45" name="Arco" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="394f-6de8-37f9-5254" name="Arco" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">3</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c">20/40/60</ns0:characteristic>
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">Ni otro arma ni escudo,Maza hueso en C/C</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="e8c6-3b94-89eb-5f2c" name="Mandíbulas" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="4.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="badf-5012-5fc9-5b26" name="Mandíbulas" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">1</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">1</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="9110-bb10-b58c-504a" name="Maza pesada (Hierro)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="372b-92d7-deb0-5866" name="Maza pesada" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">4</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">Ni otro arma ni escudo</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="48202621-4d70-4a02-b342-68d0d794c149" name="Material: Hierro"><ns0:description>No modifica reglas ni coste.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="3eaf-647f-39c9-5fd2" name="Filo pesado (Hierro)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="501b-f5a1-c8a1-552a" name="Filo pesado" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">3</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">4</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">-1 Agilidad, Ni otro arma ni escudo</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="04e4941e-f831-446d-9fe1-7faac37632db" name="Material: Hierro"><ns0:description>No modifica reglas ni coste.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="b642-629c-b0d7-537b" name="Filo medio (Hierro)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="882b-f2ac-b212-54d7" name="Filo medio" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">2</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">3</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="06b973cd-f337-4ef2-aab7-aeeaa336a7e7" name="Material: Hierro"><ns0:description>No modifica reglas ni coste.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    
+    <ns0:selectionEntry id="4b8d-b261-e77a-5293" name="Hueso-piedra" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="0172-959e-e5a3-5b5b" name="Material: Hueso-piedra"><ns0:description>Multiplicador coste x0.5.</ns0:description></ns0:rule></ns0:rules>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="48b2-5a2d-86ea-5ae7" name="Hierro" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="9668-cf89-cb9b-5a73" name="Material: Hierro"><ns0:description>Multiplicador coste x1.</ns0:description></ns0:rule></ns0:rules>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="a29b-70de-229b-5d50" name="Acero" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="6888-c187-842c-569c" name="Material: Acero"><ns0:description>Multiplicador coste x2.</ns0:description></ns0:rule></ns0:rules>
+    </ns0:selectionEntry>
+    
+    <ns0:selectionEntry id="bad4-89cb-00fe-5b64" name="Ropas/Pieles" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="3.0" /></ns0:costs>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="f4c7-9326-444e-58dc" name="Huesos/Pellejos" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="7.0" /></ns0:costs>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="75d3-5693-f0ac-5a2e" name="Cuero/Escamas" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></ns0:costs>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="4920-8ade-930d-5ece" name="Escudo" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></ns0:costs>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="d21a-cb0e-6266-55b0" name="Hierbas místicas" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></ns0:costs>
+    <ns0:constraints><ns0:constraint id="bd562014-bea5-4dfb-bdf4-c21f93ca2e73" type="max" value="3" field="selections" scope="model" /></ns0:constraints></ns0:selectionEntry>
+    
+    <ns0:selectionEntry id="3228-f57e-d4a6-575b" name="ALAS" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="c9f00460-37e2-4242-bb90-c3309d016e06" name="ALAS"><ns0:description>Del cuerpo de la Criatura salen unas alas. Puede usar su Movimiento de manera tridimensional (en cualquier dirección si la escenografía lo permite), pero debe finalizar posándose donde pueda estar de pie. Ignora Terreno difícil y abrupto y puede atravesar Terreno impasable.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="3218-8fe9-cf66-527b" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="5f8b-c7ed-f7f6-5a67" name="ALIENTO" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="47eb2837-19d6-4b8d-b927-dfdd9b8da820" name="ALIENTO"><ns0:description>La Criatura puede gastar 1 Acción (coste 3 PD) para realizar un ataque a distancia con plantilla de lágrima desde el centro del borde delantero de la peana. Todo lo tocado resulta Impactado: Fuerza 4, Penetración 3. Si se usa en Turno N, no puede volver a usarse hasta el Turno N+2.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="27bc-e7c0-f1b0-5e3a" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="d51f-d04c-2d22-5ce3" name="ASPECTO ATROZ" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="fc71c2fc-1502-486a-9133-7994f842138b" name="ASPECTO ATROZ"><ns0:description>Si una miniatura quiere Asaltar a esta Criatura, debe superar antes una tirada de Coraje o será incapaz de hacerlo (podrá realizar otra Acción en su lugar).</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="5053-df2c-270e-5262" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="fb57-39fc-9a76-53f6" name="BRUTAL" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="47c8ef87-9d23-49e3-b5bd-15e649fedbf3" name="BRUTAL"><ns0:description>Si la Criatura Abate a una miniatura enemiga, generará 2 marcadores de Pavor en los enemigos en lugar de 1.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="5b97-54bf-33ac-5ad9" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="f3ce-9b26-b6d5-550f" name="CHUPASANGRES" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="42f45237-10c0-4b90-b17c-ca56cfb7dc11" name="CHUPASANGRES"><ns0:description>Cuando esta Criatura Abata a una miniatura rival en cuerpo a cuerpo, su banda ganará 1 PD extra durante ese Turno de juego.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="b2f0-3946-de91-5ba4" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="c0b8-eb41-24ed-5eef" name="CONSTRICTORA" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="2f75d612-ac81-47f7-8850-2d264d1155af" name="CONSTRICTORA"><ns0:description>Puede gastar 1 PD adicional cuando vaya a Combatir y la miniatura enemiga contará con 1 complicación al Combate.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="ac5d-7c43-18f2-5853" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="81b6-6e74-3005-5f68" name="FIRME" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="00908605-6e4c-4ee7-81e1-2ce5ae42289b" name="FIRME"><ns0:description>Considera Terreno difícil como Terreno normal y Terreno abrupto como Terreno difícil.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="1482-910a-e1b7-5837" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="036e-1174-bf7b-5569" name="MONTURA" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="f5fe7cc7-cf35-4513-9cb0-86f18572fc9c" name="MONTURA"><ns0:description>La Criatura lleva incluido un jinete o quieres que pueda usar armas. Podrá utilizar las armas/equipo marcados con * de su equipo. Esta mejora puede repetirse.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="533d6b72-b6a5-4854-8f69-c870fb541215" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="acfd-c059-e4bd-5fa8" name="MÚLTIPLES CABEZAS" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="293631d6-650b-481d-b519-6594b489d85a" name="MÚLTIPLES CABEZAS"><ns0:description>La Línea de visión de la miniatura se considera de 360º.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="e64b-8ba9-d5c3-5b29" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="a299-24e2-c968-5dea" name="TREPADORA" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="84c6e288-ec00-4d8a-941a-b5b6f5ef88e0" name="TREPADORA"><ns0:description>Ignora la regla que no le permite escalar superficies verticales.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="ae55-fa66-3c80-57dd" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="5d4a-0747-6919-54a5" name="VELOZ" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="bb56d97f-0588-4450-b3a0-2b739d1f130c" name="VELOZ"><ns0:description>Mueve 15 cm en lugar de los 10 cm habituales.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="8fb5-35ad-0f10-57bf" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="15e8-df67-22c1-5096" name="VENENO" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="ec5fe165-4a82-44a6-ab25-8cfdac38d295" name="VENENO"><ns0:description>Si está equipada con garras o mandíbulas, cuando Impacta con ellas a un enemigo, este podrá sufrir daño de Veneno incluso tras superar su tirada de Dureza. En su Fase de activación posterior, antes de realizar Acciones, debe superar una tirada enfrentada de Dureza contra Fuerza 3 o resultará Abatida.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="3906-5ad1-65a6-5451" type="max" value="1" field="selections" scope="parent" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="f586-48b0-d44f-58c9" name="CRUEL" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="7939847f-accb-4886-a179-74fb27613a80" name="CRUEL"><ns0:description>El Héroe destaca por su extrema crueldad. Si Abate a una miniatura enemiga, generará 2 marcadores de Pavor en los enemigos en lugar de 1.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="35c4-a254-4534-5ec9" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="20d5-077e-733c-5ab8" name="IMPÁVIDO" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="073e28c4-71a1-4f7b-9637-c79a3ac9631c" name="IMPÁVIDO"><ns0:description>El Héroe no se deja amedrentar de ninguna manera. No se retirará de la mesa cuando los marcadores de Pavor igualen al doble de su Coraje.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="5a91-19e9-3255-5c5e" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="9397-d513-fbb4-579e" name="INICIADO" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="a6d45b7c-1e4a-4c4d-81a3-5fb0abe38ffb" name="INICIADO"><ns0:description>El Héroe conoce hasta cierto punto los caminos de la Hechicería y puede elegir un Hechizo de nivel 1 de las Fuentes de Hechicería disponibles normalmente para los Hechiceros de su banda.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="25e9-057f-02dd-5a24" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="6f8c-ff5f-20dd-5b91" name="INSPIRADOR" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="0774048c-e5fd-43b8-93bf-8bcf6cd8f5a6" name="INSPIRADOR"><ns0:description>El Héroe es una fuente de inspiración para sus compañeros. Cuando Abata una miniatura enemiga, todas las miniaturas aliadas en un radio de 15 cm retirarán un marcador de Pavor.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="d020-5e9d-0f0c-56fd" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="861f-338b-2aaf-5c6f" name="INSTINTO DE SUPERVIVENCIA" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="7e595cdc-93c6-44f8-b8d2-a0c404c05276" name="INSTINTO DE SUPERVIVENCIA"><ns0:description>El Héroe hace lo necesario para poder sobrevivir. Si una miniatura aliada es Abatida en un radio de 10 cm, ganará 1 ventaja no acumulable a las tiradas donde use su Dureza (ya sean de Atributo o enfrentadas). Esta ventaja se agota al usarse, pero podrá volver a adquirirse.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="ca8c-7935-1605-55bf" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="85e9-91b3-6793-5fc4" name="MONTADO" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="4e2c9d16-454e-4008-a04f-5182fd9baf35" name="MONTADO"><ns0:description>El Héroe cabalga una montura. Mueve 15 cm en lugar de 10 cm, pero es incapaz de escalar superficies verticales (ni por escalerilla) y de Rapiñar un cadáver.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="e3a1-b2c2-6b20-53c4" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="83d3-58cd-1a23-55ad" name="OBSTINADO" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="32bc7109-0890-4a91-b9dc-30169bdff20f" name="OBSTINADO"><ns0:description>El Héroe está curtido frente a los horrores de las Tierras Impías. No sufrirá la complicación causada cuando los marcadores de Pavor igualen o superen a su Coraje.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="18c9-c273-abbd-5c79" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="b526-2432-1be4-53aa" name="PIEL CURTIDA" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="18.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="22070979-326e-4eda-b684-c3384d0fac7b" name="PIEL CURTIDA"><ns0:description>El Héroe tiene una piel extremadamente dura. Obtiene un +2 al Blindaje que se acumula con el equipo.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="e9b2-a760-2359-5a2d" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="c245-a0d6-7e1f-57da" name="PRESENCIA IMPONENTE" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="92906bc3-e921-4ec8-93c9-b33f6359d032" name="PRESENCIA IMPONENTE"><ns0:description>Las miniaturas enemigas a 10 cm o menos del Héroe sufren 1 complicación a todas sus tiradas de Disparo y Combate.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="6e6d-582e-f30b-5595" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="8739-f720-e4ce-5687" name="RESISTENTE" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="880ae694-7cc3-4fe9-9cd2-7137456a40e9" name="RESISTENTE"><ns0:description>El Héroe tiene un aguante extraordinario ante los azares del combate. Obtiene un +1 a su Atributo de Dureza.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="8675-82d2-3d3f-5c8a" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="07be-fca7-d174-5c22" name="SALVAJE" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="41ce7fb3-d714-46c4-aea8-8bc8b3473e63" name="SALVAJE"><ns0:description>El Héroe ignora heridas que derribarían a otros. Puede completar su Fase de activación propia tras resultar Abatido. Al final de esa Fase, si acaba el último Turno o resulta Abatido de nuevo (lo que ocurra antes), se considera baja definitiva. Si su próxima Fase fuese el Turno siguiente a ser Abatido, aunque esté sobre la mesa no generará PD.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="1712-0792-eeb7-54ab" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="d46a-b039-c2ff-5b37" name="TESTARUDO" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="5b73b880-fcd8-4dcb-8cce-bf7b4399d42a" name="TESTARUDO"><ns0:description>Si saca 1 en tirada enfrentada de Combate, puede repetirla.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="f2e1-6a0c-0b38-572c" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    <ns0:selectionEntry id="5736-0c94-34a5-531f" name="ÁGIL" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs>
+      <ns0:rules><ns0:rule id="f417125b-c8e5-4347-b324-439fe7ba7a62" name="ÁGIL"><ns0:description>El Héroe tiene unos reflejos superiores a la media. Obtiene un +1 a su Atributo de Agilidad.</ns0:description></ns0:rule></ns0:rules>
+    <ns0:constraints><ns0:constraint id="e9e7-fc23-9cbd-5671" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry>
+    
+    <ns0:selectionEntry id="64b6-d49b-49c9-5edb" name="Fuego · 1PD · Abrasar" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="e64bb932-f6df-408a-a354-a3f373ae40e5" name="Abrasar (fuego)"><ns0:description>El Hechicero elige un punto en Línea de visión a una 
+distancia máxima de 45 cm. Coloca la plantilla redonda 
+y todas las miniaturas que toque sufrirán una incómoda 
+sensación ardiente por toda su piel. Los impactados sufrirán 2 
+complicaciones a su siguiente tirada de Combate o Precisión.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="2a8d-f3e6-4475-5a7b" name="Aire · 1PD · Ráfaga" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="9b9777ba-134e-44e0-9edc-8699a70d48f1" name="Ráfaga (aire)"><ns0:description>El Hechicero elige a cualquier número de aliados a una 
+distancia máxima de 20 cm. Su siguiente disparo doblará los 
+alcances habituales.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="ff2c-7e78-399e-5e69" name="Fuego · 1PD · Sudario de llamas" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="ce52c7c3-0926-4d15-927b-bdb3bfa45c8f" name="Sudario de llamas (fuego)"><ns0:description>El Hechicero y cualquier miniatura aliada en un radio de 10 
+cm quedan envueltos por un sudario de llamas espectrales. 
+Cualquier miniatura que les Impacte en cuerpo a cuerpo sufrirá 
+un impacto automático de Fuerza 3. El efecto desaparece 
+después de eso para la miniatura impactada.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="fe05-18aa-e3b1-5ffa" name="Aire · 1PD · Torbellino" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="a195f951-64fa-48a5-b0f9-37c37018aa84" name="Torbellino (aire)"><ns0:description>El Hechicero levanta un torbellino rugiente, sobre él y 
+todas las miniaturas aliadas a 15 cm o menos que impone 
+2 complicaciones a cualquier disparo recibido sobre estas 
+miniaturas hasta que acabe el Turno de juego.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="0ca2-826a-f3ed-5d6a" name="Aire · 2PD · Asfixiar" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="48f40c21-cd84-4f52-9665-97b46e102ed3" name="Asfixiar (aire)"><ns0:description>El Hechicero elige a una miniatura enemiga en Línea de 
+visión a una distancia máxima de 40 cm y elimina brevemente 
+el aire a su alrededor para impedirle respirar. El objetivo gana 
+al instante 2 marcadores de Pavor y tendrá 1 complicación a 
+todas sus tiradas durante su siguiente Fase de activación.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="55a8-4f07-ea47-510d" name="Agua · 2PD · Escarcha" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="50427f4a-3d26-44a2-b2fe-df3d3c60f96c" name="Escarcha (agua)"><ns0:description>El Hechicero elige a un enemigo en Línea de visión a una 
+distancia máxima de 45 cm, y le arroja una granizada de 
+cortantes cristales de hielo. El objetivo sufre un impacto de 
+Fuerza 2 y Penetración 2.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="0bfb-60b5-0ad3-50dd" name="Tierra · 2PD · Piel pétrea" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="6ef8c1d3-4e61-42fc-91d6-f7de3c9e9af6" name="Piel pétrea (tierra)"><ns0:description>El Hechicero hace que él o una miniatura aliada en Línea 
+de visión a 15 cm o menos adopte el color y la dureza de la 
+piedra. Pasará a tener un +2 a su Blindaje (no acumulable con 
+la mejora Piel curtida).</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="9250-bebf-cc2d-5ec0" name="Fuego · 2PD · Proyectil ígneo" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="35874f60-8500-47fb-9599-9d4704586dd4" name="Proyectil ígneo (fuego)"><ns0:description>El Hechicero elige a una miniatura enemiga en Línea de 
+visión que no esté en Combate a una distancia máxima de 30 
+cm y le arroja un proyectil ardiente que surge de sus manos. El 
+objetivo sufre un impacto de Fuerza 3 y Penetración 2.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="9d4c-0e96-d6aa-5835" name="Aire · 2PD · Vuelo" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="30282edf-af82-488b-9b2b-3d7033fb45af" name="Vuelo (aire)"><ns0:description>Un manto de viento aparece elevando al Hechicero y 
+moviéndolo por el aire. Podrá avanzar hasta 30 cm ignorando 
+todo tipo de terreno, e incluso moverse en tres dimensiones 
+para alcanzar posiciones elevadas.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="c543-00e0-0088-5e6e" name="Fuego · 3PD · Explosión" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="c1042eb0-13a2-499d-b50d-8659bbf62a3d" name="Explosión (fuego)"><ns0:description>El Hechicero invoca una terrible columna de fuego surgida 
+de su propio cuerpo que causa un impacto de Fuerza 5 y 
+Penetración 2 a todas las miniaturas en un radio de 20 cm de 
+su posición.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="d7ca-c156-20d1-5a5d" name="Agua · 3PD · Tsunami" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="6c260c5f-4434-4cf5-8f73-ca676ea29071" name="Tsunami (agua)"><ns0:description>El Hechicero hace aparecer una terrible ola de la nada. Todas 
+las miniaturas en el frontal del Hechicero en una distancia 
+de 20 cm y un ancho de 10 cm centrado en el Hechicero 
+retrocederán 10 cm. Si esto hace que choquen con algún 
+elemento de escenografía sufrirán un Impacto de Fuerza 2 y 
+Penetración 1 si es ligero, Fuerza 4 y Penetración 2 si es medio 
+y Fuerza 6 y Penetración 3 si es pesado. Si una miniatura es 
+echada de la mesa se retirará de la partida.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="54c3-3c8c-d849-5621" name="Tierra · 3PD · Terremoto" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></ns0:costs>
+    <ns0:rules><ns0:rule id="0379f5b6-fd68-4d4e-b69c-a757010a3297" name="Terremoto (tierra)"><ns0:description>El Hechicero da una poderosa palmada y la tierra se sacude 
+frente a él, haciendo que el suelo se resquebraje y creando 
+una grieta de 2,5 cm de ancho y 45 cm de largo. Cualquier 
+miniatura que toque la grieta deberá superar una tirada de 
+Agilidad o sufrirá un impacto de Fuerza 5 y Penetración 1. Tras 
+esto la grieta desaparece.
+55</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="d45b-d680-70f7-5681" name="Alas negras (Sombras)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></ns0:costs>
+    </ns0:selectionEntry>
+    <ns0:selectionEntry id="6ef4-d69e-bdff-5c45" name="Doble sombrío (Sombras)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></ns0:costs>
+    </ns0:selectionEntry>
+  <ns0:selectionEntry id="66a86271-534d-4fb2-b595-bc916191c8fa" name="Bruja" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></ns0:costs><ns0:constraints><ns0:constraint id="d4dd7910-9c60-486e-80fe-b6acb15aa6eb" type="max" value="1" field="selections" scope="roster" /></ns0:constraints><ns0:rules><ns0:rule id="7918caf0-618d-423e-b5bb-019f121ae066" name="Bruja – Reglas especiales"><ns0:description>• Solo puede haber 1 Bruja por banda y no puede ser la Líder.
+• Solo pertenecen al Aquelarre Nocturno. No son afectadas por las reglas especiales de facción de la banda.
+• Acceso a Brujería; sus Hechizos pueden elegirse de Brujería, Elementos, Maldición o Muerte.
+• Siempre conocen Sometimiento (adicional a los 3 Hechizos habituales).
+• No ganan marcadores de Pavor.
+• No conceden puntos de victoria al ser abatidas/sacrificadas/eliminadas: se desvanecen sin dejar marcador de Abatido.</ns0:description></ns0:rule><ns0:rule id="32c9c31a-b124-446e-93bd-017a2e6ff0d1" name="Bruja"><ns0:description>• Solo puede haber una Bruja por banda y no puede ser la Líder.
+• Las Brujas pertenecen al Aquelarre Nocturno (no se elige como subfacción: aplica al mejorar un Hechicero a Bruja).
+• No son afectadas por las reglas especiales de facción de la banda.
+• Acceso a Brujería y puede elegir Hechizos de Brujería, Elementos, Maldición o Muerte. Conoce siempre Sometimiento (adicional a sus 3 Hechizos).
+• No gana marcadores de Pavor, no concede puntos de victoria al ser eliminada.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="4bd0c649-696c-4deb-b98c-d4dc4e7860d6" name="Brujería · XPD · Sometimiento" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="a106f6e6-42ab-4573-9d78-0c138d6bcca2" name="Sometimiento"><ns0:description>Solo Bruja (usa X PD)</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="0edfa41b-bbe2-4279-a03f-dd85573794c8" name="Maldición · 1PD · Estigma" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></ns0:costs><ns0:rules><ns0:rule id="97eb438c-aa1a-4753-b332-df54e31d3863" name="Estigma"><ns0:description>El Hechicero elige un punto en Línea de visión a una distancia 
+máxima de 60 cm. Coloca la plantilla redonda y todas las 
+miniaturas que toque quedaran marcadas con un estigma de 
+fatalidad. Los impactados no podrán utilizar ninguna ventaja 
+durante este Turno de juego.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="d939aedc-ba51-4eaa-b0c1-0cdb3743e854" name="Maldición · 1PD · Mal de ojo" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></ns0:costs><ns0:rules><ns0:rule id="7077e229-b008-45cb-ae5b-15d8c029d2a3" name="Mal de ojo"><ns0:description>El Hechicero elige un punto en Línea de visión a una distancia 
+máxima de 45 cm. Coloca la plantilla redonda y todas las 
+miniaturas que toque sufrirán las consecuencias de un terrible 
+y funesto mal de ojo. Los impactados tendrán 1 complicación 
+en su siguiente tirada.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="272c2014-b634-47a9-9672-4747fb4c02d6" name="Maldición · 2PD · Blasfemia" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></ns0:costs><ns0:rules><ns0:rule id="a6ed5988-abdf-4ad6-8711-9d597a6bc18a" name="Blasfemia"><ns0:description>El Hechicero señala con su dedo y pronuncia una palabra 
+impía en un idioma olvidado hace eones. Los aliados en un 
+radio de 30 cm eliminan al instante 2 marcadores de Pavor 
+cada uno.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="7cdabf5e-e678-4792-96ed-de16581eb5d2" name="Maldición · 3PD · Condenación" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></ns0:costs><ns0:rules><ns0:rule id="21942b93-a34d-4a44-aed6-c290501b76a5" name="Condenación"><ns0:description>El Hechicero elige un punto en Línea de visión a una distancia 
+máxima de 45 cm. Coloca la plantilla redonda y todas las 
+miniaturas que toque contemplarán en su mente todas las 
+espantosas muertes que les podrían sobrevenir en este lugar 
+condenado. Los impactados ganarán al instante 3 marcadores 
+de Pavor.NATURALEZA</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="cb89d9e5-c54b-4f54-a5d6-30886f16e66c" name="Muerte · 1PD · Energía oscura" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></ns0:costs><ns0:rules><ns0:rule id="8d567329-39ef-41ab-89e8-748b280c156f" name="Energía oscura"><ns0:description>El Hechicero elige a un Guerrero o Veterano aliado en un radio 
+de 30 cm al que pueda ver, insuflándole de energía macabra. El 
+objetivo podrá realizar inmediatamente una Acción que tuviera 
+un coste de máximo1 PD de manera gratuita.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="cf90b83a-1891-4675-a063-360c54537329" name="Muerte · 2PD · Absorción vital" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></ns0:costs><ns0:rules><ns0:rule id="3a3dfc5d-088d-413a-9194-e014315e05ba" name="Absorción vital"><ns0:description>El Hechicero alza las manos y se alimenta de la energía vital 
+de sus rivales. Consume 1 PD de la reserva del rival y lo añade 
+a su propia reserva durante este Turno de juego.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="8863f2b1-4ddd-45f2-83c9-ef4f34310976" name="Muerte · 3PD · Ola de muerte" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></ns0:costs><ns0:rules><ns0:rule id="b4241530-fa26-4eec-83a6-342240bcd118" name="Ola de muerte"><ns0:description>El Hechicero lanza una ola de energía que marchita la 
+vida. Todas las miniaturas en un radio de 30 cm que no sean 
+Muertos Vivientes ganarán 3 marcadores de Pavor. Además, 
+deberán superar una tirada de Dureza y si no la superan 
+perderán permanentemente 2 puntos de Dureza.
+56</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="878197ab-f0c1-44db-85dd-deaf63592c88" name="Brujería · 1PD · Intercambio" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="1.0" /></ns0:costs><ns0:rules><ns0:rule id="90e98a02-74e2-4fc8-ae3e-55fc5141c964" name="Intercambio"><ns0:description>Solo Bruja</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="c8ffde6a-95f0-41a6-a33e-e3da19a9faac" name="Brujería · 2PD · Elegido" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="2.0" /></ns0:costs><ns0:rules><ns0:rule id="2a9f82e5-bea2-46b8-9976-eb32bdf4a3f8" name="Elegido"><ns0:description>Solo Bruja</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="535a53d7-11a6-4caa-bfb7-3bb0b96e284d" name="Brujería · 3PD · Sacrificio" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /><ns0:cost name="PD" typeId="f356-2d86-33f2-54d3" value="3.0" /></ns0:costs><ns0:rules><ns0:rule id="818461bb-66f2-44f0-ad9f-c47c8d0be892" name="Sacrificio"><ns0:description>Solo Bruja</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="0531f6da-fa5e-4fa2-92ad-cd140fdee89e" name="Filo pequeño (Piedra)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="3.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="14e6-46b2-70a8-56d1" name="Filo pequeño" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">1</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="24c00bc7-06fd-4187-9650-8135660bbac1" name="Material: Piedra"><ns0:description>Al impactar: 1 complicación en la tirada de Fuerza vs Dureza. Coste a la mitad.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="bb26acb4-d941-403a-a8b0-6cdd4f59de12" name="Filo pequeño (Acero)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="14e6-46b2-70a8-56d1" name="Filo pequeño" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">1</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="c8045f2d-4951-4199-bcdc-e33f2f3b6b12" name="Material: Acero"><ns0:description>Al impactar: 1 ventaja en la tirada de Fuerza vs Dureza. Coste al doble. Máx 3 armas de acero en la banda.</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="0bbb40d8-c84e-4382-b93d-b66637275f79" name="Armas de acero" hidden="false" targetId="ebff7324-11f0-46b7-b9d0-cc4ab76d5a11" primary="false" /></ns0:categoryLinks></ns0:selectionEntry>
+    <ns0:selectionEntry id="cbd1ff55-4337-4599-a984-9201e4613f9d" name="Lanza (Piedra)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="3.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="4964-c306-1d85-5c2e" name="Lanza" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">1</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78" />
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">+1 Fuerza y Penetracion por accion de Asalto, No otro arma</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="9060157a-ee9c-4edd-963f-57f19c6f4643" name="Material: Piedra"><ns0:description>Al impactar: 1 complicación en la tirada de Fuerza vs Dureza. Coste a la mitad.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="2850a5f3-41d0-4d83-afcf-30122775e72e" name="Lanza (Acero)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="4964-c306-1d85-5c2e" name="Lanza" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">1</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78" />
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">+1 Fuerza y Penetracion por accion de Asalto, No otro arma</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="0efe8999-f5b3-4e46-87ee-d49ecb1c08ff" name="Material: Acero"><ns0:description>Al impactar: 1 ventaja en la tirada de Fuerza vs Dureza. Coste al doble. Máx 3 armas de acero en la banda.</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="a441472b-2e99-4035-b323-5881d01a3626" name="Armas de acero" hidden="false" targetId="ebff7324-11f0-46b7-b9d0-cc4ab76d5a11" primary="false" /></ns0:categoryLinks></ns0:selectionEntry>
+    <ns0:selectionEntry id="337e8eee-37d0-487b-8a0a-78b071b97e3c" name="Maza (Piedra)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="3.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="8a57-e20c-0afe-5110" name="Maza" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">2</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">1</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="49f72c27-ce34-4cf5-a9bd-5db975ff3aae" name="Material: Piedra"><ns0:description>Al impactar: 1 complicación en la tirada de Fuerza vs Dureza. Coste a la mitad.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="23652566-2cb6-4ce4-a820-f6a3f2f3fda1" name="Maza (Acero)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="8a57-e20c-0afe-5110" name="Maza" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">2</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">1</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="d6841672-a08d-4a9b-bb39-be9f871e95be" name="Material: Acero"><ns0:description>Al impactar: 1 ventaja en la tirada de Fuerza vs Dureza. Coste al doble. Máx 3 armas de acero en la banda.</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="bed03393-ba39-45c9-9956-375eeaa827c7" name="Armas de acero" hidden="false" targetId="ebff7324-11f0-46b7-b9d0-cc4ab76d5a11" primary="false" /></ns0:categoryLinks></ns0:selectionEntry>
+    <ns0:selectionEntry id="feedbbe4-1ae1-4f4e-9521-afb7fa6d5e18" name="Jabalina (Piedra)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="4.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="62db-7375-3b07-5f62" name="Jabalina" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">3/4/2</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c">10/30/40</ns0:characteristic>
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="c337aa68-f507-484d-9284-ca7b1154e27b" name="Material: Piedra"><ns0:description>Al impactar: 1 complicación en la tirada de Fuerza vs Dureza. Coste a la mitad.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="18366058-f35f-4d70-9582-59109d0b7498" name="Jabalina (Acero)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="16.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="62db-7375-3b07-5f62" name="Jabalina" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">3/4/2</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c">10/30/40</ns0:characteristic>
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="51fbf353-4a07-456e-aaef-250a5bcc3692" name="Material: Acero"><ns0:description>Al impactar: 1 ventaja en la tirada de Fuerza vs Dureza. Coste al doble. Máx 3 armas de acero en la banda.</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="22e99278-b149-4855-8e18-9757475800d5" name="Armas de acero" hidden="false" targetId="ebff7324-11f0-46b7-b9d0-cc4ab76d5a11" primary="false" /></ns0:categoryLinks></ns0:selectionEntry>
+    <ns0:selectionEntry id="5c9e615c-bc05-4301-b125-7d8c38041cf0" name="Maza pesada (Piedra)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="4.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="372b-92d7-deb0-5866" name="Maza pesada" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">4</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">Ni otro arma ni escudo</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="41ace576-f743-47ab-985e-fb5fe0ab38e5" name="Material: Piedra"><ns0:description>Al impactar: 1 complicación en la tirada de Fuerza vs Dureza. Coste a la mitad.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="c7d155b8-2a69-4cbb-8cde-a31907db0265" name="Maza pesada (Acero)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="16.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="372b-92d7-deb0-5866" name="Maza pesada" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">4</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">2</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">Ni otro arma ni escudo</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="19091265-5606-46c2-ada4-2ac9d73cc179" name="Material: Acero"><ns0:description>Al impactar: 1 ventaja en la tirada de Fuerza vs Dureza. Coste al doble. Máx 3 armas de acero en la banda.</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="7569b3aa-5c65-483b-86c9-a07257e8bf97" name="Armas de acero" hidden="false" targetId="ebff7324-11f0-46b7-b9d0-cc4ab76d5a11" primary="false" /></ns0:categoryLinks></ns0:selectionEntry>
+    <ns0:selectionEntry id="4803a1d5-f839-4608-8e83-1d5b477404fd" name="Filo pesado (Piedra)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="501b-f5a1-c8a1-552a" name="Filo pesado" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">3</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">4</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">-1 Agilidad, Ni otro arma ni escudo</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="09519ddf-92ce-4fb6-a943-2e873e95f761" name="Material: Piedra"><ns0:description>Al impactar: 1 complicación en la tirada de Fuerza vs Dureza. Coste a la mitad.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    <ns0:selectionEntry id="1ca31066-844d-4c6f-b41c-1784ef55c6bc" name="Filo pesado (Acero)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="20.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="501b-f5a1-c8a1-552a" name="Filo pesado" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">3</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">4</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8">-1 Agilidad, Ni otro arma ni escudo</ns0:characteristic>
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="9445e624-8f54-4f09-93b3-5d0d580812da" name="Material: Acero"><ns0:description>Al impactar: 1 ventaja en la tirada de Fuerza vs Dureza. Coste al doble. Máx 3 armas de acero en la banda.</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="af84f93e-06f5-4d69-a153-8176fdf1a6bc" name="Armas de acero" hidden="false" targetId="ebff7324-11f0-46b7-b9d0-cc4ab76d5a11" primary="false" /></ns0:categoryLinks></ns0:selectionEntry>
+    <ns0:selectionEntry id="abe13683-a8eb-4be6-bfca-df4053680f83" name="Filo medio (Piedra)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="882b-f2ac-b212-54d7" name="Filo medio" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">2</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">3</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="bde1147f-3051-4df0-836a-59945233d89b" name="Material: Piedra"><ns0:description>Al impactar: 1 complicación en la tirada de Fuerza vs Dureza. Coste a la mitad.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry>
+    
+    <ns0:selectionEntry id="6d82fafa-b4c9-4854-891c-b8777844ab64" name="Filo medio (Acero)" type="upgrade" hidden="false">
+      <ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="24.0" /></ns0:costs>
+      <ns0:profiles>
+        <ns0:profile id="882b-f2ac-b212-54d7" name="Filo medio" hidden="false" typeId="6d42-1949-1689-5d6c">
+          <ns0:characteristics>
+            <ns0:characteristic name="Fuerza" typeId="5e7c-8499-781b-577d">2</ns0:characteristic>
+            <ns0:characteristic name="Penetración" typeId="7e79-501d-d634-5b78">3</ns0:characteristic>
+            <ns0:characteristic name="Alcance" typeId="1e7a-8f74-75f8-5c3c" />
+            <ns0:characteristic name="Reglas" typeId="ad64-1590-3060-56f8" />
+          </ns0:characteristics>
+        </ns0:profile>
+      </ns0:profiles>
+    <ns0:rules><ns0:rule id="9becdc20-295a-465c-be7b-d10cbf9e1497" name="Material: Acero"><ns0:description>Al impactar: 1 ventaja en la tirada de Fuerza vs Dureza. Coste al doble. Máx 3 armas de acero en la banda.</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="3ca22536-8727-4db7-b9e3-f6b7d01bf86b" name="Armas de acero" hidden="false" targetId="ebff7324-11f0-46b7-b9d0-cc4ab76d5a11" primary="false" /></ns0:categoryLinks></ns0:selectionEntry>
+    
+    <ns0:selectionEntry id="df737606-8b96-4a88-a83a-d5cdbb4ca819" name="Familiar: Entropía" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs><ns0:rules><ns0:rule id="749e8c63-889a-4f35-b5c7-b3d94268331e" name="Familiar: Entropía"><ns0:description>Una vez por batalla, al inicio de un Turno: el Hechicero actúa el primero. Si varios usan Entropía, el orden se decide al azar.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="9cb1ddff-0410-4f60-8177-948c4c011abe" name="Familiar: Hierro" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></ns0:costs><ns0:rules><ns0:rule id="6322b841-9714-4c88-aad6-49e25d2aa830" name="Familiar: Hierro"><ns0:description>Una vez por batalla: repetir una tirada de Dureza contra la Fuerza de un ataque.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="907a8005-f2e3-4a29-a444-a7ea709abdfb" name="Familiar: Inocencia" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs><ns0:rules><ns0:rule id="e398a94e-54ea-4855-a84c-564fc5d03543" name="Familiar: Inocencia"><ns0:description>Una vez por batalla: separarse de un combate sin realizar ninguna tirada.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="1cad0e2b-9e2f-47d8-929d-4ebd3f58a926" name="Familiar: Magia" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></ns0:costs><ns0:rules><ns0:rule id="d670f2c1-fc33-46ed-a7be-99efde5ba1d8" name="Familiar: Magia"><ns0:description>Una vez por batalla: lanzar un Hechizo sin pagar su coste en Puntos de Destino.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="e3d21ef6-9463-4111-96c4-179d53a2d958" name="Familiar: Miedo" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></ns0:costs><ns0:rules><ns0:rule id="243db3f8-990a-4ac5-b7c2-2204ba9f38b0" name="Familiar: Miedo"><ns0:description>Una vez por batalla: impone 1 marcador de Pavor a todas las miniaturas a 20 cm (excepto el propio Hechicero).</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="b2379a5d-814a-4d0b-b5c7-f5a94f7468b5" name="Familiar: Sangre" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></ns0:costs><ns0:rules><ns0:rule id="139770a3-2565-4a52-8767-48ae2c6e1dd0" name="Familiar: Sangre"><ns0:description>Una vez por batalla: materializa un arma a elección del Hechicero; tras usarse en Combate se desvanece al acabar el enfrentamiento (al derrotar o ser abatido).</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="4eea1a06-7fc5-48fa-a80a-323c0cb46af9" name="Familiar: Venganza" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="10.0" /></ns0:costs><ns0:rules><ns0:rule id="09020fa0-dbfd-40ac-b893-eba1c500ea4f" name="Familiar: Venganza"><ns0:description>Cuando el Hechicero sea Abatido por primera vez: el familiar lanza por él uno de los Hechizos que conociese gastando PD de la reserva. Luego desaparece.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="4688c5cb-704f-40f9-ab45-d95ad4f84c49" name="Familiar: Visión" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="5.0" /></ns0:costs><ns0:rules><ns0:rule id="47d10dcb-4e4f-4e1d-93f3-c85b17873c01" name="Familiar: Visión"><ns0:description>Obliga a un Hechicero rival a revelar todos sus Hechizos (sin efecto sobre Brujas). Una vez hecho, desaparece.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="ab5da891-8404-401f-85dc-0e374bebec29" name="Partida: Hasta 100 (100 pts)" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:constraints><ns0:constraint id="b0d17a1a-19e0-40a0-b4fa-c89cd927c65a" type="max" value="100.0" field="costs" scope="roster" /></ns0:constraints><ns0:rules><ns0:rule id="13a28767-e8b6-465f-9f74-363dbbb09c0f" name="Límite de puntos"><ns0:description>El coste total de la banda no puede superar 100 puntos.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="936d1b55-71ce-4597-9638-d961733114b1" name="Partida: 101 a 200 (200 pts)" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:constraints><ns0:constraint id="711e4ef1-4def-437d-9077-29a149314f23" type="max" value="200.0" field="costs" scope="roster" /></ns0:constraints><ns0:rules><ns0:rule id="bd07bae1-e612-4430-ab21-bb51038e979c" name="Límite de puntos"><ns0:description>El coste total de la banda no puede superar 200 puntos.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="cf39953a-36f2-461d-a3f5-b6573d9c2669" name="Partida: 201 a 300 (300 pts)" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:constraints><ns0:constraint id="d081b71b-f73f-4072-a93d-bdd6231427cc" type="max" value="300.0" field="costs" scope="roster" /></ns0:constraints><ns0:rules><ns0:rule id="8757c665-77d0-462f-b2a1-36b87d465fbd" name="Límite de puntos"><ns0:description>El coste total de la banda no puede superar 300 puntos.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="3d177790-e870-4bf6-ba59-9756d4b2dcf5" name="Partida: 301 a 400 (400 pts)" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:constraints><ns0:constraint id="f65a66f9-3eae-434f-bd31-e5665414aed7" type="max" value="400.0" field="costs" scope="roster" /></ns0:constraints><ns0:rules><ns0:rule id="20da263c-e86e-4b2a-b57e-73a7cb833765" name="Límite de puntos"><ns0:description>El coste total de la banda no puede superar 400 puntos.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="f64b3893-0fc0-4ccf-99b7-1c986fa721ae" name="Partida: 401 a 500 (500 pts)" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:constraints><ns0:constraint id="834ca1a2-8ec9-4c05-880f-d561820a7ef1" type="max" value="500.0" field="costs" scope="roster" /></ns0:constraints><ns0:rules><ns0:rule id="4d5e96ca-5b64-4d8a-8de6-f5991594abac" name="Límite de puntos"><ns0:description>El coste total de la banda no puede superar 500 puntos.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="1466714f-8a24-439e-8bb5-f25433755cbd" name="Macro: Tribus Humanas" type="upgrade" hidden="true"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="fa5eeda1-1a9d-42fc-a54b-7355825224a9" name="Macro: Tribus Humanas"><ns0:description>Macro-facción seleccionada: Tribus Humanas.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="62fc116b-63bb-4355-8d2a-07559b051667" name="Subfacción: Devoradores de Cadáveres" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="8975cecd-da4c-4e34-ab07-840ad4f88676" name="Subfacción: Devoradores de Cadáveres"><ns0:description>Reglas de subfacción: Devoradores de Cadáveres (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="b6ccd0e3-32ca-4071-aff0-e51f76ff45ea" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="56f77e41-2bd3-4c4b-817e-9a1842579549" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="e392db3e-62cc-4e16-bcfc-46ea18061c14" name="Subfacción: Repudiados" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="2a315661-0147-4bf6-a1d4-a828a3c8f429" name="Repudiados – Reglas especiales"><ns0:description>• Los Veteranos de los Repudiados funcionan como los Guerreros a la hora de interactuar con Objetivos.
+• El Líder de la banda de Repudiados no contará con ninguna de sus reglas especiales (aunque sí dará el marcador de Pavor a toda su banda si es Abatido).
+• No hay límite: el Líder puede ser cualquiera de las miniaturas a elección del jugador.
+• La banda puede incluir un Tótem gratuito (no cuenta como miniatura).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="d24f3ac1-2cf2-4a10-be94-f099819dd4ae" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="de99f821-9605-4e6b-83e1-c4a480ea77bf" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="33320c05-ca58-40ff-94e5-a6686b6b2d37" name="Subfacción: Sjeverni" type="upgrade" hidden="true"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="89dc98de-4a38-4985-9a71-c0026acdf0e3" name="Reglas especiales – Sjeverni"><ns0:description>• Los Sjeverni son expertos cazadores. Las armas a
+distancia de los Sjeverni tienen su rango de Alcance
+largo aumentado en 10 cm.
+• Los Sjeverni son una tribu muy unida. Las miniaturas
+de Sjeverni ignorarán 1 marcador de Pavor mientras
+tengan una o más miniaturas aliadas a 10 cm o menos.
+• Las llamas son débiles en las tierras de los Sjeverni. Los
+Hechiceros de los Sjeverni no tienen acceso a ningún
+Hechizo de fuego de la Fuente de los Elementos.
+TRIBU DEL ROSTRO
+NEGRO
+La más belicosa de todas las tribus conocidas de las Tierras
+Impías es la del Rostro Negro, humanos violentos que no
+conocen más que la guerra y el combate, y sólo respetan el
+poder y la autoridad de las brujas del Aquelarre. Muchas
+veces luchan por cumplir su voluntad, transmitida a uno de
+sus caciques que obedece sin cuestionar, pero también es
+frecuente que guerreen con sus vecinos por territorio, recursos
+o prisioneros.
+Las enseñanzas de las brujas les han imbuido de un temor
+hacia el cielo, el lugar de donde cayó el fuego que exterminó a
+toda su raza en el pasado, por lo que adoran la tierra y a todas
+las criaturas que brotan de ella, ya sean muertos vivientes
+o demonios del averno. Conocen a Bal, aunque en realidad
+lo temen más que lo adoran. Sus escasas plegarias son al
+Aquelarre y sus maldiciones se dirigen a los cielos que los
+traicionaron.
+Reciben su nombre por la extraña máscara oscura que se les
+coloca en un ritual de madurez que sólo conocen los miembros
+de la tribu, en el que la máscara adquiere una forma distinta
+para cada individuo, y que tiene como resultado cubrir las
+facciones de los guerreros para convertirlos en seres anónimos
+(más allá de su sexo evidente). Quien se niega a superar el
+ritual de la máscara llegado el momento será castigado o
+incluso expulsado para unirse a los Repudiados.Son degenerados, iracundos y no otorgan ningún valor a la
+vida humana: son peones resignados a llevar una existencia
+breve y sangrienta, con la única esperanza de un atisbo de
+poder y gloria en este mundo pasajero. El Desangrador, su
+cacique actual, aspira a dejar una violenta huella antes de que
+llegue su hora.
+Fuentes de Hechicería:  Elementos y Muerte.
+REGLAS ESPECIALES
+• La Tribu del Rostro Negro conoce el secreto del acero.
+Las miniaturas de la Tribu del Rostro Negro ignoran la
+limitación de 3 armas de acero en la banda.
+• Los combatientes del Rostro Negro entran en frenesí
+cuantos más enemigos aniquilen. Las miniaturas de
+la tribu del Rostro Negro obtienen 1 PD adicional para
+su reserva por cada miniatura enemiga que consigan
+Abatir. Una vez que se gaste, este PD adicional no se
+repone junto con los demás en cada Turno.
+• La Tribu del Rostro Negro despierta mayor temor que
+ninguna entre sus enemigos. Cuando una miniatura
+enemiga sea Abatida, sus aliados ganarán 1 marcador
+de Pavor a 20 cm en lugar de los 15 cm habituales.
+MUERTOS VIVIENTES
+Los muertos vivientes son más numerosos en las Tierras
+Impías de lo que cabría esperar. La propia tierra está
+empapada de energías oscuras que hacen que los cadáveres
+no descansen en paz mucho tiempo, pero es que además hay
+nigromantes, brujas, demonios y demás entes que pueden
+utilizar la magia negra para levantar un pequeño ejército
+de esclavos. Estos rituales de resurrección son complejos,
+extenuantes y peligrosos, por lo que quienes los realizan
+necesitan prepararse a conciencia y elegir un lugar tranquilo o
+recóndito. No es algo que se pueda hacer sobre la marcha en
+un campo de batalla, donde tu vida pende de un hilo. Quienes
+lideran a estas bandas las preparan con antelación y planean
+una estrategia que no las sacrifique sin sentido.
+Los poderes arcanos que impregnan las Tierras Impías
+están corrompidos. Algunos individuos de fuerza de voluntad
+sobresaliente obtienen fuerzas mágicas que pueden emplear
+para el bien, sanando o adivinando el futuro. Pero la mayoría
+se contenta con aceptar los dones de la magia negra sin
+plantearse otro uso que no sea el de medrar y sembrar el caos.
+Los nigromantes que alzan a estos seres son individuos
+depravados y malévolos de corazón oscuro, que se retiran a
+practicar sus artes nefandas a los rincones más aislados del
+mundo en los que llevar a cabo sus atroces experimentos
+sin oposición. Algunos se instalan cerca de asentamientos
+permanentes en busca de una provisión regular de cuerpos,
+hasta que se aburren, sus creaciones acaban con ellos o se
+alza un héroe con los recursos suficientes para expulsarlo.
+Estas personas no sienten ningún aprecio ni dan ningún
+valor a la vida humana. Juegan a ser dioses desde sus
+torres, grutas o mazmorras, prefiriendo la compañía de las
+aberraciones que crean a la de cualquier otro ser vivo. Son
+desconfiados, mezquinos y traicioneros por naturaleza; su
+única lealtad reside en una entidad demoníaca a la que llaman
+Bal y que de cuando en cuando responde a sus súplicas con
+dones envenenados.</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="039aa902-31a0-4e5b-ab35-75d4e81efbb4" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="09d8763c-e679-41ec-839e-f3f161a2f3d0" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="26144aae-4b20-43a1-b6ee-a18c74a6bb58" name="Subfacción: Tribu del Rostro Negro" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="0c7fab58-1e39-4444-a57a-6c536e6dc6b4" name="Subfacción: Tribu del Rostro Negro"><ns0:description>Reglas de subfacción: Tribu del Rostro Negro (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="a908c351-7708-4d54-ade6-639f9066553f" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="bf4b295c-ff3d-49f9-ac44-8d4709678478" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="0c55e3b1-01e3-404d-a7f6-4673bd5bfc22" name="Macro: Muertos Vivientes" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="b06f845b-a819-4cf4-b4a5-6c11b472aa85" name="Macro: Muertos Vivientes"><ns0:description>Macro-facción seleccionada: Muertos Vivientes.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="0288e062-b337-4322-9c29-93b67b8082a5" name="Subfacción: Dolor y Desesperación" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="e6894ca3-63b9-4ff9-a9e9-acf4bae63ea1" name="Subfacción: Dolor y Desesperación"><ns0:description>Reglas de subfacción: Dolor y Desesperación (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="9048ba5b-b320-4e72-95ba-bd2591558fad" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="6ab82faa-7437-4b84-8eae-b88bd244f316" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="845db7bf-f3e6-4fa5-8934-fafd23f9a980" name="Subfacción: Polvo y Huesos" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="df623443-81fb-4446-b189-d817516e4c0b" name="Polvo y Huesos – Reglas especiales"><ns0:description>• Debe incluir 1 Nigromante.
+• El Nigromante debe ser el Líder de la banda.
+• Restricción aplicada: aparece el rol Nigromante solo para esta subfacción y está limitado a 1 por banda.
+Nota: el builder marca el requisito en reglas; si se necesita bloqueo total, se puede usar catálogo específico por subfacción.</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="9fa77400-b3c7-4d40-8a14-d4767987c2f9" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="86db4f1b-b4c4-4480-b948-5eabc5026ad9" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="d74dbe97-23ea-4f49-94aa-9536658e25ae" name="Subfacción: Sangre y Vísceras" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="d9b7828d-e8b6-4412-914e-315e1a1f035b" name="Subfacción: Sangre y Vísceras"><ns0:description>Reglas de subfacción: Sangre y Vísceras (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="1ca1cb4b-515c-48f9-8e31-748c8f6594a0" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="0ed8c79e-7568-47b4-84b6-01195f1c6c24" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="1a84f887-8614-41ea-9911-1caef10395c1" name="Macro: Inhumanos" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="4619d1aa-e144-4682-ac67-d70b253a8575" name="Macro: Inhumanos"><ns0:description>Macro-facción seleccionada: Inhumanos.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="211c72bf-a5bc-48c2-8a6a-1cf07527f41e" name="Subfacción: Cambiapieles" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="b51c06f9-211e-408a-99e9-3e8ad54f1c39" name="Subfacción: Cambiapieles"><ns0:description>Reglas de subfacción: Cambiapieles (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="5afcfe8e-ad0d-46f0-82fe-1afbcacc4874" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="99266adf-a7b3-4959-8ef9-ff80c860d835" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="3ffecc38-2976-4a0d-9708-c6c124554284" name="Subfacción: Demonios" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="83826115-02b4-4596-b61c-ff43552ecf72" name="Subfacción: Demonios"><ns0:description>Reglas de subfacción: Demonios (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="2093b34c-23eb-43dd-9b54-13ce83563966" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="5c043a6a-52cb-4f99-809e-cba051c27802" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="7b5670da-3b47-4ae7-9984-192565068db2" name="Subfacción: Discípulos de las Tejedoras" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="7097b860-a022-41d5-9e87-ebd76216d116" name="Subfacción: Discípulos de las Tejedoras"><ns0:description>Reglas de subfacción: Discípulos de las Tejedoras (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="31b74e08-5a35-4723-bf99-55cba9d23622" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="6f899694-9c3c-4a8c-9d41-818d4700ae57" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="2d08f5c9-21c8-499e-83ce-2a2c6ea9ba75" name="Subfacción: Peña del Cuervo" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="b2fc459f-b083-4635-85a8-c8613d60e7ad" name="Subfacción: Peña del Cuervo"><ns0:description>Reglas de subfacción: Peña del Cuervo (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="0d707b51-d461-42dd-9b35-aa96ce37f47d" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="a8fc3b5a-42d1-4e6a-b70b-d75bee675c9d" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="778bec71-20a3-4701-af80-e9bdf3a15fab" name="Macro: Salvajes" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="51141f7f-344a-47be-b8f9-851a852691f0" name="Macro: Salvajes"><ns0:description>Macro-facción seleccionada: Salvajes.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="9825299c-0693-4558-84e0-1560275a7a5f" name="Subfacción: Escamosos" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="f1d2b8fb-7aac-4663-952f-546387d2112d" name="Subfacción: Escamosos"><ns0:description>Reglas de subfacción: Escamosos (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="b53a4ffa-6dd0-4dd8-8d1a-bdd2343b6a19" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="18c070ea-cb80-42b1-a92c-47082eb4f116" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="6ab42201-d411-4062-b62c-d18d19ac081b" name="Subfacción: La Manada" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="7c41dbdf-e6b5-49b4-a93b-62b23fb37381" name="Subfacción: La Manada"><ns0:description>Reglas de subfacción: La Manada (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="06793a3f-52f2-4442-9723-ded67e642a45" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="63fc4ed7-be22-4610-889b-5ca360667e15" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="7a2bc89e-6961-4304-a33a-f7288a506523" name="Subfacción: Pigmeos" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="d6dccba0-5074-4f06-9261-22c20de5fc0f" name="Subfacción: Pigmeos"><ns0:description>Reglas de subfacción: Pigmeos (pendiente de completar).</ns0:description></ns0:rule></ns0:rules><ns0:categoryLinks><ns0:categoryLink id="c0a0878b-9dd3-4d64-92bf-d421d96e80e8" name="Configuración" hidden="false" targetId="3810-0dc3-a6f3-56c7" primary="true" /><ns0:categoryLink id="ec7c1d59-e42d-4ca9-a849-f2627123001e" name="Reglas de la banda" hidden="false" targetId="67fb-5cb8-7892-5275" primary="false" /></ns0:categoryLinks></ns0:selectionEntry><ns0:selectionEntry id="a2623725-1982-4e67-8d18-93ef812bcf6e" name="Nigromante" type="upgrade" hidden="false"><ns0:costs><ns0:cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="0.0" /></ns0:costs><ns0:rules><ns0:rule id="976a5fd9-ee35-4560-8e8c-3baea2e5914d" name="Nigromante"><ns0:description>Requisito de Polvo y Huesos: la banda debe incluir 1 Nigromante y debe ser el Líder.</ns0:description></ns0:rule></ns0:rules><ns0:constraints><ns0:constraint id="fa0a7542-c3c8-49ad-b6e3-e401c45d4fc4" type="max" value="1" field="selections" scope="roster" /></ns0:constraints></ns0:selectionEntry><ns0:selectionEntry id="55dc534c-0692-45cb-be30-ee0301bc7fcf" name="Abrasar (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="e0763ca2-7a8f-4162-a35a-f0013a384e3c" name="Efecto"><ns0:description>1 PD. El Hechicero elige un punto en Línea de visión a una distancia máxima de 45 cm. Coloca la plantilla redonda y todas las miniaturas que toque sufrirán 2 complicaciones a su siguiente tirada de Combate o Precisión.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="a386c99f-4a1b-4df0-b6c6-8b883e95259d" name="Ráfaga (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="c6f61774-ae31-47a7-8f21-84d14953d969" name="Efecto"><ns0:description>1 PD. El Hechicero elige a cualquier número de aliados a una distancia máxima de 20 cm. Su siguiente disparo doblará los alcances habituales.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="f8b85aaf-b226-4e06-8499-4dad2dd1f16a" name="Sudario de llamas (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="431ae87d-dd4d-4dee-a584-5eb5738f387f" name="Efecto"><ns0:description>1 PD. El Hechicero y cualquier miniatura aliada en un radio de 10 cm quedan envueltos por un sudario de llamas espectrales. Cualquier miniatura que les Impacte en cuerpo a cuerpo sufrirá un impacto automático de Fuerza 3. El efecto desaparece después de eso para la miniatura impactada.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="c2625f8d-5a72-4187-8fe2-af33adbc3edb" name="Torbellino (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="712d9982-ea66-46f1-ab51-a44fda4f0f1f" name="Efecto"><ns0:description>1 PD. El Hechicero levanta un torbellino rugiente, sobre él y todas las miniaturas aliadas a 15 cm o menos, que impone 2 complicaciones a cualquier disparo recibido sobre estas miniaturas hasta que acabe el Turno de juego.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="24006e58-50c3-494f-9c80-dcc9760058ce" name="Asfixiar (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="a31c5b36-e2ed-4521-a8a6-6a71784dda2f" name="Efecto"><ns0:description>2 PD. El Hechicero elige a una miniatura enemiga en Línea de visión a una distancia máxima de 40 cm. El objetivo gana 2 marcadores de Pavor y tendrá 1 complicación a todas sus tiradas durante su siguiente Fase de activación.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="205e2b35-d212-4c99-98ff-704e50bc6414" name="Escarcha (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="f3642b30-e9ba-4c26-bd1a-4e80ceba6b38" name="Efecto"><ns0:description>2 PD. El Hechicero elige a un enemigo en Línea de visión a una distancia máxima de 45 cm. El objetivo sufre un impacto de Fuerza 2 y Penetración 2.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="2809e355-b0d7-4e66-af15-822e9911dfaa" name="Extraer fluidos (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="e099365e-35de-437a-af4f-a972a87fc8da" name="Efecto"><ns0:description>2 PD. El Hechicero elige a un enemigo en Línea de visión que no esté en Combate a una distancia máxima de 30 cm. El objetivo perderá permanentemente 2 puntos de Dureza.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="e464c981-112b-4fd5-a71a-7fcb311b0e22" name="Piel pétrea (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="22014d3d-00c1-4732-a804-a9532009d9e6" name="Efecto"><ns0:description>2 PD. El Hechicero hace que él o una miniatura aliada en Línea de visión a 15 cm o menos adopte el color y la dureza de la piedra. Pasará a tener un +2 a su Blindaje (no acumulable con la mejora Piel curtida).</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="cb827cd6-f9e7-4f87-ad9e-aff482853dde" name="Proyectil ígneo (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="f6c2b097-223b-4e24-830a-74701dc49588" name="Efecto"><ns0:description>2 PD. El Hechicero elige a una miniatura enemiga en Línea de visión que no esté en Combate a una distancia máxima de 30 cm. El objetivo sufre un impacto de Fuerza 3 y Penetración 2.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="d27f9b3e-23eb-4ba5-a78f-0d8c8a421e0d" name="Vuelo (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="c9e36370-6be8-49cf-b6cc-eb614bdb772e" name="Efecto"><ns0:description>2 PD. El Hechicero puede avanzar hasta 30 cm ignorando todo tipo de terreno, e incluso moverse en tres dimensiones para alcanzar posiciones elevadas.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="c2b9bb04-e8ad-481c-99e6-e78a664872c9" name="Explosión (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="b94ec52a-5512-49d5-88a2-1d883c583ff2" name="Efecto"><ns0:description>3 PD. El Hechicero invoca una columna de fuego surgida de su propio cuerpo que causa un impacto de Fuerza 5 y Penetración 2 a todas las miniaturas en un radio de 20 cm de su posición.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="d0cf1a09-7e2b-4117-b32d-2f042cdca8fb" name="Tsunami (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="3457dd28-6bdc-4290-a23b-ab3bc27bef46" name="Efecto"><ns0:description>3 PD. Todas las miniaturas en el frontal del Hechicero en una distancia de 20 cm y un ancho de 10 cm centrado en el Hechicero retrocederán 10 cm. Si chocan con escenografía sufren Impacto (ligero F2 P1; medio F4 P2; pesado F6 P3). Si una miniatura es echada de la mesa se retira de la partida.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="00a679f1-814e-4cd6-a3a1-2a34a085f2db" name="Terremoto (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="87fb908a-f664-4c2c-860e-9fbb53b48c26" name="Efecto"><ns0:description>3 PD. Crea una grieta de 2,5 cm de ancho y 45 cm de largo. Cualquier miniatura que la toque deberá superar una tirada de Agilidad o sufrirá un impacto de Fuerza 5 y Penetración 1. Después la grieta desaparece.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="99c4c32c-36c9-4f85-bf8a-d85eef3dbc53" name="Agobio (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="b8a09778-d9b9-4dbd-a4a2-83fbf99d1e3a" name="Efecto"><ns0:description>1 PD. El objetivo sufrirá 1 complicación a todas sus tiradas hasta que gaste 2 PD en recuperar el control de sus pensamientos.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="279da963-d3a9-4b04-ba78-9d36c6c83f73" name="Pesadillas (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="cb879d40-7d79-4c85-b975-9fd8aef2a221" name="Efecto"><ns0:description>2 PD. Coloca la plantilla redonda; todas las miniaturas que toque ganan 2 marcadores de Pavor al instante.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="b4c45a99-ee3b-4444-a7cf-e2fbb8ceb2e4" name="Voces interiores (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="e753cd17-e1af-4987-8296-8bc00597a4ce" name="Efecto"><ns0:description>3 PD. El objetivo no podrá actuar en su próxima Fase de activación y su banda perderá durante este Turno los PD que genere.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="44c65d83-2238-41df-ae62-c76c972e8bac" name="Estigma (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="8a7ef8b4-6dfa-4d79-8bac-f965f71f1273" name="Efecto"><ns0:description>1 PD. Coloca la plantilla redonda; los impactados no podrán utilizar ninguna ventaja durante este Turno de juego.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="02a509da-a0bd-4a7d-839a-26648c1eb7dd" name="Mal de ojo (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="f7928e99-4206-4596-9057-b971beb493b8" name="Efecto"><ns0:description>1 PD. Coloca la plantilla redonda; los impactados tendrán 1 complicación en su siguiente tirada.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="824edf9b-7058-498e-9c55-222a64fc42bb" name="Blasfemia (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="1e5528a2-afd3-4387-a56d-4d88d836e9e1" name="Efecto"><ns0:description>2 PD. Los aliados en un radio de 30 cm eliminan al instante 2 marcadores de Pavor cada uno.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="1a26165b-1fd4-4acd-a86c-08de81e1825e" name="Condenación (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="dd551736-2f48-4849-b72f-8fb6568cb122" name="Efecto"><ns0:description>3 PD. Coloca la plantilla redonda; los impactados ganan 3 marcadores de Pavor al instante.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="182db989-9273-4ad5-9901-2f2130c3e145" name="Enraizar (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="6b2a4db3-bd09-432b-b37d-1850c9106993" name="Efecto"><ns0:description>1 PD. Coloca la plantilla redonda; los impactados deben superar una tirada de Fuerza al principio de su siguiente Fase de activación o no podrán realizar ninguna Acción de Movimiento.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="c5cbd023-bbe7-43ef-a7e5-4c0eb78396ef" name="Saeta viva (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="50e20767-0659-49a4-8f96-15f41e3417fe" name="Efecto"><ns0:description>1 PD. Elige aliados a 20 cm; su siguiente disparo evitará automáticamente cualquier Cobertura por el camino.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="d91b577c-f320-4b5a-8b15-23f86b0bb839" name="Espinas (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="6474a575-f93d-44b4-b35f-0dc09e01e93c" name="Efecto"><ns0:description>2 PD. El Hechicero considera Terreno normal como difícil, pero obtiene un ataque a distancia: Alcance 15/30/45, Fuerza 4, Penetración 3. Puede terminar el efecto cuando desee.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="406166a4-9ede-4627-9ff1-8cd917822724" name="Rugido (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="4ccbc8d9-4f0c-4658-8c1f-8e66cac005ae" name="Efecto"><ns0:description>2 PD. Impone 2 marcadores de Pavor a cada enemigo en Línea de visión en un radio de 20 cm.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="4bbf51c2-d3b4-477e-9b39-2374abf51bcf" name="Forma animal (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="bb561b7c-c728-4ff6-b245-bbfe00082759" name="Efecto"><ns0:description>3 PD. El Hechicero pasa a peana de 40 mm y usa el perfil de una Criatura armada con garras hasta el final de su siguiente Fase de activación.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="4d54a443-19d7-419f-89fb-c245de90a496" name="Energía oscura (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="ef595ef0-352a-4403-9ca2-5dc878a5f954" name="Efecto"><ns0:description>1 PD. Un Guerrero o Veterano aliado a 30 cm podrá realizar inmediatamente una Acción con coste máximo 1 PD de manera gratuita.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="9ff21749-92d4-4841-888f-80a570cdfa4f" name="Absorción vital (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="f6fc8ee2-acb6-4c5f-baf1-ebc8483953d2" name="Efecto"><ns0:description>2 PD. Consume 1 PD de la reserva del rival y lo añade a la propia durante este Turno de juego.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="125deaf5-4aaa-4618-8254-310e8c13d21c" name="Ola de muerte (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="4f19fa57-89e9-4621-811d-0d80f9fee69b" name="Efecto"><ns0:description>3 PD. Miniaturas a 30 cm que no sean Muertos Vivientes ganan 3 Pavor y deben superar Dureza o pierden permanentemente 2 Dureza.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="49418c7e-62c8-48f7-b3cb-6ef39857ee32" name="Latido (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="5d180559-0669-403a-86af-a15f68ee33eb" name="Efecto"><ns0:description>1 PD. Plantilla redonda; los impactados ganan 1 Pavor y sufren 1 complicación a su primera tirada posterior.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="bf9e9546-1ed1-4ca9-b344-62cae13fe9f6" name="Desangrar (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="50ec1ccb-423c-46e3-832d-94fa8e3b8485" name="Efecto"><ns0:description>2 PD. Plantilla redonda; los impactados tiran Fuerza: si fallan pierden permanentemente 1 Fuerza; si superan ganan 2 Pavor.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="57ecea0d-9169-4c99-8ed9-4d1f26eda326" name="Vínculo (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="b3d91028-4c4d-4d76-9c7a-4692b90e0be2" name="Efecto"><ns0:description>3 PD. Elige dos enemigos a 30 cm: cuando uno resulte Abatido, el otro también lo será.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="e2a13563-aae7-4b29-a79c-32c3ab287f56" name="Tinieblas (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="7b79e3ac-7503-402b-ac40-4e6d781947c6" name="Efecto"><ns0:description>1 PD. El Hechicero y aliados a 10 cm no podrán ser objetivo de ataques a distancia mientras no se muevan.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="d418649b-b0df-4c4d-b136-2f7a2f7cd769" name="Alas negras (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="36a9aa0d-ed67-4dd4-8d83-50d929bd28ad" name="Efecto"><ns0:description>2 PD. El objetivo no podrá actuar en su siguiente Fase de activación.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="b07a0088-a89c-48a2-8888-10700f794b51" name="Doble sombrío (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="f972d259-69b9-4529-8b4d-48fbd15e7712" name="Efecto"><ns0:description>3 PD. Crea un doble que recibirá el siguiente impacto en lugar del original y luego desaparece. Una miniatura no puede tener más de un doble.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="894abee9-28a2-4c44-9979-0ccd669d803f" name="Alteración (1 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="8d30abff-73d4-4e8e-bd01-72962e0ff9f1" name="Efecto"><ns0:description>1 PD. El objetivo tira dos veces su siguiente 1d10 y se queda con el peor (enemigo) o el mejor (aliado).</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="48e1f50b-4ffb-4d0c-b1ae-e81d180427ef" name="Deformación (2 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="6ea9ff3b-3366-4e2c-b7cc-8bceabc412a5" name="Efecto"><ns0:description>2 PD. Aliados a 15 cm: todas las tiradas de 1d10 contra ellos se repiten usando el peor resultado hasta final del Turno.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry><ns0:selectionEntry id="2910a53f-2408-49c7-922a-fb71d84ce3e1" name="Precognición (3 PD)" type="upgrade"><ns0:costs><ns0:cost name="pts" typeId="points" value="0" /></ns0:costs><ns0:rules><ns0:rule id="fd67d06b-c8d2-4170-b3dc-2d799edaf8e1" name="Efecto"><ns0:description>3 PD. Un aliado a 30 cm puede repetir su próxima Fase de activación completa si no le convence el resultado, recuperando PD y deshaciendo lo sucedido.</ns0:description></ns0:rule></ns0:rules></ns0:selectionEntry></ns0:sharedSelectionEntries>
+</ns0:catalogue>
