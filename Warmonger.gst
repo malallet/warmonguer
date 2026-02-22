@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="e27c-7301-7426-5156" name="Warmonger" revision="1" battleScribeVersion="2.03" type="gameSystem" authorName="Malallet" authorContact="">
   <costTypes>
     <costType id="cf45-26f3-a369-5cd3" name="Puntos" defaultCostLimit="-1" hidden="false" />
@@ -8,7 +8,7 @@
     <profileType id="e97e-3b36-64f9-5f19" name="Perfil">
       <characteristicTypes>
         <characteristicType id="3268-c7e8-a2cb-50bf" name="Agilidad" /><characteristicType id="29cd-abc5-a63d-544c" name="Combate" /><characteristicType id="f56a-0551-a7d0-587b" name="Precisión" /><characteristicType id="b74f-029b-42be-5ce5" name="Fuerza" /><characteristicType id="abac-eacb-0211-52eb" name="Dureza" /><characteristicType id="305e-ca72-b153-5716" name="Coraje" /><characteristicType id="44ee-e0ad-b367-5f7f" name="PD" />
-      </characteristicTypes>
+      <characteristicType id="auto-blindaje-ct" name="Blindaje" /></characteristicTypes>
     </profileType>
     <profileType id="6d42-1949-1689-5d6c" name="Arma">
       <characteristicTypes>
