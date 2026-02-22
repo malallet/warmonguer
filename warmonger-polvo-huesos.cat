@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="91a7-7644-26cb-8634" name="Warmonger – Polvo y Huesos" revision="1" battleScribeVersion="2.03" gameSystemId="e27c-7301-7426-5156" authorName="Malallet" library="false" type="catalogue" gameSystemRevision="1" authorContact="">
   <selectionEntries>
     
@@ -16,7 +16,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
       <profiles>
         <profile id="201e-738c-fa0d-5437" name="Guerrero" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">3</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">3</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">3</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">3</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">1</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">3</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">3</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">3</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">3</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">1</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -42,7 +42,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="25.0" /></costs>
       <profiles>
         <profile id="482a-0e00-8f54-5eb7" name="Veterano" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">4</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">4</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">4</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">4</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -68,7 +68,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="40.0" /></costs>
       <profiles>
         <profile id="4479-d047-9935-56aa" name="Criatura" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">5</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">5</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">5</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">5</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -94,7 +94,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="40.0" /></costs>
       <profiles>
         <profile id="4a57-af53-0bee-5616" name="Héroe" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">6</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">5</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">5</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">6</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">5</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">5</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -120,7 +120,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="50.0" /></costs>
       <profiles>
         <profile id="0cd5-9281-0626-56fd" name="Hechicero" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">2</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">2</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -146,7 +146,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="65" /></costs>
       <profiles>
         <profile id="0cd5-9281-0626-56fd" name="Hechicero" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">2</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">2</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -382,16 +382,16 @@ Puntos de Destino:
     
     <selectionEntry id="bad4-89cb-00fe-5b64" name="Ropas/Pieles" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="3.0" /></costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="Blindaje" value="2" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="f4c7-9326-444e-58dc" name="Huesos/Pellejos" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="7.0" /></costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="Blindaje" value="3" /></modifiers><rules><rule name="Efecto"><description>+3 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="75d3-5693-f0ac-5a2e" name="Cuero/Escamas" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="Blindaje" value="4" /></modifiers><rules><rule name="Efecto"><description>+4 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="4920-8ade-930d-5ece" name="Escudo" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></costs>
-    </selectionEntry>
+    <modifiers><modifier type="increment" field="Blindaje" value="2" /><modifier type="increment" field="Combate" value="-1" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje. -1 Combate.</description></rule></rules></selectionEntry>
     <selectionEntry id="d21a-cb0e-6266-55b0" name="Hierbas místicas" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></costs>
     <constraints><constraint id="bd562014-bea5-4dfb-bdf4-c21f93ca2e73" type="max" value="3" field="selections" scope="model" /></constraints></selectionEntry>
@@ -858,4 +858,7 @@ ESCRITURA ARCANA
 DAMN THE FIRE FROM THE SKYDAMN THE FIRE FROM THE SKY
 MALDICIÓN DE LAS BRUJAS
 RISE FROM HELL AND KILLRISE FROM HELL AND KILL
-INVOCACIÓN DE NIGROMANTE</description></rule></rules></catalogue>
+INVOCACIÓN DE NIGROMANTE</description></rule><rule name="Reglas de Subfacción"><description>• Nigromantes: la banda debe tener al menos un Nigromante (Hechicero, no Bruja) que debe ser el Líder. Si es Abatido, otro Hechicero pasa a ser inmediatamente el Líder y Nigromante. Al final de cada Turno sin Nigromante, todas las miniaturas deben superar tirada de Dureza o serán Abatidas.
+• Inmunes al Veneno y no ganan Pavor (excepto Nigromantes).
+• Fragilidad: 1 complicación a Dureza cuando son impactadas por mazas/mazas pesadas.
+• Voluntad: cada Nigromante concede 3 PD en lugar de 2.</description></rule></rules></catalogue>
