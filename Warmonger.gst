@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="e27c-7301-7426-5156" name="Warmonger" revision="1" battleScribeVersion="2.03" type="gameSystem" authorName="malallet" authorContact="">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="e27c-7301-7426-5156" name="Warmonger" revision="1" battleScribeVersion="2.03" type="gameSystem" authorName="Malallet" authorContact="">
   <costTypes>
     <costType id="cf45-26f3-a369-5cd3" name="Puntos" defaultCostLimit="-1" hidden="false" />
     <costType id="f356-2d86-33f2-54d3" name="PD" defaultCostLimit="-1" hidden="false" />
