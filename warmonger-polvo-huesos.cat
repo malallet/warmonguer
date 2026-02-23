@@ -382,19 +382,19 @@ Puntos de Destino:
     
     <selectionEntry id="bad4-89cb-00fe-5b64" name="Ropas/Pieles" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="3.0" /></costs>
-    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="2" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="843e-5ab3-2b30-b8a2" value="2" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="f4c7-9326-444e-58dc" name="Huesos/Pellejos" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="7.0" /></costs>
-    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="3" /></modifiers><rules><rule name="Efecto"><description>+3 Blindaje.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="843e-5ab3-2b30-b8a2" value="3" /></modifiers><rules><rule name="Efecto"><description>+3 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="75d3-5693-f0ac-5a2e" name="Cuero/Escamas" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></costs>
-    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="4" /></modifiers><rules><rule name="Efecto"><description>+4 Blindaje.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="843e-5ab3-2b30-b8a2" value="4" /></modifiers><rules><rule name="Efecto"><description>+4 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="4920-8ade-930d-5ece" name="Escudo" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></costs>
-    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="2" /><modifier type="increment" field="29cd-abc5-a63d-544c" value="-1" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje. -1 Combate.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="843e-5ab3-2b30-b8a2" value="2" /><modifier type="increment" field="29cd-abc5-a63d-544c" value="-1" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje. -1 Combate.</description></rule></rules></selectionEntry>
     <selectionEntry id="d21a-cb0e-6266-55b0" name="Hierbas místicas" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></costs>
-    <constraints><constraint id="bd562014-bea5-4dfb-bdf4-c21f93ca2e73" type="max" value="3" field="selections" scope="model" /></constraints></selectionEntry>
+    <constraints><constraint id="bd562014-bea5-4dfb-bdf4-c21f93ca2e73" type="max" value="3" field="selections" scope="model" /><constraint field="selections" scope="parent" type="max" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="auto-max" /></constraints></selectionEntry>
     
     <selectionEntry id="3228-f57e-d4a6-575b" name="ALAS" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
