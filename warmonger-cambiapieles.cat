@@ -16,7 +16,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
       <profiles>
         <profile id="201e-738c-fa0d-5437" name="Guerrero" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">3</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">3</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">3</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">3</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">1</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">3</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">3</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">3</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">3</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">1</characteristic><characteristic name="Blindaje" typeId="auto-blindaje-ct">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -42,7 +42,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
       <profiles>
         <profile id="e005-2fd0-6148-a5b8" name="Guerrero (Animal)" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">3</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">3</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">1</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">3</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">3</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">1</characteristic><characteristic name="Blindaje" typeId="auto-blindaje-ct">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -67,7 +67,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
       <profiles>
         <profile id="4928-a8cc-a1bc-9dec" name="Guerrero (Híbrido)" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">4</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">3</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">3</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">1</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">4</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">3</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">3</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">1</characteristic><characteristic name="Blindaje" typeId="auto-blindaje-ct">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -92,7 +92,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="25.0" /></costs>
       <profiles>
         <profile id="482a-0e00-8f54-5eb7" name="Veterano" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">4</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">4</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">4</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">4</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje" typeId="auto-blindaje-ct">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -118,7 +118,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="40.0" /></costs>
       <profiles>
         <profile id="4479-d047-9935-56aa" name="Criatura" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">5</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">5</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">4</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">4</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">5</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">5</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje" typeId="auto-blindaje-ct">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -144,7 +144,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="40.0" /></costs>
       <profiles>
         <profile id="4a57-af53-0bee-5616" name="Héroe" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">6</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">5</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">5</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">6</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">5</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">5</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">4</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">4</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje" typeId="auto-blindaje-ct">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -170,7 +170,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="50.0" /></costs>
       <profiles>
         <profile id="0cd5-9281-0626-56fd" name="Hechicero" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">2</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">2</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje" typeId="auto-blindaje-ct">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -196,7 +196,7 @@
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="65" /></costs>
       <profiles>
         <profile id="0cd5-9281-0626-56fd" name="Hechicero" hidden="false" typeId="e97e-3b36-64f9-5f19">
-          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">2</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje">0</characteristic></characteristics>
+          <characteristics><characteristic name="Agilidad" typeId="3268-c7e8-a2cb-50bf">5</characteristic><characteristic name="Combate" typeId="29cd-abc5-a63d-544c">2</characteristic><characteristic name="Precisión" typeId="f56a-0551-a7d0-587b">2</characteristic><characteristic name="Fuerza" typeId="b74f-029b-42be-5ce5">3</characteristic><characteristic name="Dureza" typeId="abac-eacb-0211-52eb">3</characteristic><characteristic name="Coraje" typeId="305e-ca72-b153-5716">5</characteristic><characteristic name="PD" typeId="44ee-e0ad-b367-5f7f">2</characteristic><characteristic name="Blindaje" typeId="auto-blindaje-ct">0</characteristic></characteristics>
         </profile>
       </profiles>
       <selectionEntryGroups>
@@ -431,19 +431,19 @@ Puntos de Destino:
     
     <selectionEntry id="bad4-89cb-00fe-5b64" name="Ropas/Pieles" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="3.0" /></costs>
-    <modifiers><modifier type="increment" field="843e-5ab3-2b30-b8a2" value="2" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="2" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="f4c7-9326-444e-58dc" name="Huesos/Pellejos" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="7.0" /></costs>
-    <modifiers><modifier type="increment" field="843e-5ab3-2b30-b8a2" value="3" /></modifiers><rules><rule name="Efecto"><description>+3 Blindaje.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="3" /></modifiers><rules><rule name="Efecto"><description>+3 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="75d3-5693-f0ac-5a2e" name="Cuero/Escamas" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="12.0" /></costs>
-    <modifiers><modifier type="increment" field="843e-5ab3-2b30-b8a2" value="4" /></modifiers><rules><rule name="Efecto"><description>+4 Blindaje.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="4" /></modifiers><rules><rule name="Efecto"><description>+4 Blindaje.</description></rule></rules></selectionEntry>
     <selectionEntry id="4920-8ade-930d-5ece" name="Escudo" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="6.0" /></costs>
-    <modifiers><modifier type="increment" field="843e-5ab3-2b30-b8a2" value="2" /><modifier type="increment" field="29cd-abc5-a63d-544c" value="-1" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje. -1 Combate.</description></rule></rules></selectionEntry>
+    <modifiers><modifier type="increment" field="auto-blindaje-ct" value="2" /><modifier type="increment" field="29cd-abc5-a63d-544c" value="-1" /></modifiers><rules><rule name="Efecto"><description>+2 Blindaje. -1 Combate.</description></rule></rules></selectionEntry>
     <selectionEntry id="d21a-cb0e-6266-55b0" name="Hierbas místicas" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="8.0" /></costs>
-    <constraints><constraint id="bd562014-bea5-4dfb-bdf4-c21f93ca2e73" type="max" value="3" field="selections" scope="model" /><constraint field="selections" scope="parent" type="max" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" id="auto-max" /></constraints></selectionEntry>
+    <constraints><constraint id="bd562014-bea5-4dfb-bdf4-c21f93ca2e73" type="max" value="3" field="selections" scope="model" /></constraints></selectionEntry>
     
     <selectionEntry id="3228-f57e-d4a6-575b" name="ALAS" type="upgrade" hidden="false">
       <costs><cost name="Puntos" typeId="cf45-26f3-a369-5cd3" value="15.0" /></costs>
